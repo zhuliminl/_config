@@ -1,0 +1,10 @@
+{
+  "title": "React 无线加载判断",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nwindow.onscroll = () => {\n  if (\n    window.innerHeight + document.documentElement.scrollTop\n    === document.documentElement.offsetHeight\n  ) {\n    // Do awesome stuff like loading more content!\n  }\n};\n\n\n// 状态设计\n// Sets up our initial state\n    this.state = {\n      error: false,\n      hasMore: true,\n      isLoading: false,\n      users: [],\n    };"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "查看CPU和磁盘 和 内存",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ncat /proc/cpuinfo\ndf -h\n\n\nfree -m\n"
+    }
+  ]
+}

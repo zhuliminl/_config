@@ -1,0 +1,10 @@
+{
+  "title": "代码词汇积累",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n注意要自觉地去坚持自己拼写变量，真的。记住它比每次去找要方便很多\n\n\nvalid 正当有效的\nvoid 空的，无效的\n\ntranslucent 半透明的\n\ninvoke  调用！！！！！！！！！！\ninvoked 被调用\n\nmutate 突变数据\n\nNil 零，无\n\nreduce 归纳\n\nlandscape  水平屏幕\nportrait   画像，竖直屏\n\nhorizontal 水平\nvertical   垂直\n\ninterpolate 篡改\n\nintercept  截断\n\nexception  例外、故障\n\n\ncont content 的缩写\n\nanti-pattern 反模式\n\ndecouple 去耦合\n\nstats 代表数据\n\navailable 能获得的\n\nmulticast 多点传达\n\nboilerplate 样板文件\n\nimplements 生效，贯彻执行\n\n"
+    }
+  ]
+}

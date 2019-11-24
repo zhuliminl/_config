@@ -1,0 +1,10 @@
+{
+  "title": "查看用户的增删改茶",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n/etc/passwd\n\n\nps -ef | grep pts/0\n\n\napt install finger\nfinger\n\n\n\n\n[root@firewall ~]# ps -ef | grep pts/0\nroot      3140 2070 0 23:19 ?        00:00:00 sshd: root@pts/0\nroot      3142 3140 0 23:19 pts/0    00:00:00 -bash\nroot      3195 3142 0 23:24 pts/0    00:00:00 ps -ef\nroot      3196 3142 0 23:24 pts/0    00:00:00 grep pts/0\n（3）干掉登录用户Shell 进程\nkill -9 3142\n\n\n\n\n6、永久性删除用户账号\nuserdel peter\n\ngroupdel peter\n\n详细见这里\nhttps://www.lifewire.com/create-users-useradd-command-3572157"
+    }
+  ]
+}

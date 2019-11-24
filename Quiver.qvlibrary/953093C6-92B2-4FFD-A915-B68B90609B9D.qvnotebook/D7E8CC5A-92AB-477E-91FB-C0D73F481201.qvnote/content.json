@@ -1,0 +1,9 @@
+{
+  "title": "如何理解代理对象 Proxy？",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>保护代理：过滤请求</div><div>虚拟代理： 延迟创建</div>"
+    }
+  ]
+}

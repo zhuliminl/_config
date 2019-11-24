@@ -1,0 +1,10 @@
+{
+  "title": "递归优化",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nconst factorial = (n) => {\n  \n  const iter = (counter, acc) => {\n      if counter === 1 return acc\n                       return iter(counter-1, counter*acc)\n    };\n  \n  return iter(n, 1);\n  }\n"
+    }
+  ]
+}

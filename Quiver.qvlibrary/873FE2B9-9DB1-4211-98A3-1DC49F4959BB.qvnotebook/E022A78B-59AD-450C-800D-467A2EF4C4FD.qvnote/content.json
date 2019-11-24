@@ -1,0 +1,10 @@
+{
+  "title": "查看服务的配置文件位置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nps  -ef | grep nginx\n"
+    }
+  ]
+}

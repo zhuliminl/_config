@@ -1,0 +1,10 @@
+{
+  "title": "后台执行",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nnohup wget site.com/file.zip\n"
+    }
+  ]
+}

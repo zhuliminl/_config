@@ -1,0 +1,10 @@
+{
+  "title": "创建虚拟环境和退出",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nvirtualenv env\nsource ...\n\ndeactivate"
+    }
+  ]
+}

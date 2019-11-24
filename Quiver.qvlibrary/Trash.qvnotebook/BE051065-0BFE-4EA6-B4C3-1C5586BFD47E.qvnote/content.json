@@ -1,0 +1,10 @@
+{
+  "title": "总体原则",
+  "cells": [
+    {
+      "type": "code",
+      "language": "jsoniq",
+      "data": "- self contained module\n  - everything to do with my module is in my module\n  - no global variables\n  - if a module manages more than one thing it should be split up\n- separation of concerns\n- DRY code: Don't Repeat Youself\n- efficient DOM usage\n  - very few $(selections)\n- no memory leaks\n- all events can be unbound\n"
+    }
+  ]
+}

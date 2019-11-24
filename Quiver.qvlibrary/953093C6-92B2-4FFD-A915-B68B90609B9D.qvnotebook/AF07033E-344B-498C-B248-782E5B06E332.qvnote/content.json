@@ -1,0 +1,9 @@
+{
+  "title": "面向对象的程序设计中最重要的原则",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>开放封闭原则（OCP）</div><div><br></div><div>是去增加代码，而不是去修改代码</div><div><br></div><div><br></div><div>当需要改变一个程序的功能或者给这个程序增加新功 能的时候，可以使用增加代码的方式，但是不允许改动程序的源代码。<br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "webpack 配置文件快速一览",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n首先是各种引入：\n\n    path/ROOT_PATH/HtmlWebpackPlugin/CleanWebpackPlugin\n\n然后是模块导出设置：\n\n    entry\n    output\n    resolve\n    \n    devtool\n    devServer\n    \n    plugins\n    \n    module\n    \n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "开启 SS",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n[ssserver -c /etc/shadowsocks.json -d start]\n\nssserver -c /etc/shadowsocks.json -d stop\n"
+    }
+  ]
+}

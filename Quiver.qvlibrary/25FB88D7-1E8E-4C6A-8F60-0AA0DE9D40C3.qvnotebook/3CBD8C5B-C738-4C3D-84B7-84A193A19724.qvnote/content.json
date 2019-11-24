@@ -1,0 +1,10 @@
+{
+  "title": "结构",
+  "cells": [
+    {
+      "type": "code",
+      "language": "objectivec",
+      "data": "struct Person {\n    float height;\n    int weight;\n};\n\n\n\n\n\nstruct Person person;\n\n    person.height = 35.2;\n    person.weight = 34;\n    printf(\"nnnnnnnnnnn %i\", person.weight);\n    printf(\"llllllllllllll %f\", person.height);\n    \n\n\n\n\n\n\ntypedef struct {\n    float height;\n    int weight;\n} Person;\n\nPerson person;\n\n    person.height = 35.2;\n    person.weight = 34;\n    printf(\"nnnnnnnnnnn %i\", person.weight);\n    printf(\"llllllllllllll %f\", person.height);\n    \n    \n\n\n\n"
+    }
+  ]
+}

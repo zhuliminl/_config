@@ -1,0 +1,10 @@
+{
+  "title": "查看系统最近负载情况",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n uptime\n"
+    }
+  ]
+}

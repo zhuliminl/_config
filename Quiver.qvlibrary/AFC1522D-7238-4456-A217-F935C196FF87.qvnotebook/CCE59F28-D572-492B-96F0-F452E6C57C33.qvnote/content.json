@@ -1,0 +1,10 @@
+{
+  "title": "OR 和 IN 等价",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n但是 IN 中无法使用 NULL 判断\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Untitled Note",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var database = function()  {\n  console.log('saul')\n}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "同时修改字符串两边的符号或删除  ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "CS + 原来的符号 + 新的符号      ‘xxxx’ ====>  \"xxxx\"\n\nDS + T 删除 html 的外部标签      继续输入标签的话就会达到修改标签的作用。  \n        <span class=‘xxx'> xxxxx </ span>   ===>   <strong> xxxxxx </ strong>\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        "
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "漂亮模式显示表格信息",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ncat /etc/passwd | column -t -s:\n"
+    }
+  ]
+}

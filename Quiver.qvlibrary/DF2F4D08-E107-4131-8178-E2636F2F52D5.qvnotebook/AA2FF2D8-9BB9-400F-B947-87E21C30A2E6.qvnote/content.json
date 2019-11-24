@@ -1,0 +1,10 @@
+{
+  "title": "根据依赖文件描述安装 pip 包 和 导出已经安装的包",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\npip install -r requirement.txt\n\npip freeze > requirements.txt\n"
+    }
+  ]
+}

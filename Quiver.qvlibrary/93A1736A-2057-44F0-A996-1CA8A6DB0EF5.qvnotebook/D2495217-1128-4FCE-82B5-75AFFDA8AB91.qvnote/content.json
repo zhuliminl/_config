@@ -1,0 +1,9 @@
+{
+  "title": "emac config",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>(defun copy-from-osx ()</div><div>(shell-command-to-string \"pbpaste\"))</div><div><br></div><div>(defun paste-to-osx (text &amp;optional push)</div><div>(let ((process-connection-type nil))</div><div>(let ((proc (start-process \"pbcopy\" \"*Messages*\" \"pbcopy\")))</div><div>(process-send-string proc text)</div><div>(process-send-eof proc))))</div><div><br></div><div>(setq interprogram-cut-function 'paste-to-osx)</div><div>(setq interprogram-paste-function 'copy-from-osx)&nbsp;</div><div><br></div>"
+    }
+  ]
+}

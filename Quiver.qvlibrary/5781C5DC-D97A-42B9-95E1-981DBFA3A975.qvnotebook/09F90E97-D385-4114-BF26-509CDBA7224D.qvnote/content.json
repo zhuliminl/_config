@@ -1,0 +1,45 @@
+{
+  "title": "inline-block  代替 float 的多余 4 像素问题",
+  "cells": [
+    {
+      "type": "text",
+      "data": "方案1"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "设定负边距。不推荐"
+    },
+    {
+      "type": "text",
+      "data": "方案2"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "设定上层字体大小为 0 ，然后在下层恢复。可行，推荐"
+    },
+    {
+      "type": "text",
+      "data": "方案3"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "jQury 方法。删除上层的文本节点。一般般。\n$('.removeTextNodes').contents().filter(function() { return this.nodeType === 3; }).remove();"
+    },
+    {
+      "type": "text",
+      "data": "方案4"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "data": "挤压html的标签写法。不美观"
+    },
+    {
+      "type": "text",
+      "data": "<br><div><br></div><div>综上，推荐修改字体大小的方案。</div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

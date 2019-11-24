@@ -1,0 +1,10 @@
+{
+  "title": "react-router 示例",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nimport { Switch, Route } from 'react-router-dom'\n\n主路由\nconst Main = () => (\n  <main>\n    <Switch>\n      <Route exact path='/' component={Home}/>\n      <Route path='/roster' component={Roster}/>\n      <Route path='/schedule' component={Schedule}/>\n    </Switch>\n  </main>\n)\n\n子路由\nconst Roster = () => (\n  <Switch>\n    <Route exact path='/roster' component={FullRoster}/>\n    <Route path='/roster/:number' component={Player}/>\n  </Switch>\n)\n\n或者 如果你想在子路由中固定渲染某些信息\nconst Roster = () => (\n  <div>\n    <h2>This is a roster page!</h2>\n    <Switch>\n      <Route exact path='/roster' component={FullRoster}/>\n      <Route path='/roster/:number' component={Player}/>\n    </Switch>\n  </div>\n)\n\n\n\n\n\n"
+    }
+  ]
+}

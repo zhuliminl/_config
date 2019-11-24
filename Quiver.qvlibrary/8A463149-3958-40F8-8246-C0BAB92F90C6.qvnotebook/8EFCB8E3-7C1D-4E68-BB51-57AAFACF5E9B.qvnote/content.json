@@ -1,0 +1,9 @@
+{
+  "title": "学习方法-多读源码，培养语感",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><p style=\"margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &quot;Helvetica Neue&quot;;\">读高质量的源码有什么好处呢？ 这和大量的阅读对于写作有什么好处是十分类似的，我想题主作为一个很高阅读量，文字功夫也非常好的人对此应该也是深有体会的。这种好处难以用条条框框来说清楚。套用文学上的说法那叫语感。写代码也有语感。</p>\n<p style=\"margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &quot;Helvetica Neue&quot;;\">创作自己的东西之前首先就是阅读别人创作的东西。多看了高手们是怎么写代码的，试图去理解高手们写代码时在想什么，久而久之（其实也不用太久，两个礼拜细心的读代码就能让能力上升一大截。）自己就会模仿就会慢慢地学会如何像大神一样写代码。等阅读量和写作量积累到一定程度，很多业界所谓的设计规范，模块流程会自然而然的理解并遵照执行，因为这已成习惯。</p><p style=\"margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &quot;Helvetica Neue&quot;;\"><br></p><p style=\"margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &quot;Helvetica Neue&quot;;\"><br></p></div>"
+    }
+  ]
+}

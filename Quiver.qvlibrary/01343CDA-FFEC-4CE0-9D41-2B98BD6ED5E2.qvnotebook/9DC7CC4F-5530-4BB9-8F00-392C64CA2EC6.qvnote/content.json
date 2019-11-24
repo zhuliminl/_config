@@ -1,0 +1,10 @@
+{
+  "title": "编写可读代码的艺术",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "1.  代码的写法应当使别人理解它所需要的时间最小化\n2. 当我们犹豫不决的时候，可读性基本定理总是优先于其他任何原则\n3. 把信息装入变量名字之中\n4. 很多时候咋注释的作用就是要告诉读者当你写这段代码的时候你是怎么想的\n5. 不要使用代词\n6. 使用提早返回来减少嵌套\n    使用简单的致命的错误先行原则\n\n7. 可以选择更有表现力的单词。比如用  locate() 代替 find()\n8. 避免宽泛的单词。比如 tmp，除非是在极其简单的局部作用域中使用\n9. 多层迭代可以通过使用前缀来区分层级\n\n10.           用具体的名字代替抽象的名字。比如 CanListenOnPort() 代替 ServerCanStart()\n\n11.                       尝试附带其他重要属性。比如 delay_secs 代替 delay\n\n12. 尝试匈牙利表示法。将类型的信息缩写作为前缀\n\n13.                                                                                                                         在小的作用域里面可以使用短小的名字\n\n14. 丢掉没用的词。比如用  toString() 代替 ConvertToString()\n\n15. 给布尔值命名的技巧和原则。可以使用 is, has, should, can 来把布尔值变得更明确\n16. 参数对齐\n\n17. 用 TODO 来标明我还没做的事\n\n18. 用 HACK 来标明对问题不得不采取了一种相对比较粗糙的方案\n19. FIXME 已知的无法运行的代码\n20.                                                                                                                          不要用注释来粉饰代码的质量\n21.  记录常量背后的故事\n22.                                                                                                                          注释应该声明高层次的意图，而非明显的细节\n23. 用来做为解释的变量\n\n24. 比较常用的对立词汇\n                                    begin end first last locked unlocked min max old new opened closed visible invisible source target up down\n\n25. 合适的词汇 numTeamMembers, teamMemberCount, teamPointsMax, pointsRecord\n      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "flex 格子快速排列",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\n#photos {\n    display: flex;\n    flex-wrap: wrap;\n}\n\n#photos .photos {\n    color: red;\n    margin-right: 20px;\n    flex: 0 0 calc(50% - 20px);\n}\n\n\n"
+    }
+  ]
+}

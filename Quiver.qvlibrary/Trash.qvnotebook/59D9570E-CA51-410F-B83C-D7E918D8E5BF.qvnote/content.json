@@ -1,0 +1,10 @@
+{
+  "title": "尝试用react es7 新语法去设置 props ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nstatic propTypes = {\n        title: React.PropTypes.string.isRequired,\n        price: React.PropTypes.number.isRequired,\n        initialQty: React.PropTypes.number\n    };    \n    static defaultProps = {\n        title: 'Undefined Product',\n        price: 100,\n        initialQty: 0\n    };\n    \n新语法案例地址\nhttps://github.com/egor-smirnov/egorsmirnov.me-examples/blob/master/react-and-es6-part-2/cartItem.jsx\n\n参考文章\nhttps://medium.com/@fakiolinho/reactjs-and-es7-bbedb9862e61\n\n自动绑定库 了解一下\nhttps://www.npmjs.com/package/core-decorators\n"
+    }
+  ]
+}

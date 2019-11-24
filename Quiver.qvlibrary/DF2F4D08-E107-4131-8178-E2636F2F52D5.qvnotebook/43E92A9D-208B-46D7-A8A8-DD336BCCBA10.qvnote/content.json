@@ -1,0 +1,10 @@
+{
+  "title": "SQLAlchemy 一次添加多个数据的方法 all_all()",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ndb.session.add_all([\n                    Course(title = 'JavaScript'),\n                    Course(title= 'java'), \n                    Course(title='PHP'),\n                    Course(title='HTML')\n                    ]\n                    )\n"
+    }
+  ]
+}

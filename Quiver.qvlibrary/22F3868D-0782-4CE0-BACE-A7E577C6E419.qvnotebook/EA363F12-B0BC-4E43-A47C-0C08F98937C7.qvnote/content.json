@@ -1,0 +1,10 @@
+{
+  "title": "arguments对象转换为剩余参数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 下面的代码模拟了剩余数组\nfunction f(a, b){\n  var args = Array.prototype.slice.call(arguments, f.length);\n  // ...\n}\n \n// 现在代码可以简化为这样了\nfunction(a, b, ...args) {\n   \n}"
+    }
+  ]
+}

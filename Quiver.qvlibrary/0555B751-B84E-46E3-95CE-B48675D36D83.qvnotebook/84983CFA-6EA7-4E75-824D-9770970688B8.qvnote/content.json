@@ -1,0 +1,10 @@
+{
+  "title": "奇怪的语法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nthis.setState({ fuck: fuck });\n和 \nthis.setState({ fuck });\n\n没差"
+    }
+  ]
+}

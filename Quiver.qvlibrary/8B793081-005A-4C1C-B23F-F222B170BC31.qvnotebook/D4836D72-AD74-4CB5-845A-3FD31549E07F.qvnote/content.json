@@ -1,0 +1,10 @@
+{
+  "title": "Mysql 三级联查",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\n select t1.nickname as level1, t2.nickname as level2, t3.nickname as level3, t4.nickname as level4 from user as t1 left join user as t2 on t2.pid = t1.id left join user as t3 on t3.pid = t2.id left join user as t4 on t4.pid = t3.id ;\n \n \n \n \n select t1.nickname as level1, t2.nickname as level2, t3.nickname as level3, t4.nickname as level4 from user as t1 left join user as t2 on t2.pid = t1.id left join user as t3 on t3.pid = t2.id left join user as t4 on t4.pid = t3.id  where t1.id = 1000000000;\n \n\n\n\n select t1.nickname as master, t2.nickname as level1, t2.id as id2, t3.nickname as level2, t3.id as id, t4.nickname as level3, t4.id as id4 from user as t1 left join user as t2 on t2.pid = t1.id left join user as t3 on t3.pid = t2.id left join user as t4 on t4.pid = t3.id  where t1.id = 1000000000;\n "
+    }
+  ]
+}

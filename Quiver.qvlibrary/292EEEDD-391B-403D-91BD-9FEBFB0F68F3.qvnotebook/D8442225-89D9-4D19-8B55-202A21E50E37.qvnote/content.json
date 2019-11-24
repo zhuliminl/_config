@@ -1,0 +1,10 @@
+{
+  "title": "删除分支",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "git branch -d name\n"
+    }
+  ]
+}

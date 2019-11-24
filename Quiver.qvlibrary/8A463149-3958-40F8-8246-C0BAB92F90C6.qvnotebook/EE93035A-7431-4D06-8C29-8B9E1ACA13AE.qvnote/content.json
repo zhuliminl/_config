@@ -1,0 +1,10 @@
+{
+  "title": "adb 查看 react-native",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n adb logcat ReactNative:V ReactNativeJS:V   \n \n adb shell \"logcat | grep 'ReactNative'\" \n  \n"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "递归 - when to stop? how to deeper?",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/8402B17F26ED7AA060F464AFFD99F3C2.gif\" alt=\"ârecursionâçå¾çæç´¢ç»æ\" width=\"970\" height=\"616\">"
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"font-size: 17px;\">把函数想象成 箱子，递归就是箱子套箱子。</span><div><span style=\"font-size: 17px;\">也可以把递归的调用想象成一个终将回归的曲线，当触及到基线条件的时候，曲线开始回归</span></div><div><span style=\"font-size: 17px;\"><br></span></div><div><span style=\"font-size: 17px;\"><br></span></div><div><span style=\"font-size: 17px;\">对于列表的递归，很重要的地方在于 理解对首项的抽取，和对余项参数递进改变，并且这两者是组合的关系。</span></div><div><span style=\"font-size: 17px;\">而最后还要理解，递归分两部分。一部分在于深入到基线条件，第二部分则在于从基线条件如果回归</span></div><div><span style=\"font-size: 17px;\"><br></span></div>"
+    }
+  ]
+}

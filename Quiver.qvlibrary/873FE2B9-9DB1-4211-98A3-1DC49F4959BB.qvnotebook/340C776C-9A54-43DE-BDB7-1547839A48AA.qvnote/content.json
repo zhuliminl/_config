@@ -1,0 +1,10 @@
+{
+  "title": "删除特定字段开头的行",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nsed -i '/^ssserver/d' /etc/rc.local\n"
+    }
+  ]
+}

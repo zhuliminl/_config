@@ -1,0 +1,10 @@
+{
+  "title": "如何在 python 中连接 Mysql",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nimport pymysql.cursors\n\n\nconfig = {\n    'host': 'localhost',\n    'user': 'root',\n    'password' : 'wuther66',\n    'db' : 'for_python_connection',\n    'charset' : 'utf8mb4',\n    'cursorclass' : pymysql.cursors.DictCursor\n}\n\n\nconnection = pymysql.connect(**config)\n# print(dir(connection))\ncur = connection.cursor()\n# print(cur)\n\ncur.execute('insert into users(name) values(%s)',('zhuliminl'))\nconnection.commit()\n"
+    }
+  ]
+}

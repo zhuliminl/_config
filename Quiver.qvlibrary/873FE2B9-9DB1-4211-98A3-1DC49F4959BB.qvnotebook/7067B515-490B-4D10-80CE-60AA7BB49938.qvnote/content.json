@@ -1,0 +1,10 @@
+{
+  "title": "查看块设备",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nlsblk\n\n"
+    }
+  ]
+}

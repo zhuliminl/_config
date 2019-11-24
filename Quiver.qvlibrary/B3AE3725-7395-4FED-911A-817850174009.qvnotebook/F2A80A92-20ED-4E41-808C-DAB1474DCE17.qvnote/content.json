@@ -1,0 +1,10 @@
+{
+  "title": "开启远程桌面",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ntightvncserver :1\n"
+    }
+  ]
+}

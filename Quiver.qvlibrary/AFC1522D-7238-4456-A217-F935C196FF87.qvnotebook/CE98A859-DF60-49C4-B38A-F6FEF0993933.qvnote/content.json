@@ -1,0 +1,10 @@
+{
+  "title": "返回两个日期之间的天数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n select datediff(now(), '2018-04-02 00:00:00') as days;\n"
+    }
+  ]
+}

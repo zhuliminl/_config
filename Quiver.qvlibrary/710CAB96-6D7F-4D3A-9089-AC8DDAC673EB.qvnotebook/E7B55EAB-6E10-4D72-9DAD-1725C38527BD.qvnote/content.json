@@ -1,0 +1,10 @@
+{
+  "title": "webpack 命令原理",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n从二进制可执行文件到可配置文件脚本\n\n./node_modules/.bin/webpack src/index.js dist/bundle.js\n\n./node_modules/.bin/webpack --config webpack.config.js\n\n{\n  ...\n  \"scripts\": {\n    \"build\": \"webpack\"\n  },\n  ...\n}\n\n"
+    }
+  ]
+}

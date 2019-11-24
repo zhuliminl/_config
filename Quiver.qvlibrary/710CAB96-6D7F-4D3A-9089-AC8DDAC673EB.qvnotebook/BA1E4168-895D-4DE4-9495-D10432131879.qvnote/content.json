@@ -1,0 +1,10 @@
+{
+  "title": "npm 几点",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nnpm install 不加 save 会显示无关，不会被写入依赖文件\n"
+    }
+  ]
+}

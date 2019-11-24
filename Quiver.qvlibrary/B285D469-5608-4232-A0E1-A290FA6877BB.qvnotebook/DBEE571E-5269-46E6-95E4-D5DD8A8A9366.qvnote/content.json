@@ -1,0 +1,14 @@
+{
+  "title": "Tmux 特辑",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "tmux a -t number\n\n隐藏 tmux 的底部栏 set -g status off\n\n快速缓存设置 source-file ~/.tmux/.tmux.conf\n\n恢复上一次会话!!!!  tmux a \ntmux new -s myname             不行用这个  tmux new -s sessionname -d \n\ntmux new -n <窗口名>\ntmux kill-server # 删除所有的会话\ntmux kill-session -t foo # 删除名称为 foo 的会话\n\n建议先从最小单位开始用起，也就是说视 session 为最高级\n\n重新命名 session\n\nCtrl + B, $\n\n面板篇：面板不可见\nz 来最大化和收缩。目测这个用的比较多。用来深入和退出   \n{} 少用 。。哈哈哈哈哈哈哈哈  \n; 上一个  \no 遍历窗格  \nq 一下位置\n% “ 切割窗口  X 来退出\n\n\n会话篇：\nsession 最高级， s 来查看并选择进入   W 进入详细的树目录\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 来重新命名\n\n\n\n窗口篇：\nc create 新建窗口哈 & 销毁 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, 重命名\nnp 窗口\n开启窗口滚动：set -g mouse on  /  set-option -g mouse on\n\n\n推荐使用数字来切换，这样更明确！！！\n\n\n\n\n#解除Ctrl+b 与前缀的对应关系\nunbind C-b\n\n#设置前缀为Ctrl + a\nset -g prefix C-n\n\n#将r设置为加载配置文件\nbind r source-file ~/.tmux.conf\n\n#copy-mode 将快捷键设置为vi 模式\nsetw -g mode-keys vi\n\n超过十个窗口用 ’ 号触发 index\n\n"
+    },
+    {
+      "type": "text",
+      "data": "<pre style=\"box-sizing: border-box; -webkit-font-smoothing: antialiased; font-family: Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 13.6px; white-space: pre-wrap; overflow: auto; margin-top: 0px; margin-bottom: 16px; padding: 16px; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; word-wrap: normal; color: rgb(51, 51, 51); font-variant-ligatures: normal; orphans: 2; widows: 2;\"><code style=\"box-sizing: border-box; -webkit-font-smoothing: antialiased; font-family: Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace; font-size: 13.6px; white-space: pre; display: inline; line-height: inherit; word-wrap: normal;\">tmux new -n \n</code></pre>"
+    }
+  ]
+}

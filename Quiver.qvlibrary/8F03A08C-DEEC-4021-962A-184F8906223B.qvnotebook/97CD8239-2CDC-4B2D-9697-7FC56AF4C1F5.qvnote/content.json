@@ -1,0 +1,10 @@
+{
+  "title": "mac  重启 apache",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nsudo apachectl stop    \n"
+    }
+  ]
+}

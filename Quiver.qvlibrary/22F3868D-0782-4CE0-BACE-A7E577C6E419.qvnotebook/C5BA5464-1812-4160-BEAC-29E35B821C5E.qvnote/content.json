@@ -1,0 +1,10 @@
+{
+  "title": "JS 快速创建指定长度的数组",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\n  const tempList = new Array(halfLength).fill(0).map((n, i) => i);\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Untitled Note",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var blog = document.getElementById('blog');\n\n\tblog.addEventListener('click', function(e) {\n\t\tsayName(e, function() {\n\t\t\tbar('zhuliminl'); // 在这里\n\t\t},); // 1\n\t});\n\n\t\n\tfunction sayName(e, callback) {\n\t\te.preventDefault();\n\t\tcallback();\n\t}\n\n\tfunction bar(name) {\n\t\tconsole.log(name);\n\t}"
+    }
+  ]
+}

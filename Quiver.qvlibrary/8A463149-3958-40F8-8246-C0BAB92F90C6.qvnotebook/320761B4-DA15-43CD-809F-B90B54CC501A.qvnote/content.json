@@ -1,0 +1,9 @@
+{
+  "title": "模块划分问题",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>在分模块的时候考虑接口暴露的问题</div><div><br></div><div>scene 场景即代表 页面 Page</div><div><br></div><div>服务也可以嵌套</div><div><br></div><div>组件是否是 used in anywhere ? 是存在公共的渲染组件的</div><div><br></div><div>app 体验几个要素必须要在 代码中得以处理，分别是：&nbsp;</div><div>&nbsp; &nbsp; &nbsp;Loading、</div><div>&nbsp; &nbsp; &nbsp;缺省、</div><div>&nbsp; &nbsp; &nbsp;正常、<br></div><div>&nbsp; &nbsp; &nbsp;错误拒绝、</div><div>&nbsp; &nbsp; &nbsp;外部宕机&nbsp;</div><div>&nbsp; &nbsp; &nbsp;这五个状态必须要严格遵守和考虑</div><div><br></div><div>考虑 react 组件是如何暴露出接口给外部使用的。从接口上去思考和设计 react 的组件的构建方法</div><div><br></div><div>考虑前后端的数据过滤层如何处理</div><div><br></div><div><br></div><div>是不是也可以把非 redux 上的 action 的 &nbsp;http 请求页单独从 组件中通过 promise 剥离出来？</div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

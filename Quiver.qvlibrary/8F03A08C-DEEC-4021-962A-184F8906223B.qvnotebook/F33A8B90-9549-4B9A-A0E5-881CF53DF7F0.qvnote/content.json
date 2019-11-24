@@ -1,0 +1,10 @@
+{
+  "title": "mac 启用  php-fpm ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nsudo php-fpm --fpm-config /usr/local/etc/php-fpm.conf --prefix /usr/local/var \n\n指定文件和错误输出\n"
+    }
+  ]
+}

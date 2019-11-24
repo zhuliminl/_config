@@ -1,0 +1,18 @@
+{
+  "title": "curl 工具",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n争取用 curl 这种简单的工具来测试\n目前已经完全用 postman 替代\n\n-i 显示响应头部\n-v 显示通信过程\n--trace  output.txt www.zhuliminl.com  显示详细过程\n-H 添加了头部信息    -H 'Content-Type: application/json'\n\n-X 支持GET 之外的动作\ncurl -i -H \"Content-Type: application/json\" -X PUT -d '{\"content\": \"hello, rest\"}' http:.....\ncurl -i -H \"Content-Type: application/json\" -X DELETE http:.....\n\ncurl -X POST -H 'Content-Type: application/json' -d '{\"language\":\"Java\"} 'http://localhost:5001/language'  \n\n"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

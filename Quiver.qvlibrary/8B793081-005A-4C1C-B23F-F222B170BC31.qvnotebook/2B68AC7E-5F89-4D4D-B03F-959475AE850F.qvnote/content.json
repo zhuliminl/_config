@@ -1,0 +1,10 @@
+{
+  "title": "Sequelize 的 raw 查询问题",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n开启 raw 则返回 1 或者 0\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "添加用户",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nuseradd -m -g 用户名 组名\npasswd  用户名 回车\n"
+    }
+  ]
+}

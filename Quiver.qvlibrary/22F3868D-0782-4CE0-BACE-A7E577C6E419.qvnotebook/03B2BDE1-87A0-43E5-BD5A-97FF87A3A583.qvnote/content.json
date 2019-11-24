@@ -1,0 +1,10 @@
+{
+  "title": "节流函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "let throttle = function(fn, interval) {\n\n\t\tlet _self = fn,\n\t\t\ttimer,\n\t\t\tfirstTime = true;\n\n\t\treturn function() {\n\n\t\t\tlet args = arguments,\n\t\t\t\t_me = this;\n\t\t\tif(firstTime) {\n\t\t\t\t_self.apply(_me, args);\n\t\t\t\treturn firstTime = false;\n\t\t\t}\n\n\t\t\tif(timer) {\n\t\t\t\treturn false;\n\t\t\t}\n\n\t\t\ttimer = setTimeout(function() {\n\t\t\t\tclearTimeout(timer);\n\t\t\t\ttimer = null;\n\t\t\t\t_self.apply(_me, args);\n\t\t\t}, interval || 100);\n\t\t}\n\t};\n\n\twindow.onresize = throttle(function() {\n\t\tconsole.log('我变了啊')\n\t})"
+    }
+  ]
+}

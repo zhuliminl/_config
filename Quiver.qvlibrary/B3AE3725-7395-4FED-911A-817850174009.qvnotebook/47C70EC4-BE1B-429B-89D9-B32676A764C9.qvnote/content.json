@@ -1,0 +1,10 @@
+{
+  "title": "Wireshark 快速进入配置模式",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "command + shift + a\n"
+    }
+  ]
+}

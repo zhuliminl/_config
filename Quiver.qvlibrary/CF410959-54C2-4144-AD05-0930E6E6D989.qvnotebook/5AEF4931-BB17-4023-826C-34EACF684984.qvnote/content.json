@@ -1,0 +1,10 @@
+{
+  "title": "react 嵌套更新",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n观察数据左上角和右下角的对应结构，\n左上角 == 右下角，\n右下角 >> 左下角\n\n          this.setState({\n            ...preState,\n            saul: {\n              ...preState.saul,\n              name: {\n                ...preState.saul.name,\n                nickName: {\n                  ...preState.saul.name.nickName,\n                  first: 'Saul'\n                }\n              }\n            }\n\n"
+    }
+  ]
+}

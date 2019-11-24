@@ -1,0 +1,10 @@
+{
+  "title": "    Programing  ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "jsoniq",
+      "data": "\n\n- 认识问题--------打草稿\n\n  - 用数学的方法去看待问题\n  - 总是去找最优的解决办法\n  - 在进入编程之前用纸稿表达\n  \n  \n- 找到方法--------时间应该花在这里\n\n  - 理性逻辑地去思考：\n    跳跃、模糊的思维肯定出错；\n    用 algorithm 解决问题：想想把大象搬进冰箱的问题， \n    You must break things down as simple instructions as possible\n  \n\n- 开始编写--------最简单的部分\n\n- 进行测试\n  - Can it be better ? no : Yes(over again)\n\n\n\n--------看太多的视频，会让我们太关注后两个步骤，也就是编写和测试，\n        而不是认识问题并找到方法，这就是 Programing 和 Coding 的区别。\n\n\n\n\n"
+    }
+  ]
+}

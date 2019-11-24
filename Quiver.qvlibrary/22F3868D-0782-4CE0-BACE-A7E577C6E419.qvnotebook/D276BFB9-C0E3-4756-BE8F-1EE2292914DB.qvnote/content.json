@@ -1,0 +1,10 @@
+{
+  "title": "For of  数组操作",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n    // 对下标和值都感兴趣\n    // for(let [key, value] of fieldsInputted.entries()) {\n    \n    // 仅对下标感兴趣\n    for(let i of fieldsInputted.keys()) {\n      \n      \n    // 总结其实只取下标就够了\n"
+    }
+  ]
+}

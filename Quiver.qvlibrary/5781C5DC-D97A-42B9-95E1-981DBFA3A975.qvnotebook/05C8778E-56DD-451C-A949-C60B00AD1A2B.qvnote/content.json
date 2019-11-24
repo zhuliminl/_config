@@ -1,0 +1,10 @@
+{
+  "title": "内容按照自身的宽度展示",
+  "cells": [
+    {
+      "type": "code",
+      "language": "scss",
+      "data": ".span {\n  width: fit-content;\n}\n"
+    }
+  ]
+}

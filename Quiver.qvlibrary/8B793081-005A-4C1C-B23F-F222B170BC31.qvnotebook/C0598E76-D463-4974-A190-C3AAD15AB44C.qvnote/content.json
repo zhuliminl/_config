@@ -1,0 +1,10 @@
+{
+  "title": "数据库导入方法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nmysql -uroot < employees.sql -p        \n\n"
+    }
+  ]
+}

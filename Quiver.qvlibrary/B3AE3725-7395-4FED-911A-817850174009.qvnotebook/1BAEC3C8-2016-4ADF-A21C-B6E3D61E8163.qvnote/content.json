@@ -1,0 +1,10 @@
+{
+  "title": "启动 wireshark 获取权限",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nsudo chgrp admin /dev/bpf*\nsudo chmod g+rw /dev/bpf*"
+    }
+  ]
+}

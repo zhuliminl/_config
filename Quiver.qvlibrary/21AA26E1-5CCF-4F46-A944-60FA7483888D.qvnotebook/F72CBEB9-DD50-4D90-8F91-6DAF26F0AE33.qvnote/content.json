@@ -1,0 +1,9 @@
+{
+  "title": "gradle run",
+  "cells": [
+    {
+      "type": "text",
+      "data": "./gradlew run<div><br></div>"
+    }
+  ]
+}

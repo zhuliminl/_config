@@ -1,0 +1,10 @@
+{
+  "title": "VPS 账号和密码",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nssh-copy-id -i ~/.ssh/id_rsa.pub root@172.96.195.246 -p 26465\n\n26465    172.96.195.246  xeyG7ur0WaTs                                     1WXpSITLBT4d\n\n腾讯云：\t\n123.207.127.239\n111.231.56.253\n\n\n 67.218.136.187  5NkIOwwDirEd  26465\n"
+    }
+  ]
+}

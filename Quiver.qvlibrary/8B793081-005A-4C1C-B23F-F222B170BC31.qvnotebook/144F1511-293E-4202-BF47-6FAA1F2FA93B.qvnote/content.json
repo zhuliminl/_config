@@ -1,0 +1,30 @@
+{
+  "title": "综合练习",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "CREATE TABLE animals (\n     id MEDIUMINT NOT NULL AUTO_INCREMENT,\n     name CHAR(30) NOT NULL,\n     PRIMARY KEY (id)\n);\n\nINSERT INTO animals (name) VALUES\n    ('dog'),('cat'),('penguin'),\n    ('lax'),('whale'),('ostrich');\n\nSELECT * FROM animals;"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "select count(username) from users;\n\nselect AVG(product_price) from products;\n\nselect SUM(product_price) from products;"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "CREATE TABLE exercise_log\n    (id INTEGER PRIMARY KEY AUTOINCREMENT,\n    type TEXT,\n    minutes INTEGER,\n    calories INTEGER,\n    heart_rate INTEGER\n    );\n\nINSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES('biking', 20, 300, 400);\n\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('basketball', 30, 500, 500);\n\nINSERT INTO exercise_log(type,  calories,\nheart_rate) VALUES('pingpangball', 20,  100);\n\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('games', 34, 200, 100);\n\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('fuck', 34, 520, 170);\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('fuking', 64, 410, 230);\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('makelove', 23, 400, 100);\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('cook', 52, 400, 250);\nINSERT INTO exercise_log(type, minutes, calories,\nheart_rate) VALUES('study', 32, 230, 230);\n\n\nSELECT * FROM exercise_log;\nSELECT * FROM exercise_log WHERE \ncalories >= 300 ORDER BY calories;\n\nSELECT * FROM exercise_log WHERE \ncalories > 300 AND heart_rate < 100;\n\nSELECT * FROM exercise_log WHERE\nminutes > 30 AND heart_rate < 200;\n\nSELECT * FROM exercise_log WHERE type = 'games';\n\n\nSELECT * FROM exercise_log;\nDELETE FROM exercise_log WHERE type = 'fuking';\nDELETE FROM exercise_log WHERE calories = 500;\n\nSELECT calories, heart_rate FROM exercise_log;\n\n\n"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "delete from users where username = 'haofeng';"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": ""
+    }
+  ]
+}

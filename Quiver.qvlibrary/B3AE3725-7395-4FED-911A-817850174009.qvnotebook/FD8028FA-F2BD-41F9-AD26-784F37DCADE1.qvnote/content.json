@@ -1,0 +1,10 @@
+{
+  "title": "测试 IO",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ndd if=/dev/zero of=test bs=64k count=16k conv=fdatasync && rm -f test\n"
+    }
+  ]
+}

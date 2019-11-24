@@ -1,0 +1,10 @@
+{
+  "title": "窗口大小调整",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n:vertical resize -33  横向调整\n:resize +3 \n"
+    }
+  ]
+}

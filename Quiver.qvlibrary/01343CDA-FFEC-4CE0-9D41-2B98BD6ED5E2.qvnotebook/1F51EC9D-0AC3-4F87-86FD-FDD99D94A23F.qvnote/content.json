@@ -1,0 +1,9 @@
+{
+  "title": "阅读他人代码的方法，由面到点，再由点到面，往复 — 注重假想",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><br></div>阅读代码有两种模式： Top-down 和 Bottom-up。<div><br><div><div>Top-down :&nbsp;<span style=\"color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;, Helvetica, sans-serif; font-size: 16px; letter-spacing: 0.5px; orphans: 2; widows: 2;\">Scanning→Predicting→Testing→Confirming→Revising</span></div><div><span style=\"color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;, Helvetica, sans-serif; font-size: 16px; letter-spacing: 0.5px; orphans: 2; widows: 2;\"><br></span></div><div><br></div><div>Top-down 模式，就是先设定一个 use case ，比如说打开一个文件。然后静态跟着代码看，或者用 debugger 跟着看。每次出现函数调用的时候，就把函数的执行记录层次给记录下来。</div><div><br></div><div>大致如下：</div><div>&nbsp; fun1()&nbsp;</div><div>&nbsp; &nbsp; &nbsp; fun2()</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; func()</div><div>&nbsp; &nbsp; &nbsp; fun3()</div><div><br></div><div>这种图表很随意，你可以根据自己的需要增加信息。比如我有时候会把重要的实参一直标记下来，这样阅读深层次代码的时候就不用回头查看形参到底指什么。这个图的基本作用是防止在阅读深层次代码时忘记总体执行层次。</div><div><br></div><div>Top-down 模式进行到一定的层次，往往会发现虽然图画了下来，但还是无法了解程序在具体做了什么。这个时候需要转入 bottom-up 模式，一直深入到最底层，给能了解作用的底层函数一个个地写文档。当然这时的文档时完全底层的观点。</div><div><br></div><div>然后就是在不断在两个模式之间转换，不断地细化细化两种模式的理解。</div><div><br></div><div>关键词：顺序，层次，自上而下，参数，陷入最底层，写记录文档，回切，继续</div></div></div><div><br></div><div><br></div><div><br></div><div>Bottom-up :&nbsp;<span style=\"color: rgb(51, 51, 51); font-family: &quot;Microsoft YaHei&quot;, Helvetica, sans-serif; font-size: 16px; letter-spacing: 0.5px; orphans: 2; widows: 2;\">Bottom-up Model阅读模式在托福阅读中基本就是查词+词性辨析+句法分析+段落逐句翻译</span></div>"
+    }
+  ]
+}

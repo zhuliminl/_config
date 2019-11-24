@@ -1,0 +1,9 @@
+{
+  "title": "Vim 使用积累",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# C\n当前目录为树目录\n# help key-notation \n常常看键盘\n# :nohlsearch\n去掉讨厌的高亮搜素偶\n# ,cc\n注释\n# ,c空格\n切换注释\n# MarkdownPreview\n预览 markdown\n# highlight Visual cterm=reverse ctermbg=NONE\n开启可视化模式高亮\n# ,h\n查看历史版本\n# m\n在树中执行文件的创建和删除等动作\n# *\n卧槽，这个才是大招啊。瞬间查找当前单词，根本不用你自己设置快捷键\n# gf ___goto the file\n根据当前文件名而跳转文件。对，这是你一直想要的\n# ,ig\n开启竖格子。开了就不是很清爽\n# 自动关闭补全提示窗口\nlet g:ycm_autoclose_preview_window_after_completion = 1\n# set hidden\n如果不想被保存所打断\n# ma 搭配 `a 来回归标记这个是个挺好的习惯 ---------------  卧槽，大写字母能实现跨文件标记。这个屌啊！！！！\n注意用个键换掉不方便的 ` 。比如 a 这个不常用\n# 平时 b 这个键，不怎么用。干脆用来保存按钮好了\n# vim 分屏\nCtrl+W v\n\n# 去掉行号\nset nonu\n\n\n\n\n# 快速加注释\n：4,23s/^/ * /g\n\n# 坚持使用 buffer\n:ls\n:b33\n通过以上两个命令打开最近文件，而不是老是去文件树\n\n# 坚持使用 ctrol+W 和 ctrol+v 来创建窗口。在文件树中就用 s 来分割\n虽然一个时间内只能专注一个窗口，但是其实多窗口操作很多场景下是需要的。比如样式编辑，文件比对很多很多\n\n# 替换字符\n：%s/foo/bar/g\n\n# Ag 可以配合 e 来使用\n# 在慢节奏的编程中强制自己使用 s + X 来到达自己想要的位置，而不是使用方向键。\n这个习惯养成了肯定有好处！！！因为这样让你把注意力放在文件内容上，而不是跳转\n\n# 切换 Tab 用 ，1234567\n#gt 切换文件很重要\n# 新建 Tab \n在文件树上直接按 t 就可以了。超级方便！！！\n\n\n:hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen\n\n\n# gv\n恢复上一次选择。这个需求真的很常用。避免一次次的重复选择\n\n# text-obejct 更多的认识\nap 是一个段落\ndap 删除一个段落\n\n# 对齐方法 -1空格是很棒的\n\n# 双 , 触发键 + 方向 真心的强大啊。不解释！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！\n\n# ALEFix 自动修复语法问题\n\n# Gsearch 和 Greplace 跨文件替换能力。无法同步修改文件名字。所以要避开文件名\n\n# 选择模式用 o 就能来回调整了。这么简单，我居然找了好两天\n\n# I 查看隐藏文件\n\n# 删除直到某个字母\ndtx\n\n# 别忘了你的 a 等于 `\n\" 尝试用 a 替换 ` 这个不太好触控的键，用来快速在文件之间跳转\nnmap a `\n\n善用分屏，少用文件树。尽量通过搜索来到达文件，只有在创建文件和修改文件名的时候使用文件树。\n\n切换 tab\n老老实实地用 number + gt ，然后高亮颜色，这比什么都实在"
+    }
+  ]
+}

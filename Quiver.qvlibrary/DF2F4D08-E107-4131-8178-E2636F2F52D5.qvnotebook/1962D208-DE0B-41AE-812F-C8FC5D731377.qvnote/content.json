@@ -1,0 +1,10 @@
+{
+  "title": "随机产生 secret_key",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\napp.secret_key = os.urandom(24)\n"
+    }
+  ]
+}

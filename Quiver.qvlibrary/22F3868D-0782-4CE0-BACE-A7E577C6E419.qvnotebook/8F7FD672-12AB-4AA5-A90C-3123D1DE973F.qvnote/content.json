@@ -1,0 +1,10 @@
+{
+  "title": "回调函数不止是处理异步请求，也适合通过委托来达到职责分离",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nlet appendDiv = function(callback) {\n    for(let i = 0; i < 100; i++) {\n        let div = document.createElement('div');\n        div.innerHTML = i;\n        document.body.appendChild(div);\n        if(typeof callback === 'function')\n    }\n}\n\nappendDiv(node => { node.style.display = 'none' });\n\n"
+    }
+  ]
+}

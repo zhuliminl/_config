@@ -1,0 +1,10 @@
+{
+  "title": "Array 和 arrayList 的打印",
+  "cells": [
+    {
+      "type": "code",
+      "language": "java",
+      "data": "String[] array = {\"a\",\"c\",\"b\"};\n    ArrayList<String> list = new ArrayList<String>();\n    list.add(\"a\");\n    list.add(\"b\");\n    list.add(\"c\");\n    System.out.println(array); // hashcode\n    System.out.println(list);  // [a, b, c]\n    \n    \n"
+    }
+  ]
+}

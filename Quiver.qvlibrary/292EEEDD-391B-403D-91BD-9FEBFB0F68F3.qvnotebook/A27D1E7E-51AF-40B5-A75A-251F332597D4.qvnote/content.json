@@ -1,0 +1,9 @@
+{
+  "title": "撤销第一次提交",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><pre style=\"color: rgb(0, 0, 0); font-variant-ligatures: normal; orphans: 2; widows: 2;\"><span class=\"n\">git</span> <span class=\"n\">update</span><span class=\"o\">-</span><span class=\"n\">ref</span> <span class=\"o\">-</span><span class=\"n\">d</span> <span class=\"n\">HEAD</span></pre><pre style=\"color: rgb(0, 0, 0); font-variant-ligatures: normal; orphans: 2; widows: 2;\"><span class=\"n\"><br></span></pre></div>"
+    }
+  ]
+}

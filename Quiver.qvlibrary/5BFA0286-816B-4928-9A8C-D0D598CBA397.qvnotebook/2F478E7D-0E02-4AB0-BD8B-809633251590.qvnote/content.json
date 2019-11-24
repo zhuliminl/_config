@@ -1,0 +1,10 @@
+{
+  "title": "统计个数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "for word in words:\n        counts[word] = counts.get(word, 0) + 1"
+    }
+  ]
+}

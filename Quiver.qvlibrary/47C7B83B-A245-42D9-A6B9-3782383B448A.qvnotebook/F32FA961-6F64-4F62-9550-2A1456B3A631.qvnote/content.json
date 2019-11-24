@@ -1,0 +1,10 @@
+{
+  "title": "复制",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "function A(obj) {\n\t\t  this.name = 'zhu';\n\t\t  $.extend(this, obj)\n\t\t}\n\n\t\tlet obj = {\n\t\t  age: 45,\n\t\t  job: 'teater'\n\t\t}\n\n\t\tlet a = new A(obj);\n\t\tconsole.dir(a);"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "关联子查询",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n\n select id, classes,current_price, name from item as good  where current_price > (select avg(current_price) from item as category where good.classes = category.classes group by classes);\n\n\n\n将下表两个结合进行条件运算： 当前价大于分过类的平均价\n"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/3EB744046C48B2D28F85C305EC934E30.jpg\" width=\"1066\" height=\"849\">"
+    }
+  ]
+}

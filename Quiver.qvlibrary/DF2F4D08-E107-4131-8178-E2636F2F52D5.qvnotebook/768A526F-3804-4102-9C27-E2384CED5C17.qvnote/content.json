@@ -1,0 +1,10 @@
+{
+  "title": "SQLAlchemy 的CURD",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n>>> saul = Member(username='saul',password='wuther66',email='zhuliminl@gmail.com',join_date=date.today())\n>>> saul\n<Member saul\n>>> db.session.add(saul)\n>>> db.session.commit()\n>>> ben = Member(username='ben', password='fuck', email='ben@sina.com', join_date=date.today())\n>>> db.session.add(ben)\n>>> db.session.commit()\n>>> saul.username = '郝凤'\n>>> db.session.commit()\n\n\n\n>>> db.session.delete(saul)\n>>> db.session.commit()\n\n"
+    }
+  ]
+}

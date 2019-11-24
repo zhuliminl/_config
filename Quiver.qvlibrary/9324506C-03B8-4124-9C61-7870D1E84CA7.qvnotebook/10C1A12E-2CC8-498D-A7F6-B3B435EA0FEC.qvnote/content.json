@@ -1,0 +1,10 @@
+{
+  "title": "匿名函数的简便写法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "#(println %1 %2 %&)"
+    }
+  ]
+}

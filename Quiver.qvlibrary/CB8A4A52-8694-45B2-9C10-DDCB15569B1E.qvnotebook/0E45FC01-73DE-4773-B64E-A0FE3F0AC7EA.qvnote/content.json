@@ -1,0 +1,10 @@
+{
+  "title": "const 和 mutable",
+  "cells": [
+    {
+      "type": "code",
+      "language": "c_cpp",
+      "data": "\n#include <iostream>\n#include <string>\n#include <array>\n#include <stdlib.h>\n\n\nclass Entity\n{\nprivate:\n    std::string m_Name;\n    mutable int m_DebugCount = 0;\n\npublic:\n    const std::string& GetName() const {\n        m_DebugCount ++;\n        return m_Name;\n    }\n    void PrintGetNameCount() const\n    {\n        std::cout << m_DebugCount << std::endl;\n    }\n};\n\n\nint main(void)\n{\n    const Entity e;\n    e.GetName();\n    std::cout << e.GetName() << std::endl;\n    std::cout << e.GetName() << std::endl;\n    std::cout << e.GetName() << std::endl;\n    std::cout << e.GetName() << std::endl;\n    e.PrintGetNameCount();\n    std::cout << 'x' << std::endl;\n\n\n}\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "adb 使用 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n\nadb kill-server\nadb start-server  \n"
+    }
+  ]
+}

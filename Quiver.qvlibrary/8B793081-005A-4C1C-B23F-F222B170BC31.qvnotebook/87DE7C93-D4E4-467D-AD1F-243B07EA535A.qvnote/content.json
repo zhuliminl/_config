@@ -1,0 +1,10 @@
+{
+  "title": "在 sql 中执行文本替换",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nupdate lz_user set weixin_nickname = (SELECT REGEXP_REPLACE((weixin_nickname), \"[^/,]+$\", '')) where id = 100000035;\n\n\n\n\n\nupdate lz_user set weixin_nickname = (select 'foo') where id = 100000035;\nselect weixin_nickname from lz_user where id = 100000035;\n\n SELECT REGEXP_REPLACE((select weixin_nickname from lz_user where id = 100000035), \"[^/,]+$\", '');\n \nupdate lz_user set weixin_nickname = (SELECT REGEXP_REPLACE((weixin_nickname), \"[^/,]+$\", '')) where id = 100000035;\n"
+    }
+  ]
+}

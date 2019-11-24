@@ -1,0 +1,10 @@
+{
+  "title": "在 sql 中导入文件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nuse databasename;\nsource data.sql;\n"
+    }
+  ]
+}

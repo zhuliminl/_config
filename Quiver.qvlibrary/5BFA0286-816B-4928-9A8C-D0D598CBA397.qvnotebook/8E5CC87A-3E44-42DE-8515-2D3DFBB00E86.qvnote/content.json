@@ -1,0 +1,10 @@
+{
+  "title": "勤用 __dict__ 来查看对象的属性",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "__dict__"
+    }
+  ]
+}

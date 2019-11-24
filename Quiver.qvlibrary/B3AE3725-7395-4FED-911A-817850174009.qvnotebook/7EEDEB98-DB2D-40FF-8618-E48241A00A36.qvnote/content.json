@@ -1,0 +1,10 @@
+{
+  "title": "设置本地抓包配置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nroute add 192.168.1.102 mask 255.255.255.255 192.168.1.1\n\n用完记得删除\nroute delete 192.168.1.102 mask 255.255.255.255 192.168.1.1\n\n如果上面的不行，用这条\nsudo route add 192.168.0.100 mask 255.255.255.255 0.0.0.0\n\n同样记得删除\nsudo route delete 192.168.0.100 mask 255.255.255.255 0.0.0.0\n"
+    }
+  ]
+}

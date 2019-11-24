@@ -1,0 +1,10 @@
+{
+  "title": "开启数据库事件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n set GLOBAL event_scheduler = ON;\n\n"
+    }
+  ]
+}

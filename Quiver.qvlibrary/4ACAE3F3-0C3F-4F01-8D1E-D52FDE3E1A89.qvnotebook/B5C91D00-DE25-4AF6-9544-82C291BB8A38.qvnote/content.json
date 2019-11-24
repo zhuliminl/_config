@@ -1,0 +1,10 @@
+{
+  "title": "基本类型",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nString, Int, Float, Boolean, ID，[]\n\n\n强制声明不为 NULL 需要用 ！ 强调\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Jshell ",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>重置变量</div><div>/reset</div><div><br></div><div>打开文件</div><div>/open ./foo.text 恢复环境</div><div><br></div><div><br></div>"
+    }
+  ]
+}

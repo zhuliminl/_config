@@ -1,0 +1,10 @@
+{
+  "title": "查看系统资源占用",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nvmstat 1\n"
+    }
+  ]
+}

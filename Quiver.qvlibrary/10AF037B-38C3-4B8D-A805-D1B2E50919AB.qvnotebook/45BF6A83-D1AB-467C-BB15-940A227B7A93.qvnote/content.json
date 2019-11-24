@@ -1,0 +1,10 @@
+{
+  "title": "引号内的文本夹住",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n\ntext.replace(/`([\\S\\s]+)`/g,'<code>$1</code>')\n\n"
+    }
+  ]
+}

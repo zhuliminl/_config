@@ -1,0 +1,10 @@
+{
+  "title": "分组查询和事务",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n start transaction; select level_member, count(*) from user group by level_member;commit;\n \n 带筛选条件\n start transaction; select level_member, count(*) from user group by level_member having level_member != 0;commit;\n "
+    }
+  ]
+}

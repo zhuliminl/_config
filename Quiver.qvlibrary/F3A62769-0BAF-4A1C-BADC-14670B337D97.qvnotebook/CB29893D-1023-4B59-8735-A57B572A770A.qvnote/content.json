@@ -1,0 +1,10 @@
+{
+  "title": "一个典型的观察者模式",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\nfunction createStore (state, stateChanger) {\n  const listeners = []\n  const subscribe = (listener) => listeners.push(listener)\n  const getState = () => state\n  const dispatch = (action) => {\n    stateChanger(state, action)\n    listeners.forEach((listener) => listener())\n  }\n  return { getState, dispatch, subscribe }\n}\n\n返回的三个接口之中， 订阅的方法会一只接受回调函数，存入数组。\n并且会在 dispatch 方法执行的时候，统一执行刚刚存入的回调函数。"
+    }
+  ]
+}

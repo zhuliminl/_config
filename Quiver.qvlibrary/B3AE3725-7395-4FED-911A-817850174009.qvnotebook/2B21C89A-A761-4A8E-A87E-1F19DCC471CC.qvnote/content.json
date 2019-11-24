@@ -1,0 +1,10 @@
+{
+  "title": "install chattr",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ninstall chattr: apt-get install e2fsprogs\n"
+    }
+  ]
+}

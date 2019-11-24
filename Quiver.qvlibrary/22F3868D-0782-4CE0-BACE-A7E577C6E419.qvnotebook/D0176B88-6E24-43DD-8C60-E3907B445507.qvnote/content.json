@@ -1,0 +1,10 @@
+{
+  "title": "JS 中原则性问题，凡是有可能返回 null 和 undefined 的场景都应该给后备值",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n\nlet foo = null || ‘foo’;\nlet bar = undefined || ‘bar’\n\n    深度操作一定要做出判断才不会报错\n    data 中没有 foo\n    const superiorsId = data && data.foo && data.pids.split(',')\n    // const superiorsId = data.foo.split(',')  直接报错\n    console.log('=====>>>>>上级id', superiorsId);\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "HTML 模块的扩展和引入",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n{% extends 'base.html' %}\n{% import 'bootstrap/wtf.html' as wtf %}\n\n扩展是直接打入并补充\n引入是使用宏函数生成\n\n\n"
+    }
+  ]
+}

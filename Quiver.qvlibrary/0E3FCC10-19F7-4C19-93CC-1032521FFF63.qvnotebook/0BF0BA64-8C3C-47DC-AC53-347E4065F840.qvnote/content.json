@@ -1,0 +1,10 @@
+{
+  "title": "Unicode 和 UTF-8 的关系",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n\nUnicode就是上文中提到的编码字符集，而UTF-8就是字符编码，即Unicode规则字库的一种实现形式\n\n"
+    }
+  ]
+}

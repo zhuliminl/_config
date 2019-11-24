@@ -1,0 +1,10 @@
+{
+  "title": "本机php开发环境",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n本地个人的配置地址 /usr/local/etc/\nmac 自带的软件配置目录 /private/etc\n\nnginx 的  wordpress 在 8082  文件路径在 /Users/saul/Documents/wordpress;\nnginx 的  www/test  在 8081  文件路径在 /Users/saul/Documents/www/test;\nnginx 的  php-fpm 端口为  9001\n\n\napache 的 网站根目录在 /Library/WebServer/Documents\n数据库的管理网页在 localhost/phpmyadmin 不是 nginx\n\n"
+    }
+  ]
+}

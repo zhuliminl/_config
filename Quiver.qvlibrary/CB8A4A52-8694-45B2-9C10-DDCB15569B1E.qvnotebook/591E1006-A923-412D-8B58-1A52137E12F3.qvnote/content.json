@@ -1,0 +1,10 @@
+{
+  "title": "隐式转换",
+  "cells": [
+    {
+      "type": "code",
+      "language": "c_cpp",
+      "data": "\n#include <iostream>\n#include <string>\n#include <array>\n#include <stdlib.h>\n\n\nclass Entity\n{\npublic:\n    std::string m_Name;\npublic:\n    Entity(): m_Name(\"saul\")\n    {\n    }\n    Entity(const std::string& name): m_Name(name)\n    {\n    }\n};\n\nvoid PrintEntity(const Entity& entity)\n{\n    //\n}\n\n\nint main(void)\n{\n    // PrintEntity(\"saul\");\n    PrintEntity(std::string(\"saul\"));\n}\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "安全地取对象中的值",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst get = (arr, obj) => \n  arr.reduce((p, n) => (p && p[n]) ? p[n] : null, obj)\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

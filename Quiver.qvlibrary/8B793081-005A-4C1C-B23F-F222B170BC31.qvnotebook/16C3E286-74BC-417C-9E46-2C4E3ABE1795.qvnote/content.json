@@ -1,0 +1,10 @@
+{
+  "title": "清楚当前表所有数据",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ntruncate table xxx;\n\n删除表\n\ndrop table xxx；"
+    }
+  ]
+}

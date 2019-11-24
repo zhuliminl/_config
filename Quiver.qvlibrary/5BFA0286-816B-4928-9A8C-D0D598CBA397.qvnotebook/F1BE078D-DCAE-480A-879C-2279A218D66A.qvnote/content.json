@@ -1,0 +1,10 @@
+{
+  "title": "对象转成字典",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nmy_dict = my_class.__dict__\n"
+    }
+  ]
+}

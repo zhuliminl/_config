@@ -1,0 +1,10 @@
+{
+  "title": "删除最近7天的数据的定期事件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nCREATE EVENT `delete7DayOldMessages` // 不许是逗号\n  ON SCHEDULE EVERY 1 DAY STARTS '2018-08-13 13:20:00'   // 如果定义超过了日期，则不会执行\n  ON COMPLETION PRESERVE\nDO BEGIN\n   delete from theMessages \n   where datediff(now(),updateDt)>6; \nEND\n\n\n参数说明\nEVERY n [HOUR|MONTH|WEEK|DAY|MINUTE]\nEVERY n [HOUR|MONTH|WEEK|DAY|MINUTE] STARTS date ENDS date\n\n默认关闭\nAn event is normally dropped once its schedule has expired (ON COMPLETION NOT PRESERVE). \n\n\n删除事件\nDROP EVENT [IF EXISTS] event_name\n修改事件\nALTER EVENT event_name \n。。。。。。\n\n展示事件\nshow events;\n\n// 查看某个具体的事件脚本\nshow create event auto_add_points\\G;\n"
+    }
+  ]
+}

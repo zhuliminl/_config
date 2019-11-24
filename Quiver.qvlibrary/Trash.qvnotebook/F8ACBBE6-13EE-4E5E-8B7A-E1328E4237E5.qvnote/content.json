@@ -1,0 +1,10 @@
+{
+  "title": "我的主机账号",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "管理：\nssh-copy-id -i ~/.ssh/id_rsa.pub\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntele: \nId: 500492884\nFirst: 小\nLast: 石头\nLang: en\n\n"
+    }
+  ]
+}

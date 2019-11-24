@@ -1,0 +1,10 @@
+{
+  "title": "保存和恢复工作进度",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "git stash\n\ngit stash pop"
+    }
+  ]
+}

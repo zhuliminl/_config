@@ -1,0 +1,10 @@
+{
+  "title": "函数式编程必须深刻理解的关键词 和 认识见解",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n纯函数\n替换模型\n局部套用\n\n函数的一等公民意识\n\ncurrey\ncompose 和 pipe\npointfree\n递归\n尾部递归\n自然递归\n签名  识别\n多态函数\n泛函\n函子\n\n\n\n\n\n关于 pointfree 如何实现？\n举个例子：当你发现一层嵌套一层的时候，当你把数据参数放在最里层的时候，那就有可能想起如何 按照顺序 去 compose 它们。之所以这么嵌套，是你没有想到如何去 compose\n简单说，有嵌套就应该想起 组合\n更普适一点，凡是遇到数据流向，即前一个结果是后一个函数的参数，都应该直接 compose\n\n\n"
+    }
+  ]
+}

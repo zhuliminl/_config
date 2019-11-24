@@ -1,0 +1,10 @@
+{
+  "title": "async 的使用",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nvar resolveAfter2Seconds = function() {\n  console.log(\"starting slow promise\");\n  return new Promise(resolve => {\n    setTimeout(function() {\n      resolve(20);\n      console.log(\"加了 await 你可得等着我\");\n    }, 2000);\n  });\n};\n\nvar resolveAfter1Second = function() {\n  console.log(\"starting fast promise\");\n  return new Promise(resolve => {\n    setTimeout(function() {\n      resolve(10);\n      console.log(\"fast promise is done\");\n    }, 1000);\n  });\n};\n\nasync function foo() {\n  // 你这里面没有 promise，那就没法使用 await 的特性哦\n  this.setTimeout(async () => {\n    console.log('foo')\n  }, 0)\n}\n\n(async () => {\n  await resolveAfter2Seconds()\n  resolveAfter1Second()\n  await foo()\n  console.log('after foo')\n})()\n\n"
+    }
+  ]
+}

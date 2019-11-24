@@ -1,0 +1,9 @@
+{
+  "title": "非首次添加 .gitignore 必须做的工作",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><pre style=\"margin-top: 0px; margin-bottom: 1em; padding: 5px; border: 0px; font-variant-ligatures: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 13px; vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; overflow: auto; background-color: rgb(239, 240, 241); word-wrap: normal; color: rgb(36, 39, 41); orphans: 2; widows: 2;\"><code style=\"font-style: inherit; font-variant-ligatures: inherit; font-variant-position: inherit; font-variant-caps: inherit; font-variant-numeric: inherit; font-variant-alternates: inherit; font-variant-east-asian: inherit; font-stretch: inherit; line-height: inherit; font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 13px; vertical-align: baseline; box-sizing: inherit; background-color: rgb(239, 240, 241); white-space: inherit;\">git rm —cached file</code></pre></div>"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "命令行查看本机 IP",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nifconfig\n或者\nifconfig en0\n\n再或者\nnetstat -nr\n\n查看端口是否l....\nnetstat -lnp\n\n\n开启 sss\nssserver -p 15003 -k wuther -m rc4-md5 -d stop\n\n\n配置\n\n\n{\n  \"server\":\"172.96.195.246\",\n  \"port_password\":{\n       \"15012\":\"eBcDh2mK5fCO\",\n  },\n  \"timeout\":300,\n  \"method\":\"aes-256-cfb\"\n}\n\n\n"
+    }
+  ]
+}

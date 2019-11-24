@@ -1,0 +1,9 @@
+{
+  "title": "在 react-redux 中如果定制 props",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>能在 mapStateToProps 里面进行定制 props 吗</div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

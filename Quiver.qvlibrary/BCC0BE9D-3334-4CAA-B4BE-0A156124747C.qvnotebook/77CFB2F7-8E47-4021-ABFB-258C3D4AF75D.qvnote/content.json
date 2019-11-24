@@ -1,0 +1,10 @@
+{
+  "title": "理解断言和异常",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n\n断言 = 契约式编程\nDbC强调在设计层面上保持程序的正确性。\n\n1）简单说就是前置条件（pre-condition）、后置条件（post-condition）和不变式（invariant）, 分别指代函数核心逻辑 运行前必须满足的条件、运行后必须满足的条件和运行结果必须保持的不变式（某一不变条件）。\n\n2）常见的表现形式就是参数有效性、内部状态、约束等。\n\n3） Eiffel 语法层面原生支持这些概念，通过require、ensure等；其他语言的支持似乎不是很好，常见的只有assert了\n\n\n\n总之一句话： assert 里面的表达式是期望值\n\n\n\n轮子哥，总结与 code complete\n\n\nassert用在那些你知道绝对不会发生的事情上，但是因为人总是会犯错误，保不准你写出来的东西跟你想的不一样。所以assert用来捕捉的是程序员自己的错误。\n\n\n\n萧井陌说：\n\nassert用于在开发期提醒程序员程序写错了\n\n\n同理，exception捕捉的是用户或者环境的错误。\n\n\n断言是测试的核心， 它们决定了哪些测试会通过、哪些会失败。 断言是一些表述代码期望执行结果的语句。如果断言不正确，则测试失败，你就会知道代码出了问题。\n\n断言和测试： 理论上断言只是测试用例的一个子集\n\n断言和异常的区别\n\nThey are created for different purposes。 Assert  is more for finding bugs,  \ntry-catch  is for handling exceptional situations.\n\n\nPython语法会把异常当作一个对象，通过使用try/except语句来捕捉该异常对象。try/except语句后面都会跟着与其对应的代码块。用来检测的错误代码放到try对应的代码块中，当检测到错误时，就会进入except代码块来执行相应的逻辑处理。出现异常之后是要让程序自我调整继续运行，还是要终止运行，全看except代码块的逻辑要如何处理。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "vim 搜索后退出高亮！！！很重要",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n:nohl   > no high light\n"
+    }
+  ]
+}

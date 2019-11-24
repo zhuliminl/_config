@@ -1,0 +1,14 @@
+{
+  "title": "页脚固定不贴合主体内容",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\nbody {\n  display: flex;\n  flex-flow: column;\n  min-height: 100vh;\n}\n\nmain {\n  flex: 1;\n}\n\n具体展开\n\nbody {\n  display: flex; \n  flex-direction: column; \n  min-height: 100vh;\n  } \n  \n  main {\n    flex-grow: 1; /* 激活伸缩布局 */\n    background: #fdf; \n  } \n  "
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

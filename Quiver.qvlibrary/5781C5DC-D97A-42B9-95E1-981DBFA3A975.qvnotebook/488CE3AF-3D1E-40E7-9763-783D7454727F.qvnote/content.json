@@ -1,0 +1,10 @@
+{
+  "title": "sass 传回对象值的函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "@function color($keys) {\n\t@return map-get($colors, $keys);\n}"
+    }
+  ]
+}

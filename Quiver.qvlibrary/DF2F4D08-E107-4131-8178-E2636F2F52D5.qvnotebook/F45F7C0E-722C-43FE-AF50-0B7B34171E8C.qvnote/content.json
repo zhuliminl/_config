@@ -1,0 +1,10 @@
+{
+  "title": "Flask 进入扩展模块",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nfrom flask.ext.bootstrap import Bootstrap\nfrom flask.ext.moment import Moment\nfrom flask.ext.wtf import Form\n\n现在改了\n应该是\n\nfrom falsk_wtf import Form\n\n\n\n\n"
+    }
+  ]
+}

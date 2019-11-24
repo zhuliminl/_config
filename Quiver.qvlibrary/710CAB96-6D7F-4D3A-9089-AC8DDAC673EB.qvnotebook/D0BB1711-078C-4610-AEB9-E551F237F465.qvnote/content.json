@@ -1,0 +1,10 @@
+{
+  "title": "tree 命令控制显示的深度",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ntree -L 1 node_modules\n"
+    }
+  ]
+}

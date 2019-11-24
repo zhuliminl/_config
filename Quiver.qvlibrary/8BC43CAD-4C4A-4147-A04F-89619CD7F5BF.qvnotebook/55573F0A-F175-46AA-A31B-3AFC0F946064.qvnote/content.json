@@ -1,0 +1,9 @@
+{
+  "title": "单元测试不测试常量",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>单元测试其实要测试的是逻辑、流程控制、配置</div><div><br></div><div><br></div>"
+    }
+  ]
+}

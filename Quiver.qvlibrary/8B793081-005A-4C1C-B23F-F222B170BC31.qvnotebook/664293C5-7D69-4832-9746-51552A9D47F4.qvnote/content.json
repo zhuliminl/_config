@@ -1,0 +1,10 @@
+{
+  "title": "修改列",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "add /modify/drop\n\nALTER TABLE addresses add fuck integer;"
+    }
+  ]
+}

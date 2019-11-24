@@ -1,0 +1,10 @@
+{
+  "title": "Sequelize findOne",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n// search for attributes\nProject.findOne({ where: {title: 'aProject'} }).then(project => {\n  // project will be the first entry of the Projects table with the title 'aProject' || null\n  只拿首项\n})\n\n"
+    }
+  ]
+}

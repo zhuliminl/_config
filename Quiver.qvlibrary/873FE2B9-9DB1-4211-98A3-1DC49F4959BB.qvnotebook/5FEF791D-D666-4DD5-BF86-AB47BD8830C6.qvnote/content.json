@@ -1,0 +1,10 @@
+{
+  "title": "获取特定字段",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ncut -c3-5\n"
+    }
+  ]
+}

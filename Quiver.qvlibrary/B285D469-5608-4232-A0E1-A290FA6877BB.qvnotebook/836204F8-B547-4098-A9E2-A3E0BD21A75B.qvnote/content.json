@@ -1,0 +1,10 @@
+{
+  "title": "设定相对行数   暂不写进配置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n:set relativenumber \n:set norelativenumber \" turn relative line numbers off \n:set relativenumber! \" toggle relative line numbers\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "动态加载",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nimport * as types from '../constants/ActionTypes';\n\nconst initialState = {\n  isRefreshing: false,\n  loading: false,\n  isLoadMore: false,\n  noMore: false,\n  articleList: {}\n};\n\nexport default function read(state = initialState, action) {\n  switch (action.type) {\n    case types.FETCH_ARTICLE_LIST:\n      return Object.assign({}, state, {\n        isRefreshing: action.isRefreshing,\n        loading: action.loading,\n        isLoadMore: action.isLoadMore\n      });\n    case types.RECEIVE_ARTICLE_LIST:\n      return Object.assign({}, state, {\n        isRefreshing: false,\n        isLoadMore: false,\n        noMore: action.articleList.length === 0,\n        articleList: state.isLoadMore\n          ? loadMore(state, action)\n          : combine(state, action),\n        loading: state.articleList[action.typeId] === undefined\n      });\n    default:\n      return state;\n  }\n}\n\nfunction combine(state, action) {\n  state.articleList[action.typeId] = action.articleList;\n  return state.articleList;\n}\n\nfunction loadMore(state, action) {\n  state.articleList[action.typeId] = concatFilterDuplicate(\n    state.articleList[action.typeId],\n    action.articleList\n  );\n  return state.articleList;\n}\n\n/**\n * filter duplicate data when loading more.\n*/\nfunction concatFilterDuplicate(list1, list2) {\n  const set = new Set(list1.map(item => item.id));\n  const filterList2 = [];\n  const length = list2.length;\n  for (let i = 0; i < length; i++) {\n    if (!set.has(list2[i].id)) {\n      filterList2.push(list2[i]);\n    }\n  }\n  return list1.concat(filterList2);\n}\n\n"
+    }
+  ]
+}

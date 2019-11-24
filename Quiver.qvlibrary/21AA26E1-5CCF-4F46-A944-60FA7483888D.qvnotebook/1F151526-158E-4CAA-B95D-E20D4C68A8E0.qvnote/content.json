@@ -1,0 +1,9 @@
+{
+  "title": "自定义task",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><div>tasks.register(\"hello\") {</div><div>&nbsp; &nbsp; doLast {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; println 'Hello, World!'</div><div>&nbsp; &nbsp; }</div><div>}</div><div><br></div></div><div><br></div>"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "supervisor 开启    和      守护具体进程和关闭",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "supervisord -c ./supervisor.conf\n\n区别还蛮大的\n\nsupervisorctl -c supervisor.conf start inspiration\n\nsupervisorctl -c ./supervisor.conf stop all\n"
+    }
+  ]
+}

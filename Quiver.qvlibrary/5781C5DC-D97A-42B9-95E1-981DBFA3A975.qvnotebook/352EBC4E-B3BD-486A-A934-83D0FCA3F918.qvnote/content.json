@@ -1,0 +1,9 @@
+{
+  "title": "flex 遗漏",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><p style=\"border: 0px; margin: 0px; padding: 0px; line-height: 2em; overflow-wrap: break-word; word-break: break-all; font-size: 14px; font-family: &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif; color: rgb(51, 51, 51); font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);\">如果一个项目的flex-shrink属性为0，其他项目都为1，则空间不足时，前者不缩小。</p></div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

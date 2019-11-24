@@ -1,0 +1,15 @@
+{
+  "title": "SQLAlcheymy 查询语法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nfrom use_SQLAlchemy import db      导入数据库操作\nfrom use_SQLAlchemy import Member  倒入表格操作\n\ndb.create_all()                     开始    \n\n\n\n"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "好像在哪里见过你\nlike_query = Member.query.filter(Member.username.like('%fen%')).all()\n\n在或不在\ninit = Member.query.filter(Member.username.in_(['zhuliminl','haofeng'])).all()\nnotinit = Member.query.filter(~Member.username.in_(['zhuliminl','haofeng'])).all()\n\nNull 值\nfoo = Member.query.filter(Member.join_date == None).all()\n\nand 操作1  oi\nwhat_and = Member.query.filter(Member.username == 'zhuliminl')\n                    .filter(Member.password == 'wuther').first()\n                    \nand 操作2\nwhat_and1 = Member.query.filter(Member.username == 'zhuliminl', \n                                Member.password == 'wuther').all()\n                                \nand 最后一种方法\nwhat_and2 = Member.query.filter(db.and_(Member.username=='zhuliminl',\n                                        Member.password=='wuther')).all()\nor 操作\nwhat_or = Member.query.filter(db.or_(Member.username == 'zhuliminl',\n                                    Member.username == 'haofeng')).all()\n\norder 排序查看\nMember.query.order_by(Member.username)\n\nlimit \nMember.query.limit(2).all()\n                                    \n跳过 offset \nMember.query.offset(2).all()\n                             \n综合使用 \nMember.query.offset(3).limit(1).all()\n             \n统计\nMember.query.filter(db.or_(Member.username == 'zhuliminl',Member.username == 'saul')).count()\n\n相等性\ninequality = Member.query.filter(Member.id > 3).all()\n\n\n\n\n\n"
+    }
+  ]
+}

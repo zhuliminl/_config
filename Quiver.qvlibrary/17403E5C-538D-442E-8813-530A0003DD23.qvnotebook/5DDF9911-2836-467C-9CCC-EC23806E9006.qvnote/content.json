@@ -1,0 +1,10 @@
+{
+  "title": "sequelize  一对多关系",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\n两行等效\n// Post.belongsTo(User, { foreignKey: 'author' });\nUser.hasMany(Post, { foreignKey: 'author' }, as: 'articles')\n\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "react-native 开发初始化",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>react-native run-ios 启动本地模拟</div><div>react-native start 启动本地 server &nbsp;监听</div><div><br></div><div><br></div><div><br></div><div>class RCTCxxModule wos not wxported.Did you forget to use<br></div><div><br></div>"
+    }
+  ]
+}

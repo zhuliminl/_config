@@ -1,0 +1,10 @@
+{
+  "title": "Mysql 漂亮滴输入",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n pager less -SFX;\n\n 设置好之后只需要移动方向键，就可以查看右边的数据了"
+    }
+  ]
+}

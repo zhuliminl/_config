@@ -1,0 +1,10 @@
+{
+  "title": "不修改历史便签",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "git reset --hard"
+    }
+  ]
+}

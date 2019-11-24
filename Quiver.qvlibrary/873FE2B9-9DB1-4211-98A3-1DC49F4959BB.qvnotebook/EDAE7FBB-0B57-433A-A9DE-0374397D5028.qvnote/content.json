@@ -1,0 +1,10 @@
+{
+  "title": "最后10行系统日志",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ndmesg | tail\n"
+    }
+  ]
+}

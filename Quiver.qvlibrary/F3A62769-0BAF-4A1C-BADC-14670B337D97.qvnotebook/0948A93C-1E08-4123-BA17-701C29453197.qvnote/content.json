@@ -1,0 +1,10 @@
+{
+  "title": "发布订阅",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n// 发布和订阅\nvar events = {\n\tevents : {}, // 首先创建一个对象用来存放。\n\t// 绑定事件\n\tready: function(eName, fn) { // 参数： 事件名， 执行函数\n\t\tthis.events[eName] = this.events[eName] || [];\n\t\tthis.events[eName].push(fn);\n\t},\n\t// 取消事件\n\tcancel: function(eName, fn) {\n\t\tif(this.events[eName]) {\n\t\t\tfor (var i = 0; i < this.events[eName].length; i++) {\n\t\t\t\tif(this.events[eName][i] === fn) { // 如果找到符合 fn 的事件\n\t\t\t\t\tthis.events[eName].splice(i, 1); // 那就删除并退出\n\t\t\t\t\tconsole.log('Event is gone!!!') // 事件没了哈哈\n\t\t\t\t\tbreak;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t},\n\t// 启动事件\n\tgo: function(eName, data) { // 参数： 事件名， 执行函数的参数——也就是说绑定事件里的执行函数会在这里配上参数来执行\n\t\tthis.events[eName].forEach(function(fn) {\n\t\t\tfn(data);\n\t\t})\n\n\t}\n};"
+    }
+  ]
+}

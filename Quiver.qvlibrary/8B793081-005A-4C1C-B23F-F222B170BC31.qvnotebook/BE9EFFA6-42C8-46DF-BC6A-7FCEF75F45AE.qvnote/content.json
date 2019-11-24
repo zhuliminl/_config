@@ -1,0 +1,10 @@
+{
+  "title": "显示 table 的基础信息 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "show columns from users;\n或者\n\ndesc users;"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "fetch 请求  JSON  数据的原始用法(最简版本）",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nfetch('http://127.0.0.1:5003/hello').then((res) => {\n\tres.json().then((data) => {\n\t\tconsole.log(data)\n})\n})\n\n如果是传统的  ajax;\n\nlet xhttp = new XMLHttpRequest();\nxhttp.onreadystatechange = function() {\n\tconsole.log(this.responseText)\n}\nxhttp.open('GET', 'API', true);\nxhttp.send()"
+    }
+  ]
+}

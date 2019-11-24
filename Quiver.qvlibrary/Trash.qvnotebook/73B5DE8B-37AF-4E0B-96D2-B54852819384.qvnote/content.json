@@ -1,0 +1,10 @@
+{
+  "title": "查找文件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "find . -name 'tw*'"
+    }
+  ]
+}

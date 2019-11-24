@@ -1,0 +1,10 @@
+{
+  "title": "表格的方法和动作",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n<form class=\"form-horizontal\" method=\"POST\" action=\"{{ url_for('form')}}\">\n\n\n\n\n\n\n"
+    }
+  ]
+}

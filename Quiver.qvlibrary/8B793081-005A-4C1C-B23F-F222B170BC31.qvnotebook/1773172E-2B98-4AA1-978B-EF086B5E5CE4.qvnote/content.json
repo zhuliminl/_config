@@ -1,0 +1,10 @@
+{
+  "title": "SQL 获取用户积分排名",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sql",
+      "data": "\n    const sqlOfGetPointsRank =\n      `SELECT id, points, nickname, FIND_IN_SET( points, (\n      SELECT GROUP_CONCAT( points\n      ORDER BY points DESC )\n      FROM user )\n      ) AS rank\n      FROM user\n      ORDER BY rank\n      LIMIT 10`\n\n\n"
+    }
+  ]
+}

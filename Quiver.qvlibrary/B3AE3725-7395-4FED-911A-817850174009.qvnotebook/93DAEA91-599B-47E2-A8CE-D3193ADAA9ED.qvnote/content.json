@@ -1,0 +1,10 @@
+{
+  "title": "nginx  配置目录",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n/usr/local/nginx\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "vscode react 格式问题",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><div>&nbsp; &nbsp; \"vim.otherModesKeyBindingsNonRecursive\": [</div><div>&nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"before\": [\"&lt;space&gt;\"],</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"after\": [\"*\"]</div><div>&nbsp; &nbsp; &nbsp; &nbsp; },</div><div>&nbsp; &nbsp; &nbsp; &nbsp; {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"before\": [\"n\"],</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \"after\": [\"N\"]</div><div>&nbsp; &nbsp; &nbsp; &nbsp; }</div><div>&nbsp; &nbsp; ],</div></div><div><br></div>"
+    }
+  ]
+}

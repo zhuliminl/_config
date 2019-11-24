@@ -1,0 +1,10 @@
+{
+  "title": "request 来获取 json 信息",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nrequest.get_json()\n"
+    }
+  ]
+}

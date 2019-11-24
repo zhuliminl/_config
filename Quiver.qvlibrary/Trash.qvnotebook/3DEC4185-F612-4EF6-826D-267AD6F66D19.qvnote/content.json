@@ -1,0 +1,10 @@
+{
+  "title": "时间封装",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nexport const formatDateString = (timestamp) => {\n  if (timestamp === undefined) {\n    return '';\n  }\n  const date = new Date(parseInt(timestamp) * 1000);\n  const year = date.getFullYear();\n  const month = parseInt(date.getMonth()) + 1;\n  const day = date.getDate();\n  return `${year}-${month}-${day}`;\n};\n\nexport const formatStringWithHtml = (originString) => {\n  if (originString === undefined) {\n    return '';\n  }\n  const newString = originString\n    .replace(/&nbsp;/g, ' ')\n    .replace(/&quot;/g, '\"')\n    .replace(/&amp;/g, '&')\n    .replace(/&lt;/g, '<')\n    .replace(/&gt;/g, '>');\n  return newString;\n};\n\n\n\n\nexport default function computeTime(time) { // time format 2016-11-11T18:56:33.904Z\n    var datePart = time.substring(0, 10).replace(/\\-/g, \"/\");;\n    var timePart = time.substring(11, 19);\n    //console.log(datePart + ' ' + timePart);\n    var oldTime = (new Date(datePart + ' ' + timePart)).getTime();\n    var currTime = new Date().getTime();\n    var diffValue = currTime - oldTime;\n\n    var days = Math.floor(diffValue/(24*3600*1000));\n    if(days === 0){\n        //计算相差小时数\n        var leave1 = diffValue%(24*3600*1000); //计算天数后剩余的毫秒数\n        var hours = Math.floor(leave1/(3600*1000));\n        if(hours === 0) {\n            //计算相差分钟数\n            var leave2 = leave1 % (3600 * 1000);  //计算小时数后剩余的毫秒数\n            var minutes = Math.floor(leave2 / (60 * 1000));\n            if(minutes === 0) {\n                //计算相差秒数\n                var leave3 = leave2 % (60 * 1000);   //计算分钟数后剩余的毫秒数\n                var seconds = Math.round(leave3 / 1000);\n                return seconds+'秒前';\n            }\n            return minutes+'分钟前';\n        }\n        return hours+'小时前';\n    }\n\n    return days+'天前';\n}\n\n\n"
+    }
+  ]
+}

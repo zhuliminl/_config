@@ -1,0 +1,10 @@
+{
+  "title": "同时添加数据到关系模型中",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst Product = this.sequelize.define('product', {\n  title: Sequelize.STRING\n});\nconst User = this.sequelize.define('user', {\n  first_name: Sequelize.STRING,\n  last_name: Sequelize.STRING\n});\nconst Address = this.sequelize.define('address', {\n  type: Sequelize.STRING,\n  line_1: Sequelize.STRING,\n  line_2: Sequelize.STRING,\n  city: Sequelize.STRING,\n  state: Sequelize.STRING,\n  zip: Sequelize.STRING,\n});\n\nProduct.User = Product.belongsTo(User);\nUser.Addresses = User.hasMany(Address);\n\n\n\nreturn Product.create({\n  title: 'Chair',\n  user: {\n    first_name: 'Mick',\n    last_name: 'Broadstone',\n    addresses: [{\n      type: 'home',\n      line_1: '100 Main St.',\n      city: 'Austin',\n      state: 'TX',\n      zip: '78704'\n    }]\n  }\n}, {\n  include: [{\n    association: Product.User,\n    include: [ User.Addresses ]\n  }]\n});\n"
+    }
+  ]
+}

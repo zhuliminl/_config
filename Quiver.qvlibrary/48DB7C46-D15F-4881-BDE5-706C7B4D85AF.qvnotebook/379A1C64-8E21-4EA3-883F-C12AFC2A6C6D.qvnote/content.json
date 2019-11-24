@@ -1,0 +1,10 @@
+{
+  "title": "java 查看传入的参数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "java",
+      "data": "\nfor (String str: args) {\n    System.out.println(str);\n}\n"
+    }
+  ]
+}

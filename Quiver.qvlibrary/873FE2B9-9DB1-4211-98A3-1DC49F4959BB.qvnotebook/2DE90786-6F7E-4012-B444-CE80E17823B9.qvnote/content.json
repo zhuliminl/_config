@@ -1,0 +1,10 @@
+{
+  "title": "查看某个端口情况",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nlsof -i:8000\n"
+    }
+  ]
+}

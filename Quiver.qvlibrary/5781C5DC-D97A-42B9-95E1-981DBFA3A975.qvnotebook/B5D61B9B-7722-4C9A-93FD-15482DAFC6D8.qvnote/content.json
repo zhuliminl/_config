@@ -1,0 +1,10 @@
+{
+  "title": "一套齐全的自适应图片排版",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "    * {\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t\tbox-sizing: border-box; 指定盒子模型。很重要！！！\n\t\t}\n\t\timg {\n\t\t\tmax-width: 100%;\n\t\t}\n\t\t#photo-viewer {\n\t\t\tposition: relative;\n\t\t\theight: auto;\n\t\t\tmin-width: calc(100% - 60px);\n\t\t\tmargin: 5px 30px;\n\t\t\tbackground-color: #eee;\n\t\t\toverflow: hidden;\n\t\t}\n\t\t#photo-viewer img {\n\t\t\tmin-width: 100%; 全屏大背景\n\t\t}\n\t\t#photo-viewer.is-loading:after {\n\t\t\tposition: absolute;\n\t\t\tcontent: ' ';\n\t\t\theight: 80px;\n\t\t\twidth: 80px;\n\t\t\ttop: 50%;\n\t\t\tleft: 50%;\n\t\t\ttransform: translate3d(-50%, -50%, 0px); 居中简写\n\t\t\tbackground-image: url(img/loading.gif); \n\t\t\tbackground-repeat: no-repeat;\n\t\t\tbackground-size: 80px;\n\t\t\tz-index: 100;\n\n\t\t}\n\t\t#thumbnails {\n\t\t\tposition: relative;\n\t\t\tpadding: 0px 20px;\n\t\t\toverflow: hidden; 简单的清除浮动\n\t\t}\n\t\t#thumbnails a {\n\t\t\tfloat: left;\n\t\t\tpadding: 10px;\n\t\t\twidth: 20%;\t\n\t\t}"
+    }
+  ]
+}

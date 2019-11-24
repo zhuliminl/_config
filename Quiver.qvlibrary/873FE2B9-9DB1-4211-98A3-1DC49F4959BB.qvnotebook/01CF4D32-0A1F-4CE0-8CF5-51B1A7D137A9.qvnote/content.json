@@ -1,0 +1,9 @@
+{
+  "title": "查找大文件",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>find . -type f -size +800M<br></div><div><br></div>"
+    }
+  ]
+}

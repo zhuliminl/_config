@@ -1,0 +1,10 @@
+{
+  "title": "SQLAlchemy 数据库接入方式",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n# 备选数据库接入方式\n# SQLALCHEMY_DATABASE_URI='sqlite:////Users/xiaoshitou/Zhuliminl/DATABASE/for_SQLAlchemy'\n# SQLALCHEMY_DATABASE_URI='mysql://root:wuther66@localhost/for_SQLAlchemy'\n\n\napp.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:wuther@localhost:3306/flask'\n\n\n\n"
+    }
+  ]
+}

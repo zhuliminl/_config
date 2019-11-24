@@ -1,0 +1,10 @@
+{
+  "title": "代码改动监听三种方式 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nwebpack 中有几个不同的选项，可以帮助你在代码发生变化后自动编译代码：\n\nwebpack's Watch Mode          * 观察者模式 :浏览器需要手动更新，且终端不能退出 \nwebpack-dev-server            * 服务器模式 :支持实时刷新\nwebpack-dev-middleware        * 中间件模式 :\n"
+    }
+  ]
+}

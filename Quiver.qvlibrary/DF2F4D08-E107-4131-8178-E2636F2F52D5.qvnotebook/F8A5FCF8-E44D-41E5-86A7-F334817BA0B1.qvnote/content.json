@@ -1,0 +1,10 @@
+{
+  "title": "gunicorn 启动",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n gunicorn -w4 -b0.0.0.0:8000 manage:app \n\n"
+    }
+  ]
+}

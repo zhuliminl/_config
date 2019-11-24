@@ -1,0 +1,10 @@
+{
+  "title": "打包文件和解压文件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ntar -cvf test1.tar test1 \n\ntar -xvf test1.tar "
+    }
+  ]
+}

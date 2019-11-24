@@ -1,0 +1,9 @@
+{
+  "title": "paterson.json 备份",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><div>{</div><div>&nbsp; \"name\": \"yi\",</div><div>&nbsp; \"version\": \"0.0.1\",</div><div>&nbsp; \"private\": true,</div><div>&nbsp; \"scripts\": {</div><div>&nbsp; &nbsp; \"start\": \"node node_modules/react-native/local-cli/cli.js start\",</div><div>&nbsp; &nbsp; \"test\": \"jest\"</div><div>&nbsp; },</div><div>&nbsp; \"dependencies\": {</div><div>&nbsp; &nbsp; \"antd-mobile\": \"^2.1.8\",</div><div>&nbsp; &nbsp; \"react\": \"16.3.1\",</div><div>&nbsp; &nbsp; \"react-dom\": \"^16.3.2\",</div><div>&nbsp; &nbsp; \"react-native\": \"0.55.3\",</div><div>&nbsp; &nbsp; \"react-native-scrollable-tab-view\": \"^0.8.0\",</div><div>&nbsp; &nbsp; \"react-native-vector-icons\": \"^4.6.0\",</div><div>&nbsp; &nbsp; \"react-navigation\": \"^1.5.11\",</div><div>&nbsp; &nbsp; \"react-redux\": \"^5.0.7\",</div><div>&nbsp; &nbsp; \"redux\": \"^4.0.0\",</div><div>&nbsp; &nbsp; \"redux-devtools-extension\": \"^2.13.2\",</div><div>&nbsp; &nbsp; \"redux-logger\": \"^3.0.6\",</div><div>&nbsp; &nbsp; \"redux-persist\": \"^5.9.1\",</div><div>&nbsp; &nbsp; \"redux-thunk\": \"^2.2.0\"</div><div>&nbsp; },</div><div>&nbsp; \"devDependencies\": {</div><div>&nbsp; &nbsp; \"babel-jest\": \"22.4.3\",</div><div>&nbsp; &nbsp; \"babel-preset-react-native\": \"4.0.0\",</div><div>&nbsp; &nbsp; \"jest\": \"22.4.3\",</div><div>&nbsp; &nbsp; \"react-test-renderer\": \"16.3.1\",</div><div>&nbsp; &nbsp; \"remote-redux-devtools\": \"^0.5.12\",</div><div>&nbsp; &nbsp; \"remotedev-rn-debugger\": \"^0.8.3\"</div><div>&nbsp; },</div><div>&nbsp; \"jest\": {</div><div>&nbsp; &nbsp; \"preset\": \"react-native\"</div><div>&nbsp; },</div><div>&nbsp; \"rnpm\": {</div><div>&nbsp; &nbsp; \"assets\": [</div><div>&nbsp; &nbsp; &nbsp; \"./src/assets/fonts\"</div><div>&nbsp; &nbsp; ]</div><div>&nbsp; }</div><div>}</div></div><div><br></div><div><br></div>"
+    }
+  ]
+}

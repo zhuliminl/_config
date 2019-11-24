@@ -1,0 +1,10 @@
+{
+  "title": "Ramda  示例",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst fasterCar = R.compose(\n    R.flip(R.concat)(' is fastest'),\n    R.prop('name'),\n    R.head,\n    R.sortBy(R.prop('horsepower'))\n)\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+snippet saul
+/*
+ * Created by Saul at ${1:`date +%Y/%m/%d`}
+ *
+ * $2
+ *
+ */
+
+endsnippet
+
+snippet co "格式不错的注释"
+/**
+ * $1
+ * */
+
+endsnippet
+
+snippet im     "引入组件"
+import $1 from '$2';
+endsnippet
+
+snippet imre      "引入 react"
+import React from 'react';
+endsnippet
+
+snippet imLink      "引入 react Link"
+import {Link} from 'react-router-dom';
+endsnippet
+
+snippet re      "react 组件初始化"
+class $1 extends React.Component {
+	$2
+	render() {
+		return(
+			<div>
+				$3
+			</div>
+		)
+	}
+}
+
+export default $1;
+endsnippet
+
+snippet ret    "return div"
+return (
+	<div>
+		$1
+	</div>
+)
+endsnippet
+
+
+snippet dum "本组件"
+const $1 = ($2) => (
+	<div>
+		$3
+	</div>
+);
+
+endsnippet
+
+
+snippet conp     "构造函数"
+constructor(props) {
+	super(props);
+	$1
+}
+endsnippet
+
+
+snippet con    "构造函数"
+constructor() {
+	super();
+	$1
+}
+endsnippet
+
+
+snippet t    "标签"
+<$1>
+	$2
+</$1>
+endsnippet
+
+snippet div    "div"
+<div>
+	$1
+</div>
+endsnippet
+
+snippet st    "style"
+style={{
+	$1
+}}
+endsnippet
+
+snippet img   "图片标签"
+<img
+	style={{
+		width: "100%",
+	}}
+	alt=""
+	src={$1}
+/>
+endsnippet
+
+
+snippet para  "函数注释"
+/*
+ * $1
+ *
+ * @param $2
+ * @param $3
+ * @return $4
+ */
+endsnippet
+
+
+snippet ,re  "react 注释"
+{/* $1 */}
+endsnippet
+
+
+snippet l  "打印"
+console.log('=====>>>>>${1: foo}', $2);
+endsnippet
+
+snippet lg  "打印"
+logger.error('$1', err)
+endsnippet
+
+snippet lp  "打印组件的 props"
+console.log('===========>> propsOf $1', this.props)
+endsnippet
+
+snippet ca  "断言"
+console.assert($1, $2);
+endsnippet
+
+snippet ex  "express 快速返回"
+return res.json({result: '$1',})
+endsnippet
+
+
+snippet todo
+/*
+ * TODO: $1
+ *
+ * $2
+ */
+
+endsnippet
+
+
+snippet if
+if($1) {
+	$2
+}
+endsnippet
+
+snippet switch
+switch($1) {
+	case $2:
+		$3
+		break;
+	default:
+		$4
+		break;
+}
+endsnippet
+
+
+snippet cmd
+componentDidMount() {
+	$1
+}
+endsnippet
+
+
+snippet h3
+<h3>$1</h3>
+endsnippet
+
+snippet rns
+const styles = StyleSheet.create({
+});
+endsnippet
+
+snippet rnt
+<View>
+	<Text>
+		$1
+	</Text>
+</View>
+endsnippet

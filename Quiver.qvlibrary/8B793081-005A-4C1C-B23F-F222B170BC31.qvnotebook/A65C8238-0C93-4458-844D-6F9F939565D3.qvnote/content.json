@@ -1,0 +1,10 @@
+{
+  "title": "SQL 聚合查询",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": " \n count 函数不会记录 null 的情况\n select count(title) count(name) from item;\n \n和查询会自动转换字符串到数字\nselect sum(current_price), sum(old_price) from item;\n\navg 不会计算null 在内\n\n过滤重复的行，得到一个统计数\nselect count(distinct reduce) from coupon;\n\n\ngroup 是切分表的一把刀，注意使用聚合函数时候，select的子句中，只能存在 \n\n常数、\n聚合函数和\n指定列名\n\n使用 GROUP BY 子句时， SELECT 子句中不能出现聚合键之外的列名。 \nGROUP by 特点！！！！！不能使用 select 列中的别名！！！\n\n\n\n聚合查询的筛选对应  having  语句，聚合条件应该写在 where 中\n\n聚合查询函数 - count，sum， avg， max，min\n\norder by xx desc/asc;\n\n\nset 多列对称的\n\n\n理解事务：原子性(要么改了，要么没改）、一致性、隔离性（事务不会嵌套）、持久性\n\n\n\n"
+    }
+  ]
+}

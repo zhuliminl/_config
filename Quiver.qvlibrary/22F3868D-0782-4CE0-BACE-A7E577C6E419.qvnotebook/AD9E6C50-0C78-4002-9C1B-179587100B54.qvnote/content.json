@@ -1,0 +1,10 @@
+{
+  "title": "AOP 装饰函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nFunction.prototype.before = function(beforefn) {\n    let __self = this;\n    return function() {\n        beforefn.apply(this, arguments)\n        return __self.apply(this, arguments)\n    }\n}\n\nlet foo = function() {\n    console.log('本来是我先执行')\n};\n\nlet bar = function() {\n    console.log('但是我想先执行诶')\n}\n\n// foo()\n// bar()\n\nconsole.log('当我们用上 APO 切面')\n\nfoo = foo.before(bar);\n\nfoo()\n\n"
+    }
+  ]
+}

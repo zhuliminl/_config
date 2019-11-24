@@ -1,0 +1,10 @@
+{
+  "title": "如何推送到远端",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\ncd test   #跳到要提交的目录下\ngit init  #初始化git\ngit add . #将所有文件加入到索引\ngit commit #提交到HEAD\ngit remote add origin <server> #增加到remote\ngit push origin master #推送过去! DONE\n\n"
+    }
+  ]
+}

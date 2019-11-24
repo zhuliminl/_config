@@ -1,0 +1,10 @@
+{
+  "title": "移动端第一招",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n<meta name=\"viewport\" content=\"width=device-width\" />\n"
+    }
+  ]
+}

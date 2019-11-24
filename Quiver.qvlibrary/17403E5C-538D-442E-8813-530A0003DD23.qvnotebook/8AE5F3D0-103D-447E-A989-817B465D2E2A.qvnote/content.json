@@ -1,0 +1,10 @@
+{
+  "title": "Squelize 建模钩子",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "    'location': {\n        type: Sequelize.TEXT,\n        defaultValue: 'YaoLuoPing'\n    }\n}, {\n    timestamps: false,\n    hooks: {\n        beforeValidate: function(user) {\n            user.password = bcrypt.hashSync(user.password, 8);\n        }\n    }\n});\n"
+    }
+  ]
+}

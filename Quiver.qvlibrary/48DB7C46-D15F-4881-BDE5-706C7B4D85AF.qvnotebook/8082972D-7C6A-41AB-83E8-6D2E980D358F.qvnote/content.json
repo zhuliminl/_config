@@ -1,0 +1,10 @@
+{
+  "title": "java 中的强制类型装换",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n (int)(Math.random()*100 +1)\n"
+    }
+  ]
+}

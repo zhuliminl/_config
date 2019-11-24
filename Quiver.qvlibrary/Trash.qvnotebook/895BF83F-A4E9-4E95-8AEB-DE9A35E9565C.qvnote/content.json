@@ -1,0 +1,10 @@
+{
+  "title": "ss 配置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n{\n  \"server\":\"167.114.219.246\",\n  \"port_password\":{\n       \"8381\":\"wuther\",\n       \"8382\":\"wuther\",\n       \"8383\":\"wuther\"\n  },\n  \"timeout\":300,\n  \"method\":\"aes-256-cfb\"\n}"
+    }
+  ]
+}

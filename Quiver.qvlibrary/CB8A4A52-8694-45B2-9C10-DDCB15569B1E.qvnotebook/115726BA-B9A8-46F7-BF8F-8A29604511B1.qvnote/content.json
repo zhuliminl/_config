@@ -1,0 +1,10 @@
+{
+  "title": "三分钟搞懂指针",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\n/* hello.cpp */\n#include <iostream>\n#include \"foo.cpp\"\nusing namespace std;\n\n\nint addOne(int *foo)\n{\n    cout << foo << endl;  // 此时 foo 是引用地址 0x7ffee3e2a49c ，是个地址名称而已，不能参与运算\n    cout << *foo << endl;  // 而加* 代表着解析出值，代表实体，可以参与运算\n    *foo += 1;\n    return *foo;\n}\n\nint main(void) \n{\n\n    int a = 10;\n    int b = addOne(&a);   // & 算是声明了只返回地址0x7ffee3e2a49c，而不是具体的值 \n    cout << a << endl;    // a 和 b 都为 11，因为始终都是在同一个地址上操作\n    cout << b;\n}\n\n\n\n&foo 代表着传引用地址\n\n*foo 意味着解析指针的值\n\n\n\n\n"
+    }
+  ]
+}

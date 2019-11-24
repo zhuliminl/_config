@@ -1,0 +1,10 @@
+{
+  "title": "多个 Modal 的叠加渲染，选取什么数据结构能解决问题",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n将 state 对象设计成一个对象\n\nstate = {\n  crrentMdoal: { \n    \n    index: '',\n    isShow: !this.state.currentModal.isShow,\n    \n    }\n  }\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "居中之 绝对定位的居中方法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\n.ele { \n  position: absolute; \n  width: 50px; \n  height: 50px; \n  transform: translate3d(-50%, -50%, 0); \n  top: 50%; left: 50%; \n  background: green; \n}\n"
+    }
+  ]
+}

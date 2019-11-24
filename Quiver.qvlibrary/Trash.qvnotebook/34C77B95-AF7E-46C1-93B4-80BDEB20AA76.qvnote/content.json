@@ -1,0 +1,10 @@
+{
+  "title": "网易云信测试",
+  "cells": [
+    {
+      "type": "code",
+      "language": "java",
+      "data": "import java.security.MessageDigest;\nimport java.util.Date;\n\npublic class Main {\n    public static String getCheckSum(String appSecret, String nonce, String curTime) {\n        return encode(\"sha1\", appSecret + nonce + curTime);\n    }\n\n    // 计算并获取md5值\n    public static String getMD5(String requestBody) {\n        return encode(\"md5\", requestBody);\n    }\n\n    private static String encode(String algorithm, String value) {\n        if (value == null) {\n            return null;\n        }\n        try {\n            MessageDigest messageDigest\n                    = MessageDigest.getInstance(algorithm);\n            messageDigest.update(value.getBytes());\n            return getFormattedText(messageDigest.digest());\n        } catch (Exception e) {\n            throw new RuntimeException(e);\n        }\n    }\n    private static String getFormattedText(byte[] bytes) {\n        int len = bytes.length;\n        StringBuilder buf = new StringBuilder(len * 2);\n        for (int j = 0; j < len; j++) {\n            buf.append(HEX_DIGITS[(bytes[j] >> 4) & 0x0f]);\n            buf.append(HEX_DIGITS[bytes[j] & 0x0f]);\n        }\n        return buf.toString();\n    }\n    private static final char[] HEX_DIGITS = { '0', '1', '2', '3', '4', '5',\n            '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };\n\n    public static void main(String[] args) {\n        int N = Integer.parseInt(args[0]);\n        double lo = Double.parseDouble(args[1]);\n        double hi = Double.parseDouble(args[2]);\n        String curTime = String.valueOf((new Date()).getTime() / 1000L);\n\n        String foo = getCheckSum(\"64da14258e3d\", \"123456\", curTime);\n        System.out.println(curTime);\n        System.out.println(foo);\n    }\n}\n\n"
+    }
+  ]
+}

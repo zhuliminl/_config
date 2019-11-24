@@ -1,0 +1,10 @@
+{
+  "title": "java 去重",
+  "cells": [
+    {
+      "type": "code",
+      "language": "java",
+      "data": "\nList<String> listAll = Arrays.asList(\"A\", \"A\", \"B\", \"C\", \"D\", \"D\");\nList<String> foo = listAll.stream().distinct().collect(Collectors.toList());\n"
+    }
+  ]
+}

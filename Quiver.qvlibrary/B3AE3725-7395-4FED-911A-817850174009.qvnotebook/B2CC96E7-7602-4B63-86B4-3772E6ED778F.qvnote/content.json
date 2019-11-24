@@ -1,0 +1,9 @@
+{
+  "title": "git 库中转",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><div>tar -cvf test1.tar test1&nbsp;</div><div><br></div><div>tar -xvf test1.tar&nbsp;</div></div><div><br></div><div>&nbsp;scp -P 26465 &nbsp;root@67.218.136.187:/root/music/music.tar music.tar &nbsp;&nbsp;<br></div><div><br></div>"
+    }
+  ]
+}

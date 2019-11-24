@@ -1,0 +1,10 @@
+{
+  "title": "显示所有的触发器 和 删除触发器",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nSELECT * FROM INFORMATION_SCHEMA.TRIGGERS\nshow triggers\\G;\n\ndrop trigger xxx;\n"
+    }
+  ]
+}

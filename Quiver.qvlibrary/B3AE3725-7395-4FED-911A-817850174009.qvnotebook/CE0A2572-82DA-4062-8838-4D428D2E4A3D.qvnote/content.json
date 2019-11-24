@@ -1,0 +1,10 @@
+{
+  "title": "云盘账号",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "---------------------------------\nThis is your configuration\n---------------------------------\n\n    server name:            mycloud\n    server ip/domain:       107.181.155.152\n\n    seafile data dir:       /root/xiaoshitou/seafile-data\n    fileserver port:        8082\n\n    database:               create new\n    ccnet database:         ccnet-db\n    seafile database:       seafile-db\n    seahub database:        seahub-db\n    database user:          seafile\n    "
+    }
+  ]
+}

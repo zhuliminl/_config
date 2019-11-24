@@ -1,0 +1,10 @@
+{
+  "title": "游戏循环",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ndo {\n  // 游戏循环，总会执行一次\n  \n} while(true);"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "ubuntu 源位置",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><pre style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; position: relative; overflow-x: auto; padding: 0px; font-size: 14px; line-height: 22.4px; background-color: rgb(245, 245, 245); color: rgb(77, 77, 76); font-family: Consolas, Monaco, courier, monospace; font-variant-ligatures: normal; orphans: 2; widows: 2; background-position: initial initial; background-repeat: initial initial;\"><span class=\"line\" style=\"box-sizing: border-box; height: 22.4px; line-height: 22.4px;\">/etc/apt/sources.list</span></pre><pre style=\"box-sizing: border-box; margin-top: 0px; margin-bottom: 0px; position: relative; overflow-x: auto; padding: 0px; font-size: 14px; line-height: 22.4px; background-color: rgb(245, 245, 245); color: rgb(77, 77, 76); font-family: Consolas, Monaco, courier, monospace; font-variant-ligatures: normal; orphans: 2; widows: 2; background-position: initial initial; background-repeat: initial initial;\"><span class=\"line\" style=\"box-sizing: border-box; height: 22.4px; line-height: 22.4px;\"><br></span></pre></div>"
+    }
+  ]
+}

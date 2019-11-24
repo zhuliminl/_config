@@ -1,0 +1,10 @@
+{
+  "title": "虚方法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "c_cpp",
+      "data": "\n#include <iostream>\n#include <string>\n\nusing namespace std;\n\nclass PrintAble\n{\npublic:\n    virtual std::string GetClassName() = 0;\n};\n\nclass Entity: public PrintAble\n{\npublic:\n    virtual std::string GetName() = 0;\n    std::string GetClassName() override { return \"entity\"; }\n};\n\nclass Player: public Entity\n{\nprivate:\n    std::string m_Name;\npublic:\n    Player(const std::string& name): m_Name(name) {}\n    std::string GetName() override { return m_Name; }\n\n};\n\n\nvoid PrintName(Entity* entity)\n{\n    cout << entity->GetName() << endl;\n\n}\n\n\nvoid Print(PrintAble* obj)\n{\n    cout << obj-> GetClassName() << endl;\n}\n\nint main(void)\n{\n\n    Entity* e = new Player(\"jemo\");\n\n    Player* saul = new Player(\"Saul\");\n\n    Entity* entity = saul;\n\n}\n\n"
+    }
+  ]
+}

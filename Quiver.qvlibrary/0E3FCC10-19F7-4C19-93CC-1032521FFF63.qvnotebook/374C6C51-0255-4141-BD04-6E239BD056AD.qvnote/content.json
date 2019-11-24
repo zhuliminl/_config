@@ -1,0 +1,10 @@
+{
+  "title": "开启一个 socket ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ns = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n"
+    }
+  ]
+}

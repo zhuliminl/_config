@@ -1,0 +1,9 @@
+{
+  "title": "Focus mode",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>spc w C</div><div><br></div><div>&lt;c-x&gt; n s 进入</div><div>&lt;c-x&lt; n w 退回</div><div><br></div><div>1 [x] 空格中括号， &lt;x-c&gt; &lt;x-c&gt;</div>"
+    }
+  ]
+}

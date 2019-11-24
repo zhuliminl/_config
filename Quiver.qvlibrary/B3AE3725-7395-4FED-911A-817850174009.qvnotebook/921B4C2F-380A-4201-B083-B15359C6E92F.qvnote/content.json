@@ -1,0 +1,10 @@
+{
+  "title": "一键测试",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nwget -qO- bench.sh | bash\n"
+    }
+  ]
+}

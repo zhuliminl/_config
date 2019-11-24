@@ -1,0 +1,10 @@
+{
+  "title": "XDR 的 错误处理和  timeout",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nvar xdr = new XDomainRequest();\nxdr.onload = function() { alert(xdr.responseText) };\nxdr.onerror = function() { alert('error') };\n\nxdr.timeout = 1000;\nxdr.ontimeout = function() { alert('too long') };\n\nxdr.open('get', 'API');\nxdr.contentType = 'application/json';\nxdr.send(null);\n"
+    }
+  ]
+}

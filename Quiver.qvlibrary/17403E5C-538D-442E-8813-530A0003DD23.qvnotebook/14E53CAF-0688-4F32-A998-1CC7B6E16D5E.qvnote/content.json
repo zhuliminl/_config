@@ -1,0 +1,10 @@
+{
+  "title": "sequelize  实现自引用",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nUser.belongsToMany(User, { as: 'follower', through: 'Follows', foreignKey: 'follower_id' })\nUser.belongsToMany(User, { as: 'followed', through: 'Follows', foreignKey: 'followed_id' })\n\n\n注意 Follows 这个表不用自己建"
+    }
+  ]
+}

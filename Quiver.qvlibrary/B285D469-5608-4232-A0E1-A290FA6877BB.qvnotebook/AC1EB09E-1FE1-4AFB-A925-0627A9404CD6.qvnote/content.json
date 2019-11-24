@@ -1,0 +1,10 @@
+{
+  "title": "生成  ctags 文件 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nctags -R .\n"
+    }
+  ]
+}

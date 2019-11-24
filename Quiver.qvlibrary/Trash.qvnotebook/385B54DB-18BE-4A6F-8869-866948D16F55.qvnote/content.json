@@ -1,0 +1,10 @@
+{
+  "title": "图片超出板式处理",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n          {/* 总包裹 */}\n          <View style={{ flexDirection: 'row' }}>\n            {/* 左边空隙, 上空下白 */}\n            <View style={{ }}>\n              <View style={{ height: 20, width: 20}}>\n              </View>\n              <View style={{ height: 100, width: 20, backgroundColor: 'white' }}>\n              </View>\n            </View>\n            {/* 图片容器，上透明，下图片 */}\n            <View style={{ height: 120, width: 120,  }}>\n              <View style={{ height: 20, width: 120}}>\n              </View>\n              <Image style={{ height: 120, width: 120, position: 'relative', top: -20, borderRadius: 5 }} source={require('../../../../assets/image/banner/banner1.png')}/>\n            </View>\n            {/* 左边空隙，上透明，下信息 */}\n            <View style={{ height: 120, flex: 1}}>\n              <View style={{ height: 20, width: 220, opacity: 0.7 }}>\n              </View>\n              <View style={{ height:100, width: 220, backgroundColor: 'white',  }}>\n              </View>\n            </View>\n          </View>\n\n\n"
+    }
+  ]
+}

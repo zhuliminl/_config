@@ -1,0 +1,10 @@
+{
+  "title": "删除",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "delete from users where username = 'haofeng';"
+    }
+  ]
+}

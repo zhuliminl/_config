@@ -1,0 +1,10 @@
+{
+  "title": "clean code",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n#1: You're responsible for code quality.\n#2: Use meaningful names.\n#3: Write code that expresses intent.\n#4: Code should speak for itself. Less comments = less maintenance.\n#5: Leave the code better than you found it.\n#6: Single-responsibility code. \ni.e function does 1 thing well. Less arguments = better function.\nclasses: most methods use most of the class' properties.\n\nDoes one thing, does well, and does only\n\n#7: Tests (TDD).\n#8: Work on big picture skeleton, then fill in the details later \n\n(interface first, implementation later).\n\n\n#9: Independent components that can be used in different places.\n#10: Master your craft.\n\n"
+    }
+  ]
+}

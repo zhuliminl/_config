@@ -1,0 +1,10 @@
+{
+  "title": "数组领悟",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "print(sorted.([v,k for k,v in list.items()]), resverse = True )"
+    }
+  ]
+}

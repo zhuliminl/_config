@@ -1,0 +1,10 @@
+{
+  "title": "查看端口号",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nshow variables like 'port'"
+    }
+  ]
+}

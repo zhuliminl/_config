@@ -1,0 +1,10 @@
+{
+  "title": "非 redux 的 http 请求动作如何合理发起",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "import View from './View';\nimport loadData from './loadData';\n\nexport default class extends Component {\n  state = {};\n  load = this.load.bind(this);\n  async load(...args) {\n    try {\n      this.setState({ loading: true, error: false });\n      const data = await loadData(...args);\n      this.setState({ loading: false, data });\n    } catch (ex) {\n      this.setState({ loading: false, error: true });\n    }\n  }\n  render() {\n    return (\n      <View {...this.props} {...this.state} onLoad={this.load} />\n    );\n  }\n}\n\n"
+    }
+  ]
+}

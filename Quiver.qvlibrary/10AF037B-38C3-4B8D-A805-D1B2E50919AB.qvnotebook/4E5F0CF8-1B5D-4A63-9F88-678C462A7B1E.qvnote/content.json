@@ -1,0 +1,15 @@
+{
+  "title": "验证网址",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "(?:https?:\\/\\/)?(?:[a-zA-Z0-9])+\\.(?:com|net|org)"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "^(?:([A-Za-z]+):)?(\\/{0,3})([0-9.\\-A-Za-z]+)(?::(\\d+))?(?:\\/([^?#]*))?(?:\\?([^#]*))?(?:#(.*))?$"
+    }
+  ]
+}

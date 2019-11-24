@@ -1,0 +1,25 @@
+{
+  "title": "联合Tables",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "select orders.order_id,products.product_name, users.first_name from orders join products on orders.product_id = products.product_id join users on  orders.user_id = users.id;\n"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "简写语法 as 的使用"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "select o.order_id,p.product_name, u.first_name from orders as o join products as p on o.product_id = p.product_id join users as u on  o.user_id = u.id;"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "SELECT Album.title, Artist.name FROM Album JOIN Artist ON Album.artist_id = Artist.id;"
+    }
+  ]
+}

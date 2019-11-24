@@ -1,0 +1,9 @@
+{
+  "title": "emacs 初学",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>C-h t 教程 或者 C-h C-f</div><div><br></div><div>方向 bnpae</div><div><br></div><div>C-g 中断任何快捷键</div><div><br></div><div>查询快捷键作用</div><div>C-h k</div><div><br></div><div>查看命令函数的详细</div><div>C-h f</div><div><br></div><div>bd 关闭buffer</div><div><br></div><div>enew 新建一个buffer</div><div><br></div><div>C-x o 切换当前窗口上的 buffer</div><div><br></div><div>space + ar</div><div><br></div><div># 注意窗口和 buffer 的切换 空格 w 或者 空格 b 探索一下就搞定了</div><div><br></div><div><br></div><div>目前掌握的</div><div>&nbsp; 删除当前窗口</div><div>&nbsp; 删除指定窗口</div><div>&nbsp; 上下左右跳转窗口</div><div>&nbsp; 切换不同的 frame</div><div>&nbsp; 快速查找文件</div><div><br></div><div><br></div><div>切换 js 语法警告</div><div><span style=\"color: rgb(255, 0, 109); font-family: &quot;Noto Mono&quot;, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgba(238, 238, 238, 0.8);\">js2-mode-toggle-warnings-and-errors</span><br></div><div><span style=\"color: rgb(255, 0, 109); font-family: &quot;Noto Mono&quot;, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; font-variant-ligatures: normal; orphans: 2; widows: 2; background-color: rgba(238, 238, 238, 0.8);\"><br></span></div>"
+    }
+  ]
+}

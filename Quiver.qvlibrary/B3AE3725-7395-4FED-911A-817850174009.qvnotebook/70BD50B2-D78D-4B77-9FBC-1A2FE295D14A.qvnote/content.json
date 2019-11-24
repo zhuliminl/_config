@@ -1,0 +1,10 @@
+{
+  "title": "查看主机 位",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ngetconf LONG_BIT\n\n\nsudo uname --s  显示内核名字s\nsudo uname --r 显示内核版本\nsudo uname --n 显示网络主机名\nsudo uname --p 显示cpu \n"
+    }
+  ]
+}

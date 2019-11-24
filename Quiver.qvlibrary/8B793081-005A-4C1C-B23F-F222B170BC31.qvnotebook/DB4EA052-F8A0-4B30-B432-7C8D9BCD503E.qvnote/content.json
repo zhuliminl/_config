@@ -1,0 +1,10 @@
+{
+  "title": "如何创建视图   ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n视图就是保存好的 select 语句\n\n\ncreate view xxx(foo, bar) as select toFoo, toBar from item;\n\n\n多重视图\n\n注意： 视图创建中不能使用 order by\n通过汇总得到的视图无法更新\n\n查看所有视图\nSHOW FULL TABLES IN wang WHERE TABLE_TYPE LIKE 'VIEW';\n\n查看特定的视图\nshow create view bar;\n"
+    }
+  ]
+}

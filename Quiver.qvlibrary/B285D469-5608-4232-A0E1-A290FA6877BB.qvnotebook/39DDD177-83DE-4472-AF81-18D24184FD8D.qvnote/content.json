@@ -1,0 +1,10 @@
+{
+  "title": "我的自定义",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n  imap [[ {<cr><esc>O\n  2 \"快速跳出括号等双符号\"\n  1\n  0 imap 99 <esc>A\n  1\n  2 \"撑开括号等\"\n  3 \"imap <Space><Space> <Space><Space><esc>ha\"     \"会出问题\"\n  4 imap kk <Space><Space><esc>i\n  5\n  6 \"删除残余括号\"\n  7 imap xx <esc>lxi\n  8\n  9 \"补全尾部分号\"\n 10 imap ;; <esc>A;<esc>\n 11\n 12 \"不会用宏的替代\"\n 13 imap @r return<Space>(<cr>);<esc>O\n 14\n 15 \"分开对称，并缩进\"\n 16 imap @k <cr><esc>O<Tab>\n \n 后感： 必须把 console.log() 假如 录制啊\n "
+    }
+  ]
+}

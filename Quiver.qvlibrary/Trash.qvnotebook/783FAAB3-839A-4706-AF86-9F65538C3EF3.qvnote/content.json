@@ -1,0 +1,9 @@
+{
+  "title": "对数组函数的理解",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>我发现对于数组的操作</div><div><br></div><div>本质上，就是维度多了一个维度而已。数组上的所有函数，就是一种对多个单实体外在的统筹形式而已。</div><div><br></div><div>有时候，我们在乎统筹的归纳结果。</div><div>可是有的时候，我们只关注单个实体的结果集合而已。</div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

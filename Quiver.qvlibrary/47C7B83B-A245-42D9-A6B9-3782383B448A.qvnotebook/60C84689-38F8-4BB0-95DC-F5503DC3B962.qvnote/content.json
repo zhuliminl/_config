@@ -1,0 +1,15 @@
+{
+  "title": "回调函数的好处",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n$('.opendiv').on('click', function() {\n\t\t\t// 需求是点击按钮后触发其他元素完成系列动作，等动作完成后自身又有动作\n\t\t\tvar self = $(this);\n\t\t\t$('#box').slideToggle(1000, function() {\n\t\t\t\tself.toggleClass(\"active\"); \n\t\t\t})\n\t\t})\n\t\t\n\t\t\n\t\t"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "之所以用 self 来替换，是因为想在事件函数中的另一个对象函数里面引用事件对象。但是此时该函数的 this 是该对象本身，而不是事件对象了"
+    }
+  ]
+}

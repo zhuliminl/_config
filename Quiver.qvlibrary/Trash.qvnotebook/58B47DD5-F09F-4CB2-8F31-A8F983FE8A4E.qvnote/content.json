@@ -1,0 +1,10 @@
+{
+  "title": "老是不记得注释",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n[count]cc |NERDComComment|  注\n\n[count]c |NERDComToggleComment|  不注\n"
+    }
+  ]
+}

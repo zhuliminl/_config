@@ -1,0 +1,10 @@
+{
+  "title": "Sequelize 的 palin 查询",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n console.log(user.get({\n      plain: true\n    }))\n  避免庞大数据\n\n"
+    }
+  ]
+}

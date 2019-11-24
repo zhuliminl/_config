@@ -1,0 +1,10 @@
+{
+  "title": "查看数据库的 storeprocedure",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nshow create procedure foo\\G;\n\n// 查看某个数据库的存取过程列表\nshow procedure status where db = 'wang';\n\n// 删除某个存取过程\n drop procedure foo;\n"
+    }
+  ]
+}

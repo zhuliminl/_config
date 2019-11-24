@@ -1,0 +1,10 @@
+{
+  "title": "切换缓冲区",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nbn  bp\nbd 关闭  buff delete\nb#\n\nsb# 分区给新的缓冲区"
+    }
+  ]
+}

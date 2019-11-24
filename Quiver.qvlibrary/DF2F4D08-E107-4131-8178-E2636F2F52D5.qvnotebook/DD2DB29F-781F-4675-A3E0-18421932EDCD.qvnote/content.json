@@ -1,0 +1,10 @@
+{
+  "title": "项目的 index 包中 app创建 的工厂函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n# 初始化app和各种扩展， 注册蓝本\ndef create_app(config_name):\n    app = Flask(__name__)\n    app.config.from_object(config[config_name]) # 在配置文件模块中选取配置模式\n    config[config_name].init_app(app)\n\n    bootstrap.init_app(app)\n    mail.init_app(app)\n    moment.init_app(app)\n    db.init_app(app)\n    login_manager.init_app(app)\n    pagedown.init_app(app)\n\n    # 将蓝本注册到程序，才能让路由正式加入程序\n    # 也即，附加路由和自定义的错误页面\n    from .main import main as main_blueprint\n    app.register_blueprint(main_blueprint)\n\n    from .auth import auth as auth_blueprint\n    app.register_blueprint(auth_blueprint, url_prefix='/auth') # 设定前缀\n\n    from .api_1_0 import api as api_1_0_buleprint\n    app.register_blueprint(api_1_0_buleprint, url_prefix='/api/v1.0')\n\n    return app\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "终端删除一行命令快捷键",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nctrl + u\n"
+    }
+  ]
+}

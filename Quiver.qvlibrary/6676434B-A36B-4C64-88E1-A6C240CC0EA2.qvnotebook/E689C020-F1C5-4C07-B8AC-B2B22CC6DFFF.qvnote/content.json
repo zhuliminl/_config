@@ -1,0 +1,9 @@
+{
+  "title": "React 模块分组技巧",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>1 组件按照业务模块用小写文件夹命名，放在 components 的父文件夹里</div><div>2 同components 同级的文件夹 comtainer 用来粘合各个业务模块</div><div>3 action 和 reducer 肯定是放在每个单独的小组件里面。可以用 文件夹来管理</div><div>4 在一个大模块里， index 中引入的组件肯定用大写的文件名去命名。但是对于局部的组件相互间的引用，则可以用小写来区别开</div><div>&nbsp; 但是文件内部依旧用大写命名。这样在一个大的模块里，就有了层次感</div><div>5 最终，并不存在大写的文件夹命名，只存在 必须被引用到 index 包里的大写文件名</div><div><br></div><div>6 最后，说实话。acitionTypes 还是可以放出来为好</div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

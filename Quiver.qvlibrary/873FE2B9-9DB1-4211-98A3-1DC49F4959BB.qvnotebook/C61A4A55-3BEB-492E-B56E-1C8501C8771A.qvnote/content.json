@@ -1,0 +1,9 @@
+{
+  "title": "linux 查找文件",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div>&nbsp;find ./ -name '*note’&nbsp;<div><br></div>"
+    }
+  ]
+}

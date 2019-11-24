@@ -1,0 +1,10 @@
+{
+  "title": "左倾的组合函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "const compose = (f, g) => x => f(g(x))\n\nvar toUpperCase = function(x) { return x.toUpperCase(); };\nvar exclaim = function(x) { return x + '!'; };\nvar shout = compose(exclaim, toUpperCase);\n\nconsole.log(\n  shout('weak up')\n)\n\n\n理解 compose 的关键在于将复合函数的嵌套形式（由里到外） 与 compose 函数 扁平组合形式的（从右到左的顺序）两者之间等质化\n\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "周末总结",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>第一周：&nbsp;</div><div><br></div><div>知道了命令模式可以用在撤销动作上</div><div>意识到以后要多多使用压栈这个名词</div><div>知道了如果需要再多个策略中选取一种来解决某个特定的问题，那可行性的筛选可以用迭代器模式</div><div>知道了编程规则 先接口后实现</div><div>意识到了一个词汇 防御性编程</div><div>知道了再多个条件中，可以用 return 来返回一个函数结果</div><div>想想职责链可能会在什么场景下被发现</div><div>知道了什么以依赖注入</div><div>知道了一个关于开放封闭的故事：工厂生产肥皂的故事：程序的接口应该是增加大于修改；对扩展开放，对修改封闭</div><div>明白了函数式编程更适合计算，面向对象则不是这样</div><div>知道了提交表单的时候，用总对象去校验</div><div>再次体会闭包：记住父级作用域的值</div><div><br></div><div>Does one thing, does well, and does only<br></div><div><br></div>"
+    }
+  ]
+}

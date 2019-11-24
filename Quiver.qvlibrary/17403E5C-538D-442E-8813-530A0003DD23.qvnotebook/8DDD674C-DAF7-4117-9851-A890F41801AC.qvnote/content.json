@@ -1,0 +1,10 @@
+{
+  "title": "实实在在理解 Promise",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst foo =  () => {\n  //return 'hhh'\n  //return Promise.resolve('ddd');\n  // return Promise.resolve('bbbbbbbbbbbb')\n  return new Promise((resolve, reject) => {\n    setTimeout(() => {\n      console.log('xxxx')\n      \n    resolve('xxxx')\n    }, 3000)\n  })\n};\n(async () => {\n  // console.log(await foo())\n  console.log(await foo())\n  console.log('jjjjjjjjj')\n  //console.log(await Promise.resolve('sss'))\n})()\n\n总结：async 语法只是保证该函数一定返回一个 Promise 对象。在这种函数里面你 return 普通对象出去，那就一个 promise。所以你想要在外层等它的值，那你必须要用 await 去取。从这个角度去看， async 就是隐式的传统返回 Promise 语法。\n\n而对于普通函数，也能在外层使用 await 来取里面的值吗？答案是肯定的，只要你能保证你在普通函数里面返回的是一个 Promise 对象，那就一定能够取到。也就是这个原因，才会产生 用 new Promise() 去改造旧有的回调接口。\n\n放宽一点说：只要是返回 Promise 对象的语句，都可以用 await 去取将来的值\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconst foo =  async () => {\n  //return 'hhh'\n  //return Promise.resolve('ddd');\n  // return Promise.resolve('bbbbbbbbbbbb')\n  await new Promise((resolve, reject) => {\n    setTimeout(() => {\n      console.log('xxxx')\n      \n    resolve('xxxx')\n    }, 3000)\n  });\n  console.log('我会后执行吗')\n};\n(async () => {\n  // console.log(await foo())\n  console.log(await foo())\n  console.log('jjjjjjjjj')\n  //console.log(await Promise.resolve('sss'))\n})()\n\n\n\n"
+    }
+  ]
+}

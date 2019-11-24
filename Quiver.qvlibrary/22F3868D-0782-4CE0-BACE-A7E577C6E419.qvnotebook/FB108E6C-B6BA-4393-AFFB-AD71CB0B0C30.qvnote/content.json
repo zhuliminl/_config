@@ -1,0 +1,10 @@
+{
+  "title": "Ramda 的 todo 示例",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nvar incomplete = R.filter(R.where({complete: false}));    // 类似SQL 的 where 语句\nvar sortByDate = R.sortBy(R.prop('dueDate'));\nvar sortByDateDescend = R.compose(R.reverse, sortByDate);\nvar importantFields = R.project(['title', 'dueDate']);\nvar groupByUser = R.partition(R.prop('username'));\n\nvar activeByUser = R.compose(groupByUser, incomplete);\n\n\nvar topDataAllUsers = R.compose(\n  \n    R.mapObj(\n      R.compose(\n        importantFields,\n        R.take(5), \n        sortByDateDescend\n      )), \n      \n    activeByUser\n    \n    );\n\n\n\n"
+    }
+  ]
+}

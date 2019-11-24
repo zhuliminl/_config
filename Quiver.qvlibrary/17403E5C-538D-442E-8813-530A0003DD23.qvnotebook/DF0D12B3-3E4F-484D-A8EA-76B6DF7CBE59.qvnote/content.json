@@ -1,0 +1,10 @@
+{
+  "title": "sequellize 自增",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n        balances: sequelize.literal('`balances` + ' + +change),\n        freezing_amount: sequelize.literal('`freezing_amount` - ' + +change),\n\n"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Node 的 Mysql ORM ",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(221, 221, 221); font-size: 17px;\">链接 Sql 的方式&nbsp;</span>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "var sequelize = new Sequelize('postgres://user:pass@example.com:5432/dbname’);"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(221, 221, 221); font-size: 17px;\">sql 条件查询</span>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "Post.findAll({\n  where: {\n    authorId: 12,\n    status: 'active'\n  }\n});\n// SELECT * FROM post WHERE authorId = 12 AND status = 'active';"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(221, 221, 221); font-size: 17px;\">sql or 查询</span>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "const Op = Sequelize.Op;\n\nPost.findAll({\n  where: {\n    authorId: {\n      [Op.or]: [12, 13]\n    }\n  }\n});\n// SELECT * FROM post WHERE authorId = 12 OR authorId = 13;\n"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "Post.destroy({\n  where: {\n    status: 'inactive'\n  }\n});\n// DELETE FROM post WHERE status = 'inactive’;\n"
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": "<span style=\"color: rgb(221, 221, 221); font-size: 17px;\">sql 指定更新</span>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "User.create({ username: 'barfooz', isAdmin: true }, { fields: [ 'username' ] }).then(user => {\n  // let's assume the default of isAdmin is false:\n  console.log(user.get({\n    plain: true\n  })) // => { username: 'barfooz', isAdmin: false }\n})"
+    },
+    {
+      "type": "text",
+      "data": "<div><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "得到最干净的值"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": "Person.create({\n  name: 'Rambow',\n  firstname: 'John'\n}).then(john => {\n  console.log(john.get({\n    plain: true\n  }))\n})\n\n// result:\n\n// { name: 'Rambow',\n//   firstname: 'John',\n//   id: 1,\n//   createdAt: Tue, 01 May 2012 19:12:16 GMT,\n//   updatedAt: Tue, 01 May 2012 19:12:16 GMT\n// }"
+    }
+  ]
+}

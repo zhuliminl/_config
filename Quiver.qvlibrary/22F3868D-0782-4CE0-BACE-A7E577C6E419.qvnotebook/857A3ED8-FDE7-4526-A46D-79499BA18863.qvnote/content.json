@@ -1,0 +1,10 @@
+{
+  "title": "ES 6 的 compose 实现",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst compose = (...fns) =>\n  fns.reduce((f, g) => (...args) => f(g(...args)));\n\n"
+    }
+  ]
+}

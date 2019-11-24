@@ -1,0 +1,10 @@
+{
+  "title": "react 积累",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n\n8 react 的组件通讯问题场景常见以及实现手段：\n  1. 父组件传递给子组件  ---- 通过 props\n  2. 子组件传递给父组件  ---- 通过回调函数，并可传值 onAction = this.handleOnAction\n  3. 兄弟组件传递        ---- 通过父组件中转（一个负责回调，一个接受上级 state)\n  关于传递手段：PubSub 是更好的传递方案\n  而庞大的 Redux 也是一中 PubSub ，只是太过工程化\n  "
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "利用正则表达式",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "for img in bs_obj.find_all('img', {'src':re.compile('http:\\/\\/nanukhair\\.com\\/wpwp\\/wp-content\\/uploads\\/2016\\/[0-9]+\\/[A-Za-z-0-9]+\\.jpg')}):\n    print(img)"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "VPS 测速",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nwget --no-check-certificate -O speedtest https://raw.github.com/sivel/speedtest-cli/master/speedtest.py\n"
+    }
+  ]
+}

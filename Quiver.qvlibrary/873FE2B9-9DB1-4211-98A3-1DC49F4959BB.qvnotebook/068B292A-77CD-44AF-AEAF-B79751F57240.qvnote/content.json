@@ -1,0 +1,10 @@
+{
+  "title": "解决 Operation not permitted",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nchattr -i xxx\n\nlsattr 查看"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "title": "linux 给予脚本以执行权限",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>chmod a+x script.sh<br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

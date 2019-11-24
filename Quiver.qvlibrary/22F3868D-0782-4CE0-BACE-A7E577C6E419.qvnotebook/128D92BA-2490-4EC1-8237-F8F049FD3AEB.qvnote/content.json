@@ -1,0 +1,10 @@
+{
+  "title": "保险的 map",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nlet foo = [\n  { nameb: '' },\n  { name: 'saul' },\n  { name: 'bar' },\n  { name: 'qq' },\n  { name: 'sdfs' },\n]\n\nconst bar = foo.map((item, i) => {\n  try {\n    item.age = item.name[1]\n  } catch(err) {\n  }\n  return item\n}).filter(item => item.age)\n\n\nconsole.log('bar', bar)\n\n\n"
+    }
+  ]
+}

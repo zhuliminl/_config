@@ -1,0 +1,9 @@
+{
+  "title": "调用起 GUI",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>import javax.swing.JFrame<br></div><div><br></div><div>JFrame.setXXX</div><div><br></div>"
+    }
+  ]
+}

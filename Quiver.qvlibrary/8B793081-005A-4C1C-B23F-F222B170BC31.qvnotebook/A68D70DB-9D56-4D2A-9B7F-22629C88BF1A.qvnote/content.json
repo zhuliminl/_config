@@ -1,0 +1,10 @@
+{
+  "title": "python 中使用 DB-API",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "cursor.execute('select * from user where name=? and pwd=?', ('abc', 'password'))"
+    }
+  ]
+}

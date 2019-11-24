@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/saul/Documents/code/RN/hotupdateTest/android/gradle'
+let g:netrw_dirhist_2='/Users/saul/.doom.d'
+let g:netrw_dirhist_3='/Users/saul/.vim'
+let g:netrw_dirhist_4='/Users/saul/Documents/ts/dart'
+let g:netrw_dirhist_5='/Users/saul/.config/nvim/.vim'
+let g:netrw_dirhist_6='/Users/saul/.config/nvim/.vim/autoload'

@@ -1,0 +1,9 @@
+{
+  "title": "compose",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/82FE42FBF5294FB64762C58F58E777D8.jpg\" width=\"607\" height=\"588\"><br><div><br></div><div><br></div><div>f(g(x)) 其实就是 compose(f, g) ,别混淆了 嵌套和摊平的直觉干扰。那是因为 compose 里面 顺序就 代表了嵌套</div><div><br></div>"
+    }
+  ]
+}

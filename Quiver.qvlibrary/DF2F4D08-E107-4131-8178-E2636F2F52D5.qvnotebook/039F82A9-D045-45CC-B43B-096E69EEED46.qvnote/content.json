@@ -1,0 +1,10 @@
+{
+  "title": "pip 更新模块",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\npip install -U blinker\n"
+    }
+  ]
+}

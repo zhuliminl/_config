@@ -1,0 +1,10 @@
+{
+  "title": "elisp",
+  "cells": [
+    {
+      "type": "code",
+      "language": "lisp",
+      "data": "\n(+ 2 (+ 1 1))\n\nC-j 产看结果 或者 C-x C-e 在 minibuffer 中查看\n\n\n(+ 2 (+ 1 1))\n(setq my-name \"zhuliminl\")\n(insert \"hello!\" \"world\")\n(insert \"hello \" my-name)\n(defun hellox() (insert \" Hello \" my-name))\n(hello)\n\n(defun greet (name) (insert \"Hello\" name))\n(greet \"you\")\n\n(defun foo (name)\n  (insert (format \"Hello %s!\\n \" name)))\n\n(foo \"you\"\nHello you!\n nil\n)\n\n\n"
+    }
+  ]
+}

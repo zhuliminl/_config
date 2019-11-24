@@ -1,0 +1,10 @@
+{
+  "title": "设定系统语言",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nLANG=\"en_US.UTF-8\"\n\nexport LC_ALL=C\n\nLANG=\"zh_CN.UTF-8\"\n\n\n.bashrc\nLC_ALL=C\nLANG=C\nexport LC_ALL LANG\n\n"
+    }
+  ]
+}

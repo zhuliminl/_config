@@ -1,0 +1,10 @@
+{
+  "title": "导入数据库",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nsource /home/abc/abc.sql;\n\n"
+    }
+  ]
+}

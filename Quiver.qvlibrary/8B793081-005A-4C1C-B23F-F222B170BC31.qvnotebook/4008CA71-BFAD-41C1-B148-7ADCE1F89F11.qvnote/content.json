@@ -1,0 +1,10 @@
+{
+  "title": "查看数据库所占空间大小",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nUSE information_schema; \n\n以 M 为单位查看\n\nselect table_schema, sum(data_length)/1024/1024  from tables group by table_schema;\n \n\n\n\n"
+    }
+  ]
+}

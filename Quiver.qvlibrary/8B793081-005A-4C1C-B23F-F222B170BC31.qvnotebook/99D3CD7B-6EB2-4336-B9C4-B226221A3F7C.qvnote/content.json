@@ -1,0 +1,10 @@
+{
+  "title": "在 python 中连接 sqlite",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nimport sqlite3\n\nconn = sqlite3.connect('test.db',timeout=10)\n# 创建游标\ncursor = conn.cursor()\n\ncursor.execute('''CREATE TABLE IF NOT EXISTS user\n    (id varchar(20) primary key, name varchar(20))''')\n\ncursor.execute('INSERT INTO user(id, name) VALUES (\"4\", \"sual\")')\ncursor.execute('INSERT INTO user(id, name) VALUES (\"5\", \"quinn\")')\ncursor.execute('INSERT INTO user(id, name) VALUES (\"6\", \"ben\")')\n\nprint(cursor.rowcount)\n# 提交事务\nconn.commit()\n# 关闭游标\ncursor.close()\n\nconn.close()\n\n\nconn = sqlite3.connect('test.db')\n\ncursor = conn.cursor()\n# 查询\ncursor.execute('select * from user where id=?', ('3',))\n# 获取查询的值\nvalues = cursor.fetchall()\nprint(values)\n\ncursor.close()\nconn.close()\n"
+    }
+  ]
+}

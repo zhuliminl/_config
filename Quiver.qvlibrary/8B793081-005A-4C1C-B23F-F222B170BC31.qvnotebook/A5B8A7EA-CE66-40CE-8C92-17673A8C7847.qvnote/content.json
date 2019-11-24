@@ -1,0 +1,10 @@
+{
+  "title": "更新数据",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "update users set username = 'haofeng' where id = 2;"
+    }
+  ]
+}

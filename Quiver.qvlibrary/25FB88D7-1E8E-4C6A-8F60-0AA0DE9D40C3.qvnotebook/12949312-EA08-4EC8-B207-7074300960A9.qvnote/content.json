@@ -1,0 +1,10 @@
+{
+  "title": "编译命令",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n clang -fobjc-arc main.m -o main\n\n"
+    }
+  ]
+}

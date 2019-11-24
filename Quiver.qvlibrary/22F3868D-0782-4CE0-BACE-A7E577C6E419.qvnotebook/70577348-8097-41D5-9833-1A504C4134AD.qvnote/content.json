@@ -1,0 +1,10 @@
+{
+  "title": "时间快速转秒",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst time = +new Date();\n等同于\ntime = time.getTime();"
+    }
+  ]
+}

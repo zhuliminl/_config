@@ -1,0 +1,10 @@
+{
+  "title": "公司数据库",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nmysql -h 192.168.31.3 -uchslab -pAdmin@chslab9 art_carrier’\n\n\nssh -vl bolt 139.224.17.189\n\n\n"
+    }
+  ]
+}

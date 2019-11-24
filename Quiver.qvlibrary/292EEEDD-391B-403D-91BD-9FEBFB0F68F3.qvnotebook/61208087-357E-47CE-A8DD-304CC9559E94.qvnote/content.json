@@ -1,0 +1,10 @@
+{
+  "title": "合并分支 并解决冲突",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ngit branch  #查看当前分支\ngit checkout master #切换回主干\ngit merge new_br_name  #合并new_br_name分支到主干, 自动合并\n\n1.没冲突(no conflicts) -> fine -> commit -> push to remote\n\n2.有冲突(conflicts)\ngit diff   #查看当前哪些文件有冲突, 标识 unmerged\nvim xxx    #手动编辑解决冲突\n\n    冲突文件中标识\n    <<<<<<< HEAD:file.txt\n    Hello world  #当前branch的\n    =======\n    Goodbye      #要合并branch的\n    >>>>>>> 77976da35a11db4580b80ae27e8d65caf5208086:file.txt\n\ngit add xxx #加入\n\n-> 解决所有冲突之后 -> commit -> push to remote\n\n"
+    }
+  ]
+}

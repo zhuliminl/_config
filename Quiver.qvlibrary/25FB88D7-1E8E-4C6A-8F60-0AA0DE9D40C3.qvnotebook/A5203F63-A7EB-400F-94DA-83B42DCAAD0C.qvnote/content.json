@@ -1,0 +1,10 @@
+{
+  "title": "函数和字符串模板",
+  "cells": [
+    {
+      "type": "code",
+      "language": "objectivec",
+      "data": "\n\nvoid sayHello(char *student, char *course, int numDays) {\n    printf(\"%s xxx  %s jjjjjj bbbbb %d\", student, course, numDays);\n}\n\n"
+    }
+  ]
+}

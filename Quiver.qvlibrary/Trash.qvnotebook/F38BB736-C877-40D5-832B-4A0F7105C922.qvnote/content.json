@@ -1,0 +1,9 @@
+{
+  "title": "最近读书清单",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>线性代数 &nbsp;—— &nbsp;数学基础</div><div>算法 —— &nbsp;锻炼算法和数据结构，顺带 java + 刷题 + 编码之美，这个应该当做日常，作为一个程序员的基本素质</div><div><br></div><div>head-first —— java 入门首选，排在第一位<br></div><div>redis 开发和运维 —— 偏实际项目</div><div>rx.js ———— 结合项目去实践</div><div><br></div><div>项目 aria2cUI + palyer 用 angular 和 rx 重写</div><div>电影截图项目 redis + java-spring 、node 图片处理微服务、app 端用 dart 去实现 、网页端以后考虑用 ng 去实现、上传到服务器的小 demo 用 vue 去实现下</div><div><br></div><div>react 方面，尝试</div><div><br></div><div>code-train kjkj</div><div><br></div><div>用一个月的时间专门研究算法和数据结构并做题，不过问项目。剩下两个月混合起来边继续做题边做项目。头两个星期学习 java</div><div><br></div><div>scala 和函数式 仅在以上两个条件达到预期效果的时候才去接触</div><div><br></div><div><br></div><div>最高效的学习方法：用专题式的学习代替盲目的尝试，用实际踏实的项目需求带动语言和框架的使用，用单线程代替多线程</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>"
+    }
+  ]
+}

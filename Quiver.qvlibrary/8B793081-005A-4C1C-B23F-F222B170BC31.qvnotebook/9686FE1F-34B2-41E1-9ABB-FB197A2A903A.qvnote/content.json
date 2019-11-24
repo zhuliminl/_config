@@ -1,0 +1,10 @@
+{
+  "title": "标量子查询 就是返回单一值的子查询",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n\n select id, item_id, name, current_price from item where current_price < \n (select avg(current_price) from item); 单一值\n \n \n \n \n\n\n\n\n\n"
+    }
+  ]
+}

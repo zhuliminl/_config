@@ -1,0 +1,10 @@
+{
+  "title": "选择不同端口运行程序",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\npython3 hello.py runserver -p 40000\n"
+    }
+  ]
+}

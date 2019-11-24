@@ -1,0 +1,10 @@
+{
+  "title": "python3.6 创建虚拟环境",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\npython3.6 -m venv my_flask\n\ncd my_flask\n\nsource bin/activate"
+    }
+  ]
+}

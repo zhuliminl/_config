@@ -1,0 +1,10 @@
+{
+  "title": "貌似能解决谷歌邮箱断连问题",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ntelnet imap.gmail.com 993\n\n"
+    }
+  ]
+}

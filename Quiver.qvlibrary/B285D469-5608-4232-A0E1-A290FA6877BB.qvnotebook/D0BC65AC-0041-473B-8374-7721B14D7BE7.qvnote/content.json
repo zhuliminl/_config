@@ -1,0 +1,10 @@
+{
+  "title": "查看寄存器内容",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n:reg\n"
+    }
+  ]
+}

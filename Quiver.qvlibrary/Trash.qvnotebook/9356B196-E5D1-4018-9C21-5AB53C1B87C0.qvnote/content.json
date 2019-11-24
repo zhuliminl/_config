@@ -1,0 +1,10 @@
+{
+  "title": "去掉讨厌的高亮搜索",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n:nohlsearch\n\n"
+    }
+  ]
+}

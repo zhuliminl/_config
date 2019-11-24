@@ -1,0 +1,10 @@
+{
+  "title": "用归并的方法在一个数组格式的对象列表中找出最大的一项目",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst foo = [{name: 23 }, {name: 12}, {name: 87}, {name: 45}]\n\nlet max = foo.reduce((max, cur) => cur.name > max ? cur.name : max, foo[0].name);\n\n\nfunction getYs(){\n  return data.map(d => d.y);\n}\nfunction getMinY(){\n  return Math.min(...getYs());\n}\nfunction getMaxY(){\n  return Math.max(...getYs());\n}\n\n\n// 结合上面连个方案\nfunction getMinY(){\n  return data.reduce((min, b) => Math.min(min, b.y), data[0].y);\n}\nfunction getMaxY(){\n  return data.reduce((max, b) => Math.max(max, b.y), data[0].y);\n}\n\n// 这个方法比较好读一点\nconst foo = Math.max(...achieveRules.map(rule => rule['performance']))\n\n"
+    }
+  ]
+}

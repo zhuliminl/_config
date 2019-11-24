@@ -1,0 +1,9 @@
+{
+  "title": "IKEv2 配置",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><div>Starting strongSwan 5.5.1 IPsec [starter]...</div><div>#############################################################</div><div>#</div><div># [Install Complete]</div><div># Version:1.2.0</div><div># There is the default login info of your IPSec/IkeV2 VPN Service</div><div># UserName: myUserName</div><div># PassWord: myUserPass</div><div># PSK: myPSKkey</div><div># you should change default username and password in /usr/local/etc/ipsec.secrets</div><div># you cert: /root/my_key/ca.cert.pem</div><div># you must copy the cert to the client and install it.</div><div>#</div><div>#############################################################</div></div><div><br></div><div><br></div><div><a href=\"https://github.com/quericy/one-key-ikev2-vpn\">https://github.com/quericy/one-key-ikev2-vpn</a><br></div><div><br></div>"
+    }
+  ]
+}

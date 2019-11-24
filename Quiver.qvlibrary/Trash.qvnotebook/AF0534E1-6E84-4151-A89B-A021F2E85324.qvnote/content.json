@@ -1,0 +1,10 @@
+{
+  "title": "Emoji 字符问题",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n所谓Emoji就是一种在Unicode位于\\u1F601–\\u1F64F区段的字符。这个显然超过了目前常用的UTF-8字符集的编码范围\\u0000–\\uFFFF。Emoji表情随着IOS的普及和微信的支持越来越常见。下面就是几个常见的Emoji:"
+    }
+  ]
+}

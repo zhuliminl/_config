@@ -1,0 +1,9 @@
+{
+  "title": "终端删除一行命令快捷键 清空当前sql 语句",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>Ctrol + u</div>"
+    }
+  ]
+}

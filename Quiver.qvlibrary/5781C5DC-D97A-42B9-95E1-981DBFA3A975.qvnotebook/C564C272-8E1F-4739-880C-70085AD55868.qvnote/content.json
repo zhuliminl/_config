@@ -1,0 +1,10 @@
+{
+  "title": "清除浮动",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\n.clearfix:before,\n.clearfix:after {\n  content: \" \";\n  display: table;\n}\n\n.clearfix:after {\n  clear: both;\n  overflow: hidden;\n}\n\n.clearfix {\n  zoom: 1;\n}\n"
+    }
+  ]
+}

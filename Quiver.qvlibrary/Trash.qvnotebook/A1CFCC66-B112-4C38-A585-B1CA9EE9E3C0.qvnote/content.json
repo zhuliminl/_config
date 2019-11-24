@@ -1,0 +1,10 @@
+{
+  "title": "近期计划",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n大计划\n\n0 学习 java，目的是更进最近买的两本书，体会整洁代码的好处。这个可以和 python 的测试驱动一起学。更重要的是，等会了 java 之后，才能更直接地转到 scala ，然后去体会 scala 的世界。\n1 测试驱动开发习惯，由 python 展开，并逐步转移到 node\n2 scala 入门。这个可以缓一缓，权重小于 TDD\n3 刷题。这个一直很重要，但需要把上两个解决了再进行，刷正则的题包括，这个可以先\n\n总结起来就是：先学 java,同步学测试，最后拥抱测试驱动和 scala，努力写出好看的代码\n\n计划有变：先学 ts， 然后学 ng，顺便使用 rx，同时也学 flutter， 最后用 dart 写 ng，再转到 java\n\n\n小计划\n\n1 玩正则表达式\n2 python 读写各种文件\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

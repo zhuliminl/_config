@@ -1,0 +1,9 @@
+{
+  "title": "对常见的，对基础的，对最最常见的模式，从语义语言抽象的角度去完全地认识它",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<br><div>on 的理解</div><div>handle 的理解</div><div>trait 的理解</div><div>listener 的理解</div><div>enhance 的理解</div>"
+    }
+  ]
+}

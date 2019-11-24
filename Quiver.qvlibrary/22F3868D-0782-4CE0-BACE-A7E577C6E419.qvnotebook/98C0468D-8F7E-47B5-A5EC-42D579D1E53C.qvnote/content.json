@@ -1,0 +1,10 @@
+{
+  "title": "绑定函数和柯里化函数的合体",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 绑定函数和柯里函数的合体\nfunction bind(fn, context) {\n\tlet args = Array.prototype.slice(arguments, 2);\n\treturn function() {\n\t\tlet innerArgs = Array.prototype.slice(arguments);\n\t\tlet finalArgs = args.concat(innerArgs);\n\t\treturn fn.apply(context, finalArgs);\n\t}\n}\n\n"
+    }
+  ]
+}

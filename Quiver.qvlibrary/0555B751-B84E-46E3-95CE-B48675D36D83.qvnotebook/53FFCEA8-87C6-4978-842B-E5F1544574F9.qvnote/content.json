@@ -1,0 +1,10 @@
+{
+  "title": "模拟 redux 的来由———— 派发，管制",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nlet appState = {\n  title: {\n    text: 'React.js 小书',\n    color: 'red',\n  },\n  content: {\n    text: 'React.js 小书内容',\n    color: 'blue'\n  }\n}\n\nfunction dispatch (action) {\n  switch (action.type) {\n    case 'UPDATE_TITLE_TEXT':\n      appState.title.text = action.text\n      break\n    case 'UPDATE_TITLE_COLOR':\n      appState.title.color = action.color\n      break\n    default:\n      break\n  }\n}\n\nfunction renderApp (appState) {\n  renderTitle(appState.title)\n  renderContent(appState.content)\n}\n\nfunction renderTitle (title) {\n  const titleDOM = document.getElementById('title')\n  titleDOM.innerHTML = title.text\n  titleDOM.style.color = title.color\n}\n\nfunction renderContent (content) {\n  const contentDOM = document.getElementById('content')\n  contentDOM.innerHTML = content.text\n  contentDOM.style.color = content.color\n}\n\nrenderApp(appState) // 首次渲染页面\ndispatch({ type: 'UPDATE_TITLE_TEXT', text: '《React.js 小书》' }) // 修改标题文本\ndispatch({ type: 'UPDATE_TITLE_COLOR', color: 'blue' }) // 修改标题颜色\nrenderApp(appState) // 把新的数据渲\n\n"
+    }
+  ]
+}

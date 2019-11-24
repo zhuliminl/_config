@@ -1,0 +1,10 @@
+{
+  "title": "复杂的连结 — 查看用户关注的人的文章列表",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nSELECT users.name, posts.body FROM users \n        JOIN follows ON users.id= follows.follower_id \n        JOIN posts ON posts.author_id = follows.followed_id\n\n从用户出发\n    连接 关注关系表\n    连接 文章"
+    }
+  ]
+}

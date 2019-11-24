@@ -1,0 +1,10 @@
+{
+  "title": ".zshrc 配置文件位置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nsubl ~/.zshrc\n"
+    }
+  ]
+}

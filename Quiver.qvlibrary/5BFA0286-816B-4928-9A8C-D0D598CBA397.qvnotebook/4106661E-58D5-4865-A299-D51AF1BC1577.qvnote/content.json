@@ -1,0 +1,10 @@
+{
+  "title": "过滤一个字典",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n data = {k: v for k, v in foo.items() if k in ['name', 'age’]}\n"
+    }
+  ]
+}

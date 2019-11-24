@@ -1,0 +1,10 @@
+{
+  "title": "临时文件： 获取系统首个用户",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "  /**\n   * 首个用户信息有啥用？ 暂时留着吧\n   * */\n\n\n  // 选取任意一个用户\n  const oneUser = await db['User'].findOne({\n    attributes: ['id', 'pids'],\n    where: {\n      kehu_id,\n    },\n    raw: true,\n    limit: 1,\n  })\n\n  if(!oneUser) {\n    throw new Error('系统没有任何一个用户')\n  }\n\n  const pids = oneUser.pids.split(',')\n  if(pids.length < 2) {\n    throw new Error('系统没有有效数量层级用户或者存在非正常用户层级')\n  }\n\n  // 系统中第一个用户\n  const firstUserId = pids[1]\n\n  const firstUser = await db['User'].findOne({\n    attributes: ['id', 'pids', 'level_dls', 'is_dls'],\n    where: {\n      id: firstUserId,\n    },\n    raw: true,\n  })\n\n"
+    }
+  ]
+}

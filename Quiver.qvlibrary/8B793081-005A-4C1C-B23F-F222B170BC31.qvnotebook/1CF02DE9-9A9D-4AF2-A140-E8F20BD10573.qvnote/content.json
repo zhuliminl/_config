@@ -1,0 +1,15 @@
+{
+  "title": "使用 UNIQUE 来避免插入重复值",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "注意 varchar 必须给出长度"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "CREATE TABLE Artist(\n    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT UNIQUE,\n    name VARCHAR(255) UNIQUE\n    );\n\n\n\n\n重要的是遇到重复值，避免出错中断的语法 ignore\ncur.execute('INSERT IGNORE INTO Artist(name) VALUES(%s)',(artist,))\n"
+    }
+  ]
+}

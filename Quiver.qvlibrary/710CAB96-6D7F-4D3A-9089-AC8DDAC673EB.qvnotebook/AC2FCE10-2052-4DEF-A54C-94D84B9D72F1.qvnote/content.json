@@ -1,0 +1,41 @@
+{
+  "title": "webpack 配置",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "\n     模板引擎"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n  <%= htmlWebpackPlugin.options.title %>\n"
+    },
+    {
+      "type": "markdown",
+      "data": "\n     绝对路径"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n  path: path.resolve('./dist'),\n"
+    },
+    {
+      "type": "markdown",
+      "data": "     发布绝对的上线路径"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n  publicPath: 'http:// cdn.com/'\n  "
+    },
+    {
+      "type": "markdown",
+      "data": "     压缩 html"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n  minify : {\n\t\t\t\tremoveComments : true,\n\t\t\t\tcollapseWhitespace : true\n\t\t\t}\n"
+    }
+  ]
+}

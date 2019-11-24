@@ -1,0 +1,10 @@
+{
+  "title": "ES 6 巧妙的删除数组某一项技法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\ncomments: [\n          ...state.comments.slice(0, action.commentIndex),\n          ...state.comments.slice(action.commentIndex + 1)\n        ]\n      }\n\n思路是把当前项目之外的数组摊开，然后又合并，返回到一个新的数组里"
+    }
+  ]
+}

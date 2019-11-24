@@ -1,0 +1,10 @@
+{
+  "title": "创建文件的 Hash",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nopenssl dgst -md5 node_module\n"
+    }
+  ]
+}

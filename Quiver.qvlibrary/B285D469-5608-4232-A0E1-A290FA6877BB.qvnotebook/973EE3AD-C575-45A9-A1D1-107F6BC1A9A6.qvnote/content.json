@@ -1,0 +1,10 @@
+{
+  "title": "基本操作",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "% 新建文件\nD 删除文件夹\nd 创建文件\n\nNERDTree\nNERDTreeToggle\n\nd/c/v i (/'/{   括号内的操作\nva( 则连同（）一起选择了过去\n\n\nctags tn/tp/ts 选择函数\n\n\n缓冲区的概念\nbn\nbp\nb 数字\n\n\nAg 是超级搜索\n\n\nbufdo bd!   关闭所有标签!!!  或者  :tabdo q 关闭所有标签\n:\nm 代表标记\n\n\n\n\n\n\n"
+    }
+  ]
+}

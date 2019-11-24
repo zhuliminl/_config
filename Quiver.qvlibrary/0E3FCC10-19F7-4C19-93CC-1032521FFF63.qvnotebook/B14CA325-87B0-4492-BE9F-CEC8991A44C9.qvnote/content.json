@@ -1,0 +1,10 @@
+{
+  "title": "一个简单的完整的 TCP ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nimport socket\n\nif __name__ == '__main__':\n    port = 8788\n    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # IPV4 and for TCP\n    sock.bind(('127.0.0.1', port))\n    sock.listen(1)\n    print('Serving HTTP on port{}'.format(port))\n\n    while True:\n        conn, addr = sock.accept()\n        print(conn, addr)\n        request = conn.recv(1024)\n        response = 'HTTP/1.1 200 OK\\nContent-Type:text/htm;l\\nServer:myserver\\n\\nHello zhuliminl!!!'\n        conn.sendall(response.encode())\n        conn.close()\n        "
+    }
+  ]
+}

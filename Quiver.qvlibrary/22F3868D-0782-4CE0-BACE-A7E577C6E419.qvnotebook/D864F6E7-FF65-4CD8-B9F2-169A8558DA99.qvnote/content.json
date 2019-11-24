@@ -1,0 +1,10 @@
+{
+  "title": "惰性加载事件函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "let addEvent = (function(){\n\t\tif(window.addEventListener) {\n\t\t\treturn function(elem, type, handler) {\n\t\t\t\telem.addEventListener(type, handler, false);\n\t\t\t};\n\t\t} \n\t\tif(window.attachEvent) {\n\t\t\treturn function(elem, type, handler) {\n\t\t\t\telem.attachEvent('on' + type, handler);\n\t\t\t}\n\t\t}\n\t})();\n\t\n\n// 真正的懒加载\nlet addEvent = function() {\n\tif(window.addEventListener) {\n\t\taddEvent = function(elem, type, handler) {\n\t\t\telem.addEventListener(type, handler, false);\n\t\t}\n\t}\n\tif(window.addEvent) {\n\t\taddEvent = function(elem, type, handler) {\n\t\t\tattachEvent('on' + type, handler);\n\t\t}\n\t}\n};\n\n总结：本质上，是借助了 JS 的动态性"
+    }
+  ]
+}

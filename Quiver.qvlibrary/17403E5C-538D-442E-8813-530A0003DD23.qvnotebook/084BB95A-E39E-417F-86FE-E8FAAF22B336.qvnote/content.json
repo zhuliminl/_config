@@ -1,0 +1,10 @@
+{
+  "title": "Squelize 建模范例",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nconst Post = sequelize.define('Post', { slug: {\n        type: Sequelize.STRING,\n        primaryKey: true,\n        validate: {\n            // len: [2, 10]\n            // 或者\n            len: {\n                args: [20, 30],\n                msg: '标题必须怎样怎样'\n            }\n        }\n    },\n    body: {\n        type: Sequelize.TEXT,\n        defaultValue: 'comming song'\n    }\n}, {\n    timestamps: false\n});\n\n\n在周期事件钩子\n}, {\n    timestamps: false,\n    hooks: {\n        beforeValidate: function() {\n            console.log('beforeValidate'.red)\n        },\n        afterValidate: function() {\n            console.log('afterValidate'.yellow)\n        },\n        beforeCreate: function() {\n            console.log('beforeCreate'.blue)\n        },\n        afterCreate: function(res) {\n            console.log('create body with slug'.green, res.get('slug').blue)\n        }\n    }\n});\n\n"
+    }
+  ]
+}

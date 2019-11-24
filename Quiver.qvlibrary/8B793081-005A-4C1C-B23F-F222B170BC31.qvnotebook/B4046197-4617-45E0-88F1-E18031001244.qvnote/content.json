@@ -1,0 +1,10 @@
+{
+  "title": "小计和合计",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nselect classes, sum(current_price) from item group by classes \n\nunion all select \"合计\" as classes, sum(current_price) from item;\n\n等价于\n\nselect classes, sum(current_price) from item group by classes with rollup;\n\n"
+    }
+  ]
+}

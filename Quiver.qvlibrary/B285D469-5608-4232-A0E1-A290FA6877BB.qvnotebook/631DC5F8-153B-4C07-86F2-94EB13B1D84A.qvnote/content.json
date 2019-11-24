@@ -1,0 +1,10 @@
+{
+  "title": "vim 中的代码折叠",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nset foldmethod=indent\n\nzc <> zR/zr"
+    }
+  ]
+}

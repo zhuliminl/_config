@@ -1,0 +1,10 @@
+{
+  "title": "进入 pouchdb-server界面",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "http://127.0.0.1:4543/_utils/#/_all_dbs"
+    }
+  ]
+}

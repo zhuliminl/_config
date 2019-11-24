@@ -1,0 +1,10 @@
+{
+  "title": "给某数据库给予用户的用户名和密码",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ngrant all on wp.* to 'wpuser'@'localhost' identified by ‘xiaoshitou\n\n"
+    }
+  ]
+}

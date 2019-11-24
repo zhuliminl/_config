@@ -1,0 +1,9 @@
+{
+  "title": "冲突部分",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><div>&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream</div><div>&nbsp; &nbsp; \"react-native\": \"~0.55.2\",</div><div>&nbsp; &nbsp; \"react-native-scrollable-tab-view\": \"^0.8.0\",</div><div>=======</div><div>&nbsp; &nbsp; \"react-dom\": \"^16.3.2\",</div><div>&nbsp; &nbsp; \"react-native\": \"0.55.3\",</div><div>&nbsp; &nbsp; \"react-native-scrollable-tab-view\": \"^0.8.0\",</div><div>&nbsp; &nbsp; \"react-native-vector-icons\": \"^4.6.0\",</div><div>&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</div></div><div><br></div><div><br></div>"
+    }
+  ]
+}

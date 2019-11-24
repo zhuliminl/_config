@@ -1,0 +1,10 @@
+{
+  "title": "查看所有分支并检出某个分支",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ngit branch -a \n\ngit checkout origin/daily/1.4.1 "
+    }
+  ]
+}

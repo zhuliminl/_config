@@ -1,0 +1,10 @@
+{
+  "title": "CASE  表达式",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "select\n   id,\n   classes,\n   name,\n   case\n      when\n         classes = '10000000,10000001,10000002' \n      then\n         concat('AAAAAAAAAA', name) \n      when\n         classes = ',,' \n      then\n         concat('BBBBBBBBBBB', name) \n      else\n         null \n   end        // 千万不要忘\n   as foo \nfrom\n   item;\n\n\n可以做到列输出\nselect\n   sum(\n   case\n      when\n         classes = ',,' \n      then\n         current_price \n      else\n         0 \n   end\n) as sum_price_blank, \n\nsum(\n   case\n      when\n         classes = '10000000,10000001,10000002' \n      then\n         current_price \n      else\n         0 \n   end\n) as sum_price_foo \nfrom\n   item;"
+    }
+  ]
+}

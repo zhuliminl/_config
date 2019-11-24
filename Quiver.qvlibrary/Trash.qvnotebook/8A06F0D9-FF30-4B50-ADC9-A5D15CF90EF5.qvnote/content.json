@@ -1,0 +1,10 @@
+{
+  "title": "",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "User.create({ username: 'barfooz', isAdmin: true }, { fields: [ 'username' ] }).then(user => {\n  // let's assume the default of isAdmin is false:\n  console.log(user.get({\n    plain: true\n  })) // => { username: 'barfooz', isAdmin: false }\n})"
+    }
+  ]
+}

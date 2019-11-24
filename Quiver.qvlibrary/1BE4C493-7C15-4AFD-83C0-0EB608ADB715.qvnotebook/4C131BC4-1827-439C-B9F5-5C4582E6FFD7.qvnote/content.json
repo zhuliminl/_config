@@ -1,0 +1,13 @@
+{
+  "title": "什么是聚合：来自一项事务边界的 实体和值 的集合",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><img src=\"quiver-image-url/A50D004C45F93C28EA0964FC2AFAEDD1.jpg\" width=\"922\" height=\"450\"><br></div><div><br></div><div><br></div>"
+    },
+    {
+      "type": "text",
+      "data": "特点：聚合总是有一个 root entity<div>根实体掌管其他实体的生命周期</div><div>领域事件</div>"
+    }
+  ]
+}

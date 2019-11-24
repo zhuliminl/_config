@@ -1,0 +1,10 @@
+{
+  "title": "文本全局替换",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n%s/hell/hello/g\n"
+    }
+  ]
+}

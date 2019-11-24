@@ -1,0 +1,10 @@
+{
+  "title": "nerdtree 忽略特定文件和目录",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nlet NERDTreeIgnore=['node_modules','__pycache__','env','tags', 'npm-debug.log']\n"
+    }
+  ]
+}

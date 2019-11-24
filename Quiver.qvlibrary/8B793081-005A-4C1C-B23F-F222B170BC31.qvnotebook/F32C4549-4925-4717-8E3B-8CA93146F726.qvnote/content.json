@@ -1,0 +1,10 @@
+{
+  "title": "sql  的启动和重启",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "service mysql start\nservice mysql stop\nservice mysql restart\n\nmac 环境下\nmysql.server start\n\n链接到公司的数据库\n\nalias todb=‘mysql -h 192.168.31.3 -uchslab -pAdmin@chslab9 art_carrier’\n\nservice mariadb start\n"
+    }
+  ]
+}

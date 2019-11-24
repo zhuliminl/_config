@@ -1,0 +1,10 @@
+{
+  "title": "子查询   子查询就是一次性视图",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nselect * from () as foo\n\n子查询内层先执行\n\n"
+    }
+  ]
+}

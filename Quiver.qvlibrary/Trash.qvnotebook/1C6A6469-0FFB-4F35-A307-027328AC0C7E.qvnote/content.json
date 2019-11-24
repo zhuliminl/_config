@@ -1,0 +1,10 @@
+{
+  "title": "Untitled Note",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "{\n\t\"binary_file_patterns\":\n\t[\n\t\t\"*.dds\",\n\t\t\"*.eot\",\n\t\t\"*.gif\",\n\t\t\"*.ico\",\n\t\t\"*.jar\",\n\t\t\"*.jpeg\",\n\t\t\"*.jpg\",\n\t\t\"*.pdf\",\n\t\t\"*.png\",\n\t\t\"*.swf\",\n\t\t\"*.tga\",\n\t\t\"*.ttf\",\n\t\t\"*.zip\",\n\t\t\"/Users/xiaoshitou/Desktop/demo/**\",\n\t\t\"themes/mytheme/node_modules/**\"\n\t],\n\t\"caret_extra_bottom\": 0,\n\t\"caret_extra_top\": 1,\n\t\"caret_extra_width\": 0,\n\t\"caret_style\": \"smooth\",\n\t\"color_scheme\": \"Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme\",\n\t\"draw_white_space\": \"all\",\n\t\"fade_fold_buttons\": false,\n\t\"font_face\": \"Roboto Mono\",\n\t\"font_size\": 14,\n\t\"highlight_line\": true,\n\t\"line_padding_top\": 4,\n\t\"save_on_focus_lost\": true,\n\t\"show_encoding\": true,\n\t\"show_full_path\": true,\n\t\"sublime_enhanced_keybindings\": true,\n\t\"tab_size\": 4,\n\t\"theme\": \"Boxy Tomorrow.sublime-theme\",\n\t\"theme_dirty_accent_pink\": true,\n\t\"translate_tabs_to_spaces\": true,\n\t\"trim_trailing_white_space_on_save\": true,\n\t\"word_separators\": \"./\\\\()\\\"',.:<>~!@#%^&*|+=[]{}`~?\",\n\t\"word_wrap\": true\n}\n"
+    }
+  ]
+}

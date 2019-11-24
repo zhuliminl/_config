@@ -1,0 +1,10 @@
+{
+  "title": "各种居中方法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\n居中之 绝对定位和变换的居中方法\n.ele { \n  position: absolute; \n  width: 50px; \n  height: 50px; \n  transform: translate3d(-50%, -50%, 0); /* 这个方法则是定位和变换配合 */\n  top: 50%; left: 50%; \n  background: green; \n}\n\n\n\n居中之 绝对定位和边距挪移\n.wrap { \n  text-align: center; \n  width: 100%; \n  background: red; \n  height:400px; \n  \n} \n\n.ele { \n  position: absolute; \n  left: 50%;                      /* 这个方法是定位和边距的配合才完成居中 */\n  margin-left: -200px;            /* 宽度的一半 */ \n  height: 40px; width: 400px; \n  background: green; \n}\n\n\n\n居中之 行内居中和子元素绝对定位结合\n注意行内居中并不作用于绝对定位中的 inline-block，\n而是我们不曾留意的父子元素之间可能产生的匿名元素,\n意思就是先把空的匿名元素给居中了，然后利用边距法把匿名元素后面的元素给拉过来\n.wrap { \n  text-align: center; \n  width: 100%; \n  background: red; \n  height:400px; \n  font-size: 0; \n} \n  .ele { \n    display: inline-block; \n    position: absolute;\n    margin-left: -50px;            /* 拉回距离 */\n    margin-top: 150px;\n    width: 100px; height: 100px;\n    background: green; \n    \n  }\n\n\n\n\n适口单位和变换结合的方法\n.ele { \n  background: red;\n  width: 300px; height: 400px; \n  margin: 50vh auto 0; \n  transform: translateY(-50%); /* 视口单位的基本思路其实也是结合变换半个位置的 */\n}\n\n\n\n父元素伸缩布局的居中方案\n.wrap { \n  display: flex; \n  min-height: 100vh; \n  margin: 0; \n} \n\n.ele { \n  width: 200px; \n  height: 100px; \n  background: red; \n  margin: auto; \n}\n\n对匿名容器使用伸缩布局，达到绝对居中方法\np { \n  height: 100px;\n  display: flex; \n  align-items: center; \n  justify-content: center; \n  background: #eee;\n  }\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "验证邮箱",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "([a-z_A-Z0-9]+@[a-z_A-Z0-9]+\\.(com|org|net))"
+    }
+  ]
+}

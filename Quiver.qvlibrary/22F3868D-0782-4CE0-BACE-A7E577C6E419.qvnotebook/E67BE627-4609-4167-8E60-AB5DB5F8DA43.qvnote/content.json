@@ -1,0 +1,10 @@
+{
+  "title": "JS 数组去重 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nitemGroups = Array.from(new Set(itemGroups)); //去除重复\n\n"
+    }
+  ]
+}

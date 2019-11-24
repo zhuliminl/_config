@@ -1,0 +1,10 @@
+{
+  "title": "都用一个rem单位",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "* {\n        margin: 0;\n        padding: 0;\n        /*盒子模型方便计算*/\n        box-sizing: border-box;\n    }\n    \n    html {\n        /*全局设定*/\n        font-size: 62.5%;\n    }\n    \n    body {\n        background-color: #f5f6f8;\n        font-family: 'PingFang SC', Helvetica, sans-serif;\n        /*rem单位*/\n        font-size: 1.4rem;\n    }\n    \n    .main {\n        margin: 0 auto;\n        max-width: 65rem;\n        /*background-color: #ddd;*/\n        padding-bottom: 30rem;\n    }"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "典型的回调函数 _ 带参数适用",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nvar blog = document.getElementById('blog');\n\n blog.addEventListener('click', function(e) {\n \tsayName(e, function() {\n \tbar('zhuliminl'); // 在这里\n \t},); // 1\n });\n\n \n function sayName(e, callback) {\n \te.preventDefault();\n \tcallback();\n }\n\n function bar(name) {\n \tconsole.log(name);\n }\n \n \n "
+    }
+  ]
+}

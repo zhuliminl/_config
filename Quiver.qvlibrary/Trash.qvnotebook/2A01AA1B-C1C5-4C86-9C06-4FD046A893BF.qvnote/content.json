@@ -1,0 +1,10 @@
+{
+  "title": "解压文件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "unzip 文件名"
+    }
+  ]
+}

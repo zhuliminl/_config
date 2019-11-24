@@ -1,0 +1,9 @@
+{
+  "title": "vim 原生能力",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>补全 &lt;c-x&gt;&lt;c-n&gt;</div><div><br></div><div>补全文件 &lt;c-x&gt;&lt;c-f&gt;</div>"
+    }
+  ]
+}

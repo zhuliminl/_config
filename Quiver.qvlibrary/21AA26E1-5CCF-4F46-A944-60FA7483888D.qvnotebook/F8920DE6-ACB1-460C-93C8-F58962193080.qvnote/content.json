@@ -1,0 +1,9 @@
+{
+  "title": "查看所有的 task",
+  "cells": [
+    {
+      "type": "text",
+      "data": "&nbsp;gradle tasks —all<div><br></div>"
+    }
+  ]
+}

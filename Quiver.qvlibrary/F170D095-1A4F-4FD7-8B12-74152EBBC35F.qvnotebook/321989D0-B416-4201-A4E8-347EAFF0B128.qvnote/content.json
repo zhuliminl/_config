@@ -1,0 +1,10 @@
+{
+  "title": "子组件数组对父组件的状态同步更新",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n    setTimeout(\n      () => {\n        calc(index, reduce)\n      },\n      0\n    )\n\n\n使用 setTimeout 就可以解决同步更新的问题。\n识别异步动作，首先要明确哪些是同步的\n\n    this.setState({\n      priceList: Object.assign([...priceList], {[ index ]: newPrice})\n    },\n      // 很明显这里记录了三个异步动作，将来会执行。但是它再被记录的时候，拿的是最开始\n      // 同步执行的的第一个 this 值，而且这个值不会变的。虽然是异步，但是最后还是一股脑地用的是初始的 state，\n      //所以只能改变数组最后一项\n      () => {\n        console.log('=====>>>>>state', this.state);\n      }\n    )\n\n总之，外部的 setTimeout 来头更大一点，把它想象成优先级更大一点的函数\n\n"
+    }
+  ]
+}

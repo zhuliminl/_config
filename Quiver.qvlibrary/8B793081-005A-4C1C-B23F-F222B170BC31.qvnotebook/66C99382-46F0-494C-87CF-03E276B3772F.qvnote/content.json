@@ -1,0 +1,46 @@
+{
+  "title": "基础动作",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "创建数据库"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "create database [name]"
+    },
+    {
+      "type": "markdown",
+      "data": "查看数据库"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "show create database [name]"
+    },
+    {
+      "type": "markdown",
+      "data": "修改数据库配置"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "alter database [name] character set = utf8"
+    },
+    {
+      "type": "markdown",
+      "data": "登录mysql"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "PATH=\"$PATH\":/usr/local/mysql/bin\nmysql -u root -p"
+    },
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "CREATE TABLE animals (\n     id MEDIUMINT NOT NULL AUTO_INCREMENT,\n     name CHAR(30) NOT NULL,\n     PRIMARY KEY (id)\n);\n\nINSERT INTO animals (name) VALUES\n    ('dog'),('cat'),('penguin'),\n    ('lax'),('whale'),('ostrich');\n\nSELECT * FROM animals;"
+    }
+  ]
+}

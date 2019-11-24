@@ -1,0 +1,10 @@
+{
+  "title": "@font-face 语法速查",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "\n@font-face { \n  font-family: 'YourWebFontName';\n  src:  url('YourWebFontName.eot?') format('eot');/*IE*/ \n  src:  url('YourWebFontName.woff') format('woff'), \n        url('YourWebFontName.ttf') format('truetype');/*non-IE*/ \n}\n        "
+    }
+  ]
+}

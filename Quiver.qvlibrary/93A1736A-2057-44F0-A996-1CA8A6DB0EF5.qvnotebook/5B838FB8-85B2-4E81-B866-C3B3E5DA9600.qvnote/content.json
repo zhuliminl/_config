@@ -1,0 +1,9 @@
+{
+  "title": "Racket trace 引入",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div>#lang racket</div><div>(require racket/trace)</div>"
+    }
+  ]
+}

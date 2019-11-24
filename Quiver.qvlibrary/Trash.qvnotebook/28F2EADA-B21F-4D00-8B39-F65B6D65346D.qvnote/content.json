@@ -1,0 +1,10 @@
+{
+  "title": "sql 删除",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nPost.destroy({\n  where: {\n    status: 'inactive'\n  }\n});\n// DELETE FROM post WHERE status = 'inactive’;\n"
+    }
+  ]
+}

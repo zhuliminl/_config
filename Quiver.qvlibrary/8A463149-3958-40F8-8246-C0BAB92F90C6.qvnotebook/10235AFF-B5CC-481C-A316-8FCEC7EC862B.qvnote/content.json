@@ -1,0 +1,10 @@
+{
+  "title": "JS  深克隆",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nJSON.parse(JSON.stringify(nestedObject))\n\n"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Map 函数映射",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<img src=\"quiver-image-url/C2E60A16BCEDA841AC4344400F2BDB5D.jpg\" width=\"804\" height=\"192\"><div><br></div><div>更简便的写法</div>"
+    },
+    {
+      "type": "code",
+      "language": "python",
+      "data": " (map #(.toUpperCase %1) foo)"
+    }
+  ]
+}

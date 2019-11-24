@@ -1,0 +1,10 @@
+{
+  "title": "替代 MySQLdb 不能用的办法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "import pymysql\npymysql.install_as_MySQLdb()\n\n不把路径记下来简直要死\nenv/lib/python3.6/site-packages/sqlalchemy/dialects/mysql/__init__.py"
+    }
+  ]
+}

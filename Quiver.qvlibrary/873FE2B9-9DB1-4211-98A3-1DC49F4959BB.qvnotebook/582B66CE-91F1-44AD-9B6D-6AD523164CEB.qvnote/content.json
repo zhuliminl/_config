@@ -1,0 +1,10 @@
+{
+  "title": "文件目录专题 mac 和 linux",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\nmac \nbin 基础指令 sbin 高级指令\nvar 多变化的文件，日志文件\n\n个人安装的东西大部分都在这里 /usr/local/bin\n通过brew install安装应用最先是放在/usr/local/Cellar/目录下。\n个人配置文件位置 /usr/local/etc  nigix、php-fpm、mongo 、mysql 都在这里配置\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

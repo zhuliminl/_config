@@ -1,0 +1,10 @@
+{
+  "title": "ES 6  的局部套用",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nconst partialFormBind = (fn, ...args) => {\n    return fn.bind(null, ...agrs);\n};\n\nconst partial = (fn, ...args) => {\n    return (...otherArgs) => {\n        return fn(...args, ...otherArgs);\n    };\n};\n\n或者\nconst partial = (fn, ...args) => (...otherArgs) => fn(...args, ...otherArgs);\n"
+    }
+  ]
+}

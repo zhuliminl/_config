@@ -1,0 +1,10 @@
+{
+  "title": "scp 传输文件",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nscp -P 26465 ./pgd672.mp4 root@172.96.195.246:/home/cloud/\n\nscp -r user@your.server.example.com:/path/to/foo /home/user/Desktop/\n\n scp -r ss:/root/books/lisp-ebook ./\n \n"
+    }
+  ]
+}

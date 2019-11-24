@@ -1,0 +1,10 @@
+{
+  "title": "Sequelize 的偏移查询",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n// step over the first 10 elements, and take 2\nProject.findAll({ offset: 10, limit: 2 })\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "react-router 路由传参数，构建动态路由",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nfunction Topics({ match }) {\n    return <div>\n                <h2>Topics-------{ match.url }</h2>\n                <ul>\n                    <li><Link to={ `${match.url}/eat` }>今天吃什么</Link></li>\n                    <li><Link to={ `${match.url}/sleep` }>几点睡觉</Link></li>\n                    <li><Link to={ `${match.url}/paly` }>玩乐</Link></li>\n                </ul>\n                <Route path={`${match.url}/:topicId`} component={ Topic } />\n                <Route exact path={match.url} render={() => <h3>Pleace Select a topic</h3> } />\n           </div>\n}\n\nconst Topic = ({ match, ...props }) => {\n    console.log(props)\n     return <div>{match.params.topicId}</div>\n};\n\n"
+    }
+  ]
+}

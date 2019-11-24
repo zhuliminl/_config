@@ -1,0 +1,9 @@
+{
+  "title": "org-mode",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>alt 键盘触发一切</div><div>shift+alt 开启 &nbsp;todo</div><div><br></div><div>C-c C-c toggle todo box</div><div><br></div><div>todo 进程 [/] 然后触发</div><div><br></div><div>C-c C-d deadline</div><div><br></div><div>Tab 去展开</div>"
+    }
+  ]
+}

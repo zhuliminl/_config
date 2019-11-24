@@ -1,0 +1,9 @@
+{
+  "title": "工作重点",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div>1 流程控制，抓取错误</div><div>2 &nbsp;es6 并发继发</div><div>3 数据库原理</div><div>4 express 路由</div><div>4 express 中间件</div><div><br></div><div>大型项目构建结构</div><div>&nbsp;grpc 中台 可以接异种系统：java 、python等</div><div>kafka? &nbsp;消息系统： stone、</div><div><br></div><div><br></div><div><br></div><div>凡 cut 就开始就分手</div><div><br></div><div>业务场景之秒杀：</div><div>&nbsp; &nbsp; 系统计数器减法， db 加法</div><div>&nbsp; &nbsp;高速响应，高反： 数据放到 redis</div><div>&nbsp; &nbsp;1000 张票 2000 人抢</div><div>&nbsp; &nbsp;出票凭证</div><div><br></div>"
+    }
+  ]
+}

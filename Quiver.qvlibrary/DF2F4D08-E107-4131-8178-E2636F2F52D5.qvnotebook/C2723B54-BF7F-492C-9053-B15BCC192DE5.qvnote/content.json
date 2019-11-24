@@ -1,0 +1,10 @@
+{
+  "title": "SQLAlchemy 创建 Foreign key",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nclass Member(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(64), unique=True, nullable=False)\n    password = db.Column(db.String(30), nullable= False)\n    email = db.Column(db.String(30), nullable=False)\n    join_date = db.Column(db.DateTime())\n\n    orders = db.relationship('Order', bakcref='member', lazy='dynamic')  反向引用\n\n    def __repr__(self):\n        return '<Member {0}'.format(self.username)\n\nclass Order(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    price = db.Column(db.Integer)\n    member_id = db.Column(db.Integer, foreign_key='member.id')  关系外联。❌\n    member_id = db.Column(db.Integer, db.ForeignKey('member.id')) 关系外联 🐶\n    \n>>> order2 = Order(price = 23, member = zhu) 这样也行👌 better way !\n\n>>> agua = Member.query.filter(Member.username == 'agua').first()\n>>> order3 = Order(price=99,member = agua)\n>>> db.session.add(Order(price = 100, member = agua))\n>>> ............\n>>> agua.orders.all() 会返回两个订单 [<Order 99, <Order 100]\n    \n    "
+    }
+  ]
+}

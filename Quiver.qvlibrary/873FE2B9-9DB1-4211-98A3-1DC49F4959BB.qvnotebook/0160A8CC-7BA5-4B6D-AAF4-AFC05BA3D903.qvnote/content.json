@@ -1,0 +1,9 @@
+{
+  "title": "yum 安装管理包源位置",
+  "cells": [
+    {
+      "type": "text",
+      "data": "<div><br></div><div><span style=\"color: rgb(36, 39, 41); font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2; background-color: rgb(239, 240, 241);\">/etc/yum.repos.d/</span><br></div><div><span style=\"color: rgb(36, 39, 41); font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2; background-color: rgb(239, 240, 241);\"><br></span></div><div><span style=\"color: rgb(36, 39, 41); font-family: Consolas, Menlo, Monaco, &quot;Lucida Console&quot;, &quot;Liberation Mono&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, &quot;Courier New&quot;, monospace, sans-serif; font-size: 13px; font-variant-ligatures: normal; orphans: 2; white-space: pre-wrap; widows: 2; background-color: rgb(239, 240, 241);\"><br></span></div>"
+    }
+  ]
+}

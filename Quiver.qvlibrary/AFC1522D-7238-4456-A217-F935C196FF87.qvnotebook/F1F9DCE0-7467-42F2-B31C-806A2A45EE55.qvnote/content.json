@@ -1,0 +1,10 @@
+{
+  "title": "添加触发器",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n\n\nmysql> delimiter //\nmysql> create trigger before_user_update\n    -> before update on user\n    -> for each row\n    -> begin\n    -> insert into commission_record(calc_info, type, created_at, updated_at) values('自动添加的佣金', 'auto', now(), now());\n    -> end//\n\nCREATE\n    [DEFINER = { user | CURRENT_USER }]\n    TRIGGER trigger_name\n    trigger_time trigger_event ON tbl_name FOR EACH ROW\n    [trigger_order]\n    \n    trigger_body\n\ntrigger_time: { BEFORE | AFTER }\n\ntrigger_event: { INSERT | UPDATE | DELETE }\n\ntrigger_order: { FOLLOWS | PRECEDES } other_trigger_name\n\n// 关于 new 和 old 是直接指向 on 那个 table ，即发生该事件的 表\n\n\n\n\ncreate table foo (a INT, b INT);\ncreate table bar (a INT, b INT);\n\nINSERT INTO foo VALUES(1,1);\nINSERT INTO foo VALUES(2,2);\nINSERT INTO foo VALUES(3,3);\n\nCREATE TRIGGER ins_sum\n    AFTER UPDATE ON foo\n    FOR EACH ROW\n    INSERT INTO bar VALUES(NEW.a, NEW.b);\n"
+    }
+  ]
+}

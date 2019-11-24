@@ -1,0 +1,10 @@
+{
+  "title": "临时设定环境变量和查看",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nexport MAIL_USERNAME='zhuliminl'\nexport MAIL_PASSWORD='wuther66'\n\necho $DATABASE_URL"
+    }
+  ]
+}

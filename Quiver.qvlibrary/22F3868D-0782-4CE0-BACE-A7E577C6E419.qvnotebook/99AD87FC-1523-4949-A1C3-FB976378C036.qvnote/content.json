@@ -1,0 +1,10 @@
+{
+  "title": " 纯函数的可缓存特性",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nvar memoize = function(f) {\n  var cache = {};\n\n  return function() {\n    var arg_str = JSON.stringify(arguments);\n    cache[arg_str] = cache[arg_str] || f.apply(f, arguments);\n    return cache[arg_str];\n  };\n};\n"
+    }
+  ]
+}

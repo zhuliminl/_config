@@ -1,0 +1,10 @@
+{
+  "title": "定位 http GET 方法的包",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nhttp.request.method == \"GET\"\n\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "典型的时间戳计算",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst duration = (+Date.now() - createdTime)/1000;\n        console.log(duration);\n        this.setState({\n            timeString: duration > 60 ?\n                `${ Math.round(duration/60) } 分钟` : `${ Math.round(Math.max(1, duration))} 秒`\n        });\n        \n        "
+    }
+  ]
+}

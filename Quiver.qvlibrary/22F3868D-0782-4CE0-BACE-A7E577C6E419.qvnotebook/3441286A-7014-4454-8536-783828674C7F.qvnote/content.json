@@ -1,0 +1,10 @@
+{
+  "title": "用 ES6 语法更新数组中的某一个项目",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "const foo = [23,4,4,5]\n\nconst bar = Object.assign([...foo], {2: '23333’})\n\nES 6 语法保证了 foo 的不变性\n但是要注意，如果我们用的是变量，而不是索引2，那我们就得用中括号 把键 包起来 [index],像这样\n\n\n"
+    }
+  ]
+}

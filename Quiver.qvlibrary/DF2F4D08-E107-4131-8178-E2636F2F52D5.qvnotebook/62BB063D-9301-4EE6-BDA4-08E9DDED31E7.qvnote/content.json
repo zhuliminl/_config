@@ -1,0 +1,10 @@
+{
+  "title": "结束 gunicorn ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\npkill gunicorn\n\n"
+    }
+  ]
+}

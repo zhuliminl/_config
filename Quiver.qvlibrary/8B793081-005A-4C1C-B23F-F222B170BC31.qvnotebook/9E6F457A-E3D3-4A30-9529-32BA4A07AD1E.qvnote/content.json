@@ -1,0 +1,10 @@
+{
+  "title": "Squelize 奇技淫巧",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nconst where = {\n  del: false,\n  …(phone && {phone}),\n  …(version && {version}),\n  …(company && {company: { [Op.like]: %${company}% }}),\n  …(name && {name: { [Op.like]: %${name}% }}),\n};\n\n\n  if(['fxs', 'dls'].indexOf(role) > -1) {\n    const user = await db['User'].findOne({\n      attributes: ['id', 'weixin_nickname', 'is_dls', 'is_fxs'],\n      where: {\n        id,\n        ...(role === 'dls' && {is_dls: true,}),\n        ...(role === 'fxs' && {is_fxs: true,}),\n        del: false,\n      },\n      raw: true,\n    })\n    if(!user) {\n      return res.json({result: 'err', message: '您查询的用户不存在'})\n    }\n    console.log('=====>>>>>user', user);\n  }\n\n\n"
+    }
+  ]
+}

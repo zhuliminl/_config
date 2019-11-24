@@ -1,0 +1,10 @@
+{
+  "title": "vim 出厂设置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nvim -u NONE -N\n"
+    }
+  ]
+}

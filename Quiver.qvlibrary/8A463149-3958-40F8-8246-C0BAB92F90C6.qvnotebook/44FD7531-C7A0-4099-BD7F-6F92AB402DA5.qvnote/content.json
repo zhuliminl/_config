@@ -1,0 +1,10 @@
+{
+  "title": "奇葩的图片铺面背景实现",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n          <Image\n            source={require('./images/foo.png')}\n            style={{\n              height: 78,\n              width: null,\n            }}\n            // resizeMode='cover'\n          />\n\n\n"
+    }
+  ]
+}

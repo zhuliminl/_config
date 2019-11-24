@@ -1,0 +1,10 @@
+{
+  "title": "定义自己的  prop 函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\nlet prop = _.curry((property, object) => object[property]);\n\n\n"
+    }
+  ]
+}

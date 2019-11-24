@@ -1,0 +1,10 @@
+{
+  "title": "sequelize 实例的关系方法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\n对于拥有关系来说，get/set 别名S 都是以数据库实例为参数对象\n同时 还有 add 别名 可以添加数据库实例\n如果想要作为对象添加 则是用 create 别名 这个方法\n而其他的 remove/has 仍然是以数据库实例为参数的方法\n总结起来就是：只有 create 这一个是以对象为入口的方法\n\n\n对于属于关系，最重要的认识是，它缺少复数操作能力。\n正对这一点，它也就没有 add 的能力。\n因为 add 是针对列表的操作。而在属于关系中，不存在它同时属于两个实例的场景\n更别说 remove 和 has \n\nget/set 依然是数据库实例级别的操作\n然后 create 还是添加普通对象的入口\n\n\n好吧。说白了，普通对象的入口只有一个 那就是 create 。哦，不对。还有它的后续能力 update\n但是在属于关系中，却只具备 create 而没有 update 这个好奇怪\n\n那就只有两个 create 和 update\n "
+    }
+  ]
+}

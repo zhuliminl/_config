@@ -1,0 +1,10 @@
+{
+  "title": "PostSQL 特辑",
+  "cells": [
+    {
+      "type": "code",
+      "language": "mysql",
+      "data": "\n\\l 展示所有的数据库\n\\c foo 去其他的数据库\n\\dt 查看关系\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

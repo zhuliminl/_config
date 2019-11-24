@@ -1,0 +1,10 @@
+{
+  "title": "副作用函数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nconsole.log(‘hello’)\n\nconst a = 2;\nconst foo = (a) => a + 2\nfoo()\n"
+    }
+  ]
+}

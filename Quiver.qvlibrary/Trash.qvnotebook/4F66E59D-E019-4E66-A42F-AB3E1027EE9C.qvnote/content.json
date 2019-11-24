@@ -1,0 +1,10 @@
+{
+  "title": "居中之 行内居中和子元素绝对定位结合",
+  "cells": [
+    {
+      "type": "code",
+      "language": "css",
+      "data": "注意行内居中并不作用于绝对定位中的 inline-block，\n而是我们不曾留意的父子元素之间可能产生的匿名元素\n\n\n.wrap { \n  text-align: center; \n  width: 100%; \n  background: red; \n  height:400px; \n  font-size: 0; \n  \n} \n  .ele { \n    position: absolute;\n    margin-left: -50px;            /* 拉回距离 */\n    margin-top: 150px;\n    width: 100px; height: 100px;\n    display: inline-block; \n    background: green; \n    \n  }"
+    }
+  ]
+}

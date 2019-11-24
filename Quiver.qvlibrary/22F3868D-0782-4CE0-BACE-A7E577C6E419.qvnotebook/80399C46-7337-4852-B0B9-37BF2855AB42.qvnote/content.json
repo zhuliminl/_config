@@ -1,0 +1,10 @@
+{
+  "title": "嵌套更新",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n\n\nthis.setState(prevState => ({\n    ...prevState,\n    someProperty: {\n        ...prevState.someProperty,\n        someOtherProperty: {\n            ...prevState.someProperty.someOtherProperty, \n            anotherProperty: {\n               ...prevState.someProperty.someOtherProperty.anotherProperty,\n               flag: false\n            }\n        }\n    }\n}))\n\n"
+    }
+  ]
+}

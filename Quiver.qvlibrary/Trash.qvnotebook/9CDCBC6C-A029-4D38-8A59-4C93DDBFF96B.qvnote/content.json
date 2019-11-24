@@ -1,0 +1,10 @@
+{
+  "title": "请使用查找命令",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nfind / -name \"xxx\"\n"
+    }
+  ]
+}

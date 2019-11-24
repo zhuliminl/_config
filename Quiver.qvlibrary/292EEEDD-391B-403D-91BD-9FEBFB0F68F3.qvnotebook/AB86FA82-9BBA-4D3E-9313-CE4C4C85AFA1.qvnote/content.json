@@ -1,0 +1,14 @@
+{
+  "title": "创建新的仓库 ",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\ngit init\ngit add .\ngit commit -m 'kjk'\n"
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

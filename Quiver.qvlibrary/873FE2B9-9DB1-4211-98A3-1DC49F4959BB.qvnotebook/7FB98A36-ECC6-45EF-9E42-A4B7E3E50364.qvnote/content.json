@@ -1,0 +1,10 @@
+{
+  "title": "网站环境配置",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nyum  install httpd\nsystemctl start httpd\nsystemctl status httpd  此时便可以去网页查看\n\nyum install mariadb-server mariadb\nsystemctl start mariadb\nmysql_secure_installation     配置 sql， 见 mysql\n\nyum  install php php-mysql php-fpm\n测试  PHP 是否安装成功:将  <?php phpinfo(); ?> 写入 /var/www/html/info.php\n\n安装证书和生成等 ac.... yum install mod_ss 另外的逼装\n\n在  /etc/httpd/conf.d/site.conf 中开始配置证书指向文件\n \nhttp 重定向到 https 的配置  新建一个 default.conf \n\n\n停止 httpd \napachectl stop\n\nnginx 悠亚重启\n\nnginx -s reload "
+    }
+  ]
+}

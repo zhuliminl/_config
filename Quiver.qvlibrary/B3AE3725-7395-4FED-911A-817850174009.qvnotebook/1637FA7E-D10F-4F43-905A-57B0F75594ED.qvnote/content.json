@@ -1,0 +1,10 @@
+{
+  "title": "安装 SS 脚本",
+  "cells": [
+    {
+      "type": "code",
+      "language": "python",
+      "data": "\nwget http://104.223.66.77/ss/ss.sh\n"
+    }
+  ]
+}

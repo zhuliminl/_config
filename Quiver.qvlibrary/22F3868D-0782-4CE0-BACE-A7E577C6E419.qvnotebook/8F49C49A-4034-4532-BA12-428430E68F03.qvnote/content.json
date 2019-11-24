@@ -1,0 +1,10 @@
+{
+  "title": "深拷贝和浅拷贝    const obj2 = { ...obj } 最佳",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n// 深拷贝简单实现\n\tfunction clone(a, b) {\n\t\tfor(var keys in b) {\n\t\t\tif(typeof b[keys] === 'object') { // 如果 b 中有引用类型\n\t\t\t \ta[keys] = { }; // 则给 a 初始化一个空对象\n\t\t\t\tclone(a[keys], b[keys]); // 递归调用一次\n\t\t\t} else {\n\t\t\t\ta[keys] = b[keys];\n\t\t\t}\n\t\t}\n\t}\n\t\n// 浅拷贝\n  copy: function() {\n\t\t\tvar temp = {};\n\t\t\tfor(var keys in this) {\n\t\t\t\ttemp[keys] = this[keys];\n\t\t\t}\n\t\t\treturn temp;\n\t\t}\n\n\nconst obj2 = { ...obj }   哈哈哈。最新的好方法！！！\n\n\n\n\n\n\n\n\n"
+    }
+  ]
+}

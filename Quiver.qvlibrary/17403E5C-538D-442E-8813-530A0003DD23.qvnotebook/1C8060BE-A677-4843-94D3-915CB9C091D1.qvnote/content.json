@@ -1,0 +1,10 @@
+{
+  "title": "同步数据库",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "\n// 同步数据库\nsyncModels()\n\nfunction syncModels() {\n  const rawFiles = glob.sync('./models/**/*.js')\n  const files = rawFiles.filter(file => file !== './models/init_db.js')\n\n  let count = 0\n  files.forEach((file) => {\n    try {\n      const model = require(file)\n      try {\n        count ++\n        model.sync()\n        logger.info('正在初始化', model.tableName)\n        console.log('=====>>>>>count', count);\n      } catch(err) {\n        logger.error('模型初始化出错', file)\n      }\n    } catch(err) {\n      logger.error('requre 出错', file)\n    }\n  })\n  console.log('模型总数量', files.length);\n}\n\n"
+    }
+  ]
+}

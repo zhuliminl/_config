@@ -1,7 +1,7 @@
 {
   "files.exclude": {
     "**/.DS_Store": true,
-    "**/.svn": false
+    "**/.gitignore": true
   },
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
@@ -10,10 +10,76 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": false
   },
-  "editor.hover.enabled": false,
-  "editor.parameterHints.enabled": false,
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.hover.enabled": true,
+  "editor.parameterHints.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
   "html.suggest.html5": false,
   "editor.snippetSuggestions": "top",
   "window.zoomLevel": 0,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "Z",
+        "Z"
+      ],
+      "commands": [
+        ":wq"
+      ]
+    },
+    {
+      "before": [
+        "e",
+      ],
+      "after": [
+        "6",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "w",
+      ],
+      "after": [
+        "6",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "L",
+      ],
+      "after": [
+        "$",
+      ]
+    },
+    {
+      "before": [
+        "H",
+      ],
+      "after": [
+        "^",
+      ]
+    },
+    {
+      "before": [
+        "b",
+      ],
+      "commands": [
+        ":w",
+      ]
+    },
+  ],
+  "editor.occurrencesHighlight": false,
+  "editor.selectionHighlight": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "prettier.printWidth": 80,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "editor.minimap.enabled": true,
+  "breadcrumbs.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
 }
